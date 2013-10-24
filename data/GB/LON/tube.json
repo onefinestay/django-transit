@@ -1,5 +1,8 @@
 {
-    "network": "tube",
+    "network": {
+        "key": "tube",
+        "name": "London Underground"
+    },
     "lines": [
         {
             "colour": "ab6612",
