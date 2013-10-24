@@ -1,4 +1,5 @@
-from django.db import models, Q
+from django.contrib.gis.db import models
+from django.db.models import Q
 
 
 class Network(models.Model):
@@ -21,10 +22,12 @@ class Station(models.Model):
     source_id = models.IntegerField()  # From the source CSV
     name = models.CharField(max_length=255)
     position = models.PointField()
-
     route = models.ManyToMany(
         to=Route,
         related_name='stations',
         through=RouteStation,
         blank=True,
         null=True)
+
+    objects = models.GeoManager()
+
