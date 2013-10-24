@@ -22,7 +22,7 @@ class Station(models.Model):
     source_id = models.IntegerField()  # From the source CSV
     name = models.CharField(max_length=255)
     position = models.PointField()
-    route = models.ManyToMany(
+    route = models.ManyToManyField(
         to=Route,
         related_name='stations',
         through=RouteStation,

@@ -13,7 +13,8 @@ DATABASES = {
     'default': {
          'ENGINE': 'django.contrib.gis.db.backends.postgis',
          'NAME': 'transit_sandbox',
-         'USER': 'root',
+         'USER': '',
+         'PASSWORD': '',
     }
 }
 
