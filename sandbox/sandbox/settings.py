@@ -1,4 +1,8 @@
 # Django settings for sandbox project.
+import os
+
+location = lambda x: os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', x)
+
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -105,9 +109,7 @@ ROOT_URLCONF = 'sandbox.urls'
 WSGI_APPLICATION = 'sandbox.wsgi.application'
 
 TEMPLATE_DIRS = (
-    # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
-    # Always use forward slashes, even on Windows.
-    # Don't forget to use absolute paths, not relative paths.
+    location('templates'),
 )
 
 INSTALLED_APPS = (
@@ -120,7 +122,7 @@ INSTALLED_APPS = (
     'django.contrib.gis',
     'south',
     'transit',
-
+    'sandbox.places',
     # Uncomment the next line to enable the admin:
     # 'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:

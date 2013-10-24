@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+    <title>Transit Sandbox</title>
+
+    <style>
+        html {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin: 40px auto;
+            width: 900px;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        h1, h2, h3, h4, h5, h5 {
+            margin: 0;
+        }
+
+        h1 {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .map {
+            margin-bottom: 20px;
+        }
+
+        .place {
+            border: 1px #ddd solid;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Transit Sandbox</h1>
+
+{% for object in object_list %}
+<div class="place">
+    <h2>{{ object.name }}</h2>
+
+    <div class="map" style="width: 100%; height: 300px;" data-latitude="{{ object.position.y }}" data-longitude="{{ object.position.x }}">
+
+    </div>
+
+
+    <h3>Nearby Public Transport</h3>
+
+    <p>TODO</p>
+
+
+</div>
+{% endfor %}
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false" type="text/javascript"></script>
+<script>
+    $(document).ready(function() {
+        $('.place').each(function(index, elem) {
+            var $el = $(elem);
+
+            var $map = $el.find('.map');
+            var latitude = $map.data('latitude');
+            var longitude = $map.data('longitude');
+
+            var pos = new google.maps.LatLng(latitude, longitude);
+
+            var mapOptions = {
+                zoom: 14,
+                center: pos,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+
+            var map = new google.maps.Map($map[0], mapOptions);
+
+            var marker = new google.maps.Marker({
+                position: pos,
+            });
+
+            // To add the marker to the map, call setMap();
+            marker.setMap(map);
+        });
+    });
+</script>
+</body>
+</html>
