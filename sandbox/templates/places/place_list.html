@@ -37,6 +37,23 @@
             margin-bottom: 20px;
         }
 
+        .stations {
+            font-size: 12px;
+        }
+
+        .stations li {
+            margin-bottom: 5px;
+        }
+
+        .route {
+            display: inline-block;
+            padding: 2px 10px;
+            border-radius: 8px;
+            color: #fff;
+            font-weight: bold;
+            margin: 0 2.5px;
+        }
+
     </style>
 </head>
 <body>
@@ -53,7 +70,11 @@
 
     <h3>Nearby Public Transport</h3>
 
-    <p>TODO</p>
+    <ul class="stations">
+        {% for station in object.nearest_stations %}
+        <li>{{ station }} {% for route in station.routes.all %}<span class="route" style="background-color: {{ route.color }};">{{ route }}</span>{% endfor %}({{ station.distance.km|floatformat:"-1" }}km)</li>
+        {% endfor %}
+    </ul>
 
 
 </div>

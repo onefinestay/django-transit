@@ -12,18 +12,18 @@ class Migration(DataMigration):
         Place = orm['places.Place']
 
         Place(
-            name='Apt Bar',
-            position=Point(-0.092727, 51.512805)
+            name='Le Balajo',
+            position=Point(2.372185, 48.853986)
         ).save()
 
         Place(
-            name='Club Colosseum',
-            position=Point(-0.128177, 51.484638)
+            name='Le Barrio Latino',
+            position=Point(2.372442, 48.852339)
         ).save()
 
         Place(
-            name='Bloomsbury House',
-            position=Point(-0.122658, 51.518201)
+            name='Club 79',
+            position=Point(2.302148, 48.870794)
         ).save()
 
     def backwards(self, orm):
