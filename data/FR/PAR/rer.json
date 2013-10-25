@@ -1,0 +1,3740 @@
+{
+    "network": {
+        "name": "Paris RER",
+        "key": "rer"
+    },
+    "lines": [
+        {
+            "colour": "#fe360e",
+            "branches": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "id": "A",
+            "short_name": "A",
+            "name": "A"
+        },
+        {
+            "colour": "#537cb9",
+            "branches": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "id": "B",
+            "short_name": "B",
+            "name": "B"
+        },
+        {
+            "colour": "#e8ce0f",
+            "branches": [
+                "1",
+                "2",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "id": "C",
+            "short_name": "C",
+            "name": "C"
+        },
+        {
+            "colour": "#17964c",
+            "branches": [
+                "1",
+                "2",
+                "4",
+                "6"
+            ],
+            "id": "D",
+            "short_name": "D",
+            "name": "D"
+        },
+        {
+            "colour": "#c75fad",
+            "branches": [
+                "1",
+                "2",
+                "4"
+            ],
+            "id": "E",
+            "short_name": "E",
+            "name": "E"
+        }
+    ],
+    "stations": [
+        {
+            "interchanges": [],
+            "name": "Ablon",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "4",
+                        "6",
+                        "8"
+                    ]
+                }
+            ],
+            "longitude": "2.41896",
+            "latitude": "48.72548",
+            "id": 2
+        },
+        {
+            "interchanges": [],
+            "name": "Acheres Grand Cormier",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "5"
+                    ]
+                }
+            ],
+            "longitude": "2.0925",
+            "latitude": "48.95519",
+            "id": 3
+        },
+        {
+            "interchanges": [],
+            "name": "Acheres Ville",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "3"
+                    ]
+                }
+            ],
+            "longitude": "2.07759",
+            "latitude": "48.97015",
+            "id": 4
+        },
+        {
+            "interchanges": [],
+            "name": "Aeroport Charles de Gaulle-1",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "3"
+                    ]
+                }
+            ],
+            "longitude": "2.56322",
+            "latitude": "49.01063",
+            "id": 5
+        },
+        {
+            "interchanges": [],
+            "name": "Aeroport Charles de Gaulle-2",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "3"
+                    ]
+                }
+            ],
+            "longitude": "2.5662",
+            "latitude": "49.00372",
+            "id": 6
+        },
+        {
+            "interchanges": [],
+            "name": "Antony",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.30076",
+            "latitude": "48.7548",
+            "id": 11
+        },
+        {
+            "interchanges": [],
+            "name": "Arcueil Cachan",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.32796",
+            "latitude": "48.79843",
+            "id": 13
+        },
+        {
+            "interchanges": [],
+            "name": "Arpajon",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.24066",
+            "latitude": "48.58605",
+            "id": 15
+        },
+        {
+            "interchanges": [],
+            "name": "Athis Mons",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "8",
+                        "4",
+                        "6"
+                    ]
+                }
+            ],
+            "longitude": "2.40332",
+            "latitude": "48.71245",
+            "id": 19
+        },
+        {
+            "interchanges": [
+                "Suburban"
+            ],
+            "name": "Auber",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.32971",
+            "latitude": "48.87261",
+            "id": 20
+        },
+        {
+            "interchanges": [
+                "tramway"
+            ],
+            "name": "Aulnay sous Bois",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "3",
+                        "5"
+                    ]
+                }
+            ],
+            "longitude": "2.49305",
+            "latitude": "48.93209",
+            "id": 23
+        },
+        {
+            "interchanges": [],
+            "name": "Av du Pdt Kennedy",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.27995",
+            "latitude": "48.85319",
+            "id": 24
+        },
+        {
+            "interchanges": [],
+            "name": "Avenue Foch",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.27528",
+            "latitude": "48.87059",
+            "id": 26
+        },
+        {
+            "interchanges": [],
+            "name": "Avenue Henri Martin",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.272",
+            "latitude": "48.8643",
+            "id": 27
+        },
+        {
+            "interchanges": [],
+            "name": "Bagneux",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.32133",
+            "latitude": "48.79329",
+            "id": 29
+        },
+        {
+            "interchanges": [],
+            "name": "Ballancourt",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.37122",
+            "latitude": "48.53221",
+            "id": 31
+        },
+        {
+            "interchanges": [
+                "metro"
+            ],
+            "name": "Bibliotheque Francois Mitterrand",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.37678",
+            "latitude": "48.82973",
+            "id": 40
+        },
+        {
+            "interchanges": [],
+            "name": "Bievres",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "8"
+                    ]
+                }
+            ],
+            "longitude": "2.21555",
+            "latitude": "48.75127",
+            "id": 41
+        },
+        {
+            "interchanges": [],
+            "name": "Boigneville",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.37899",
+            "latitude": "48.34216",
+            "id": 47
+        },
+        {
+            "interchanges": [],
+            "name": "Boissy St Leger",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.50475",
+            "latitude": "48.75279",
+            "id": 49
+        },
+        {
+            "interchanges": [
+                "tramway"
+            ],
+            "name": "Bondy",
+            "lines": [
+                {
+                    "line_id": "E",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.47858",
+            "latitude": "48.89419",
+            "id": 51
+        },
+        {
+            "interchanges": [
+                "Suburban"
+            ],
+            "name": "Boulainvilliers",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.27515",
+            "latitude": "48.85645",
+            "id": 54
+        },
+        {
+            "interchanges": [],
+            "name": "Boulevard Victor",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "5",
+                        "7"
+                    ]
+                }
+            ],
+            "longitude": "2.27067",
+            "latitude": "48.83955",
+            "id": 55
+        },
+        {
+            "interchanges": [],
+            "name": "Bouray",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "6"
+                    ]
+                }
+            ],
+            "longitude": "2.29046",
+            "latitude": "48.53343",
+            "id": 58
+        },
+        {
+            "interchanges": [],
+            "name": "Bourg la Reine",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "2",
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.31215",
+            "latitude": "48.78003",
+            "id": 60
+        },
+        {
+            "interchanges": [],
+            "name": "Boussy St Antoine",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.53306",
+            "latitude": "48.68092",
+            "id": 62
+        },
+        {
+            "interchanges": [],
+            "name": "Boutigny",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.3762",
+            "latitude": "48.43467",
+            "id": 63
+        },
+        {
+            "interchanges": [],
+            "name": "Bretigny sur Orge",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "4",
+                        "6"
+                    ]
+                }
+            ],
+            "longitude": "2.30192",
+            "latitude": "48.60664",
+            "id": 66
+        },
+        {
+            "interchanges": [],
+            "name": "Breuillet Village",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.17123",
+            "latitude": "48.56475",
+            "id": 67
+        },
+        {
+            "interchanges": [],
+            "name": "Breullet Bruyeres le chatel",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.19169",
+            "latitude": "48.5773",
+            "id": 68
+        },
+        {
+            "interchanges": [],
+            "name": "Brie sur Marne",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.52526",
+            "latitude": "48.84561",
+            "id": 69
+        },
+        {
+            "interchanges": [],
+            "name": "Brunoy",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.50705",
+            "latitude": "48.69885",
+            "id": 72
+        },
+        {
+            "interchanges": [],
+            "name": "Buno Gironville",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.38725",
+            "latitude": "48.37095",
+            "id": 73
+        },
+        {
+            "interchanges": [],
+            "name": "Bures sur Yvette",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.16349",
+            "latitude": "48.69582",
+            "id": 74
+        },
+        {
+            "interchanges": [],
+            "name": "Bussy St Georges",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.71002",
+            "latitude": "48.83659",
+            "id": 75
+        },
+        {
+            "interchanges": [],
+            "name": "Cergy le Haut",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "3"
+                    ]
+                }
+            ],
+            "longitude": "2.012",
+            "latitude": "49.04856",
+            "id": 84
+        },
+        {
+            "interchanges": [],
+            "name": "Cergy Prefecture",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "3"
+                    ]
+                }
+            ],
+            "longitude": "2.08028",
+            "latitude": "49.03604",
+            "id": 85
+        },
+        {
+            "interchanges": [],
+            "name": "Cergy St Christophe",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "3"
+                    ]
+                }
+            ],
+            "longitude": "2.03492",
+            "latitude": "49.04954",
+            "id": 86
+        },
+        {
+            "interchanges": [
+                "Suburban"
+            ],
+            "name": "Cernay",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.2568",
+            "latitude": "48.98526",
+            "id": 87
+        },
+        {
+            "interchanges": [],
+            "name": "Cesson",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.59436",
+            "latitude": "48.56541",
+            "id": 88
+        },
+        {
+            "interchanges": [],
+            "name": "Chamarande",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "6"
+                    ]
+                }
+            ],
+            "longitude": "2.21257",
+            "latitude": "48.51183",
+            "id": 89
+        },
+        {
+            "interchanges": [],
+            "name": "Champigny",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.50987",
+            "latitude": "48.80698",
+            "id": 90
+        },
+        {
+            "interchanges": [],
+            "name": "Champs de Mars Tour Eiffel",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "1",
+                        "5",
+                        "7"
+                    ]
+                }
+            ],
+            "longitude": "2.28915",
+            "latitude": "48.855",
+            "id": 91
+        },
+        {
+            "interchanges": [
+                "Suburban"
+            ],
+            "name": "Chatelet Les Halles",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": []
+                },
+                {
+                    "line_id": "B",
+                    "branches": []
+                },
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.34662",
+            "latitude": "48.86157",
+            "id": 103
+        },
+        {
+            "interchanges": [],
+            "name": "Chatou Croissy",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.15564",
+            "latitude": "48.88515",
+            "id": 105
+        },
+        {
+            "interchanges": [],
+            "name": "Chaville Velisy",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "5",
+                        "7"
+                    ]
+                }
+            ],
+            "longitude": "2.18417",
+            "latitude": "48.79961",
+            "id": 107
+        },
+        {
+            "interchanges": [],
+            "name": "Chelles Gournay",
+            "lines": [
+                {
+                    "line_id": "E",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.58222",
+            "latitude": "48.87419",
+            "id": 108
+        },
+        {
+            "interchanges": [],
+            "name": "Chemin d'Antony",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.31275",
+            "latitude": "48.74788",
+            "id": 109
+        },
+        {
+            "interchanges": [],
+            "name": "Chilly Mazarin",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "8"
+                    ]
+                }
+            ],
+            "longitude": "2.30644",
+            "latitude": "48.70102",
+            "id": 112
+        },
+        {
+            "interchanges": [],
+            "name": "Choisy le Roy",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "8",
+                        "2",
+                        "4",
+                        "6"
+                    ]
+                }
+            ],
+            "longitude": "2.41116",
+            "latitude": "48.76385",
+            "id": 113
+        },
+        {
+            "interchanges": [
+                "tramway"
+            ],
+            "name": "Cite Universitaire",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.33883",
+            "latitude": "48.82042",
+            "id": 116
+        },
+        {
+            "interchanges": [],
+            "name": "Combs la Ville Quincy",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.54747",
+            "latitude": "48.6678",
+            "id": 120
+        },
+        {
+            "interchanges": [],
+            "name": "Conflans Fin d'Oise",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "3"
+                    ]
+                }
+            ],
+            "longitude": "2.07366",
+            "latitude": "48.99076",
+            "id": 123
+        },
+        {
+            "interchanges": [],
+            "name": "Corbeil Essonnes",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "4",
+                        "6"
+                    ]
+                }
+            ],
+            "longitude": "2.47364",
+            "latitude": "48.61429",
+            "id": 125
+        },
+        {
+            "interchanges": [],
+            "name": "Courcelle sur Yvette",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.09886",
+            "latitude": "48.70088",
+            "id": 132
+        },
+        {
+            "interchanges": [
+                "metro"
+            ],
+            "name": "Denfert Rochereau",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.33262",
+            "latitude": "48.83393",
+            "id": 143
+        },
+        {
+            "interchanges": [],
+            "name": "Dourdan",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.00903",
+            "latitude": "48.53378",
+            "id": 146
+        },
+        {
+            "interchanges": [],
+            "name": "Dourdan la foret",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "1.9951",
+            "latitude": "48.53565",
+            "id": 147
+        },
+        {
+            "interchanges": [],
+            "name": "Drancy",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.4544",
+            "latitude": "48.9327",
+            "id": 148
+        },
+        {
+            "interchanges": [],
+            "name": "Egly",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.22209",
+            "latitude": "48.58241",
+            "id": 158
+        },
+        {
+            "interchanges": [],
+            "name": "Emerainville Pontault Combault",
+            "lines": [
+                {
+                    "line_id": "E",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.61757",
+            "latitude": "48.80636",
+            "id": 159
+        },
+        {
+            "interchanges": [],
+            "name": "Epinay sur Orge",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "4",
+                        "6"
+                    ]
+                }
+            ],
+            "longitude": "2.33196",
+            "latitude": "48.66944",
+            "id": 160
+        },
+        {
+            "interchanges": [],
+            "name": "Epinay sur Seine",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.3022",
+            "latitude": "48.95371",
+            "id": 161
+        },
+        {
+            "interchanges": [
+                "Suburban"
+            ],
+            "name": "Ermont Eaubonne",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.27141",
+            "latitude": "48.98058",
+            "id": 162
+        },
+        {
+            "interchanges": [],
+            "name": "Etampes",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "6"
+                    ]
+                }
+            ],
+            "longitude": "2.15892",
+            "latitude": "48.43689",
+            "id": 165
+        },
+        {
+            "interchanges": [],
+            "name": "Etoile Charles de Gaulle",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.29501",
+            "latitude": "48.87394",
+            "id": 167
+        },
+        {
+            "interchanges": [],
+            "name": "Etrechy",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "6"
+                    ]
+                }
+            ],
+            "longitude": "2.20087",
+            "latitude": "48.50016",
+            "id": 168
+        },
+        {
+            "interchanges": [],
+            "name": "Evry",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "6"
+                    ]
+                }
+            ],
+            "longitude": "2.45219",
+            "latitude": "48.63457",
+            "id": 170
+        },
+        {
+            "interchanges": [],
+            "name": "Evry Courcouronnnnes",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.42896",
+            "latitude": "48.62579",
+            "id": 171
+        },
+        {
+            "interchanges": [],
+            "name": "Fontaine Michalon",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.2958",
+            "latitude": "48.74303",
+            "id": 177
+        },
+        {
+            "interchanges": [],
+            "name": "Fontenay aux Roses",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.29317",
+            "latitude": "48.78746",
+            "id": 178
+        },
+        {
+            "interchanges": [],
+            "name": "Fontenay sous Bois",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.46471",
+            "latitude": "48.84335",
+            "id": 179
+        },
+        {
+            "interchanges": [
+                "Suburban"
+            ],
+            "name": "Franconville Le Plessis Bouchard",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.23502",
+            "latitude": "48.99345",
+            "id": 181
+        },
+        {
+            "interchanges": [],
+            "name": "Gagny",
+            "lines": [
+                {
+                    "line_id": "E",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.5269",
+            "latitude": "48.88318",
+            "id": 184
+        },
+        {
+            "interchanges": [
+                "metro"
+            ],
+            "name": "Gare d'Austerlitz",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.36461",
+            "latitude": "48.84272",
+            "id": 188
+        },
+        {
+            "interchanges": [
+                "metro"
+            ],
+            "name": "Gare de Lyon",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": []
+                },
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.37376",
+            "latitude": "48.84468",
+            "id": 190
+        },
+        {
+            "interchanges": [
+                "Suburban",
+                "metro"
+            ],
+            "name": "Gare du Nord",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": []
+                },
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.35487",
+            "latitude": "48.88061",
+            "id": 191
+        },
+        {
+            "interchanges": [],
+            "name": "Garges Sarcelles",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.3903",
+            "latitude": "48.97666",
+            "id": 192
+        },
+        {
+            "interchanges": [],
+            "name": "Gennevilliers",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.30757",
+            "latitude": "48.93348",
+            "id": 195
+        },
+        {
+            "interchanges": [],
+            "name": "Gentilly",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.34082",
+            "latitude": "48.81572",
+            "id": 196
+        },
+        {
+            "interchanges": [],
+            "name": "Gif sur Yvette",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.13676",
+            "latitude": "48.69811",
+            "id": 199
+        },
+        {
+            "interchanges": [],
+            "name": "Goussainville",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.46347",
+            "latitude": "49.02386",
+            "id": 201
+        },
+        {
+            "interchanges": [],
+            "name": "Grand Bourg",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "6"
+                    ]
+                }
+            ],
+            "longitude": "2.43603",
+            "latitude": "48.64802",
+            "id": 202
+        },
+        {
+            "interchanges": [],
+            "name": "Gravigny Balizy",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "8"
+                    ]
+                }
+            ],
+            "longitude": "2.31789",
+            "latitude": "48.68534",
+            "id": 204
+        },
+        {
+            "interchanges": [],
+            "name": "Gretz Armainvilliers",
+            "lines": [
+                {
+                    "line_id": "E",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.72863",
+            "latitude": "48.74532",
+            "id": 205
+        },
+        {
+            "interchanges": [],
+            "name": "Grigny Centre",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.39575",
+            "latitude": "48.65328",
+            "id": 206
+        },
+        {
+            "interchanges": [
+                "Suburban"
+            ],
+            "name": "Haussmann St Lazare",
+            "lines": [
+                {
+                    "line_id": "E",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.32902",
+            "latitude": "48.87516",
+            "id": 208
+        },
+        {
+            "interchanges": [],
+            "name": "Houilles Carrieres sur Seine",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "3",
+                        "5"
+                    ]
+                }
+            ],
+            "longitude": "2.18456",
+            "latitude": "48.92067",
+            "id": 216
+        },
+        {
+            "interchanges": [],
+            "name": "Igny",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "8"
+                    ]
+                }
+            ],
+            "longitude": "2.23093",
+            "latitude": "48.74014",
+            "id": 218
+        },
+        {
+            "interchanges": [
+                "metro"
+            ],
+            "name": "Invalides",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.31329",
+            "latitude": "48.86297",
+            "id": 219
+        },
+        {
+            "interchanges": [],
+            "name": "Issy",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "5",
+                        "7"
+                    ]
+                }
+            ],
+            "longitude": "2.25876",
+            "latitude": "48.81974",
+            "id": 220
+        },
+        {
+            "interchanges": [
+                "tramway"
+            ],
+            "name": "Issy Val de Seine",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "5",
+                        "7"
+                    ]
+                }
+            ],
+            "longitude": "2.26293",
+            "latitude": "48.82946",
+            "id": 221
+        },
+        {
+            "interchanges": [],
+            "name": "Ivry sur Seine",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.39125",
+            "latitude": "48.81436",
+            "id": 222
+        },
+        {
+            "interchanges": [],
+            "name": "Javel",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "5",
+                        "7"
+                    ]
+                }
+            ],
+            "longitude": "2.27695",
+            "latitude": "48.84638",
+            "id": 227
+        },
+        {
+            "interchanges": [],
+            "name": "Joinville le Pont",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.46386",
+            "latitude": "48.82106",
+            "id": 230
+        },
+        {
+            "interchanges": [],
+            "name": "Jouy en josas",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "8"
+                    ]
+                }
+            ],
+            "longitude": "2.16316",
+            "latitude": "48.76475",
+            "id": 232
+        },
+        {
+            "interchanges": [],
+            "name": "Juvisy sur Orge",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "4",
+                        "6"
+                    ]
+                },
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.38276",
+            "latitude": "48.68981",
+            "id": 235
+        },
+        {
+            "interchanges": [],
+            "name": "La Borne Blanche",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.49004",
+            "latitude": "49.13876",
+            "id": 237
+        },
+        {
+            "interchanges": [],
+            "name": "La Courneuve Aubervilliers",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.38454",
+            "latitude": "48.92409",
+            "id": 241
+        },
+        {
+            "interchanges": [],
+            "name": "La Croix Berny",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.30457",
+            "latitude": "48.76214",
+            "id": 242
+        },
+        {
+            "interchanges": [
+                "metro"
+            ],
+            "name": "La Defense",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.23684",
+            "latitude": "48.89252",
+            "id": 243
+        },
+        {
+            "interchanges": [],
+            "name": "La ferte Alais",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.35187",
+            "latitude": "48.48486",
+            "id": 245
+        },
+        {
+            "interchanges": [],
+            "name": "La Hacquiniere",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.15262",
+            "latitude": "48.695",
+            "id": 247
+        },
+        {
+            "interchanges": [],
+            "name": "La Mee sur Seine",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.6243",
+            "latitude": "48.53968",
+            "id": 249
+        },
+        {
+            "interchanges": [],
+            "name": "La Norville St Germain Les Arpajon",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.26739",
+            "latitude": "48.59165",
+            "id": 252
+        },
+        {
+            "interchanges": [],
+            "name": "Laplace",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.33331",
+            "latitude": "48.80758",
+            "id": 253
+        },
+        {
+            "interchanges": [],
+            "name": "La Plaine Stade de France",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.36164",
+            "latitude": "48.9175",
+            "id": 254
+        },
+        {
+            "interchanges": [],
+            "name": "Lardy",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "6"
+                    ]
+                }
+            ],
+            "longitude": "2.24964",
+            "latitude": "48.51885",
+            "id": 255
+        },
+        {
+            "interchanges": [],
+            "name": "La Varenne Chevrieres",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.51297",
+            "latitude": "48.79496",
+            "id": 258
+        },
+        {
+            "interchanges": [],
+            "name": "Le Blanc Mesnil",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.47675",
+            "latitude": "48.93222",
+            "id": 259
+        },
+        {
+            "interchanges": [],
+            "name": "Le Bourget",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.42576",
+            "latitude": "48.93073",
+            "id": 260
+        },
+        {
+            "interchanges": [],
+            "name": "Le Bras de Fer",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.45062",
+            "latitude": "48.62331",
+            "id": 261
+        },
+        {
+            "interchanges": [],
+            "name": "Le Chenay Gagny",
+            "lines": [
+                {
+                    "line_id": "E",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.55306",
+            "latitude": "48.87735",
+            "id": 262
+        },
+        {
+            "interchanges": [],
+            "name": "Le Guichet",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.19162",
+            "latitude": "48.70482",
+            "id": 264
+        },
+        {
+            "interchanges": [],
+            "name": "Le Parc de St Maur",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.48584",
+            "latitude": "48.80508",
+            "id": 266
+        },
+        {
+            "interchanges": [],
+            "name": "Le Raincy Villemomble Montfermeil",
+            "lines": [
+                {
+                    "line_id": "E",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.51202",
+            "latitude": "48.88924",
+            "id": 268
+        },
+        {
+            "interchanges": [],
+            "name": "Les Ardoines",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.40955",
+            "latitude": "48.78273",
+            "id": 270
+        },
+        {
+            "interchanges": [],
+            "name": "Les Baconnets",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.28756",
+            "latitude": "48.73961",
+            "id": 271
+        },
+        {
+            "interchanges": [],
+            "name": "Les Boullereaux Champigny",
+            "lines": [
+                {
+                    "line_id": "E",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.51104",
+            "latitude": "48.82491",
+            "id": 272
+        },
+        {
+            "interchanges": [],
+            "name": "Les Gresillions",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.31417",
+            "latitude": "48.92019",
+            "id": 275
+        },
+        {
+            "interchanges": [],
+            "name": "Les Noux",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.47652",
+            "latitude": "49.0323",
+            "id": 279
+        },
+        {
+            "interchanges": [],
+            "name": "Les Saules",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.41761",
+            "latitude": "48.74539",
+            "id": 281
+        },
+        {
+            "interchanges": [],
+            "name": "Les Yvris Noisy le Grand",
+            "lines": [
+                {
+                    "line_id": "E",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.57957",
+            "latitude": "48.82328",
+            "id": 282
+        },
+        {
+            "interchanges": [],
+            "name": "Le Vert de Maisons",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.43223",
+            "latitude": "48.78846",
+            "id": 283
+        },
+        {
+            "interchanges": [],
+            "name": "Le Vesinet Centre",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.13452",
+            "latitude": "48.89012",
+            "id": 284
+        },
+        {
+            "interchanges": [],
+            "name": "Le Vesinet Le Pecq",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.12182",
+            "latitude": "48.89827",
+            "id": 285
+        },
+        {
+            "interchanges": [],
+            "name": "Lieusaint Moissy",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.56945",
+            "latitude": "48.62836",
+            "id": 289
+        },
+        {
+            "interchanges": [],
+            "name": "Lognes",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.63413",
+            "latitude": "48.839",
+            "id": 290
+        },
+        {
+            "interchanges": [],
+            "name": "Longjumeau",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "8"
+                    ]
+                }
+            ],
+            "longitude": "2.29427",
+            "latitude": "48.70223",
+            "id": 291
+        },
+        {
+            "interchanges": [],
+            "name": "Louvres",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.50197",
+            "latitude": "49.04935",
+            "id": 296
+        },
+        {
+            "interchanges": [],
+            "name": "Lozere",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.21158",
+            "latitude": "48.70605",
+            "id": 297
+        },
+        {
+            "interchanges": [],
+            "name": "Luxembourg",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.34037",
+            "latitude": "48.84671",
+            "id": 298
+        },
+        {
+            "interchanges": [
+                "Suburban"
+            ],
+            "name": "Magenta",
+            "lines": [
+                {
+                    "line_id": "E",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.35826",
+            "latitude": "48.88016",
+            "id": 301
+        },
+        {
+            "interchanges": [],
+            "name": "Maisons Alfort Alfortville",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.42664",
+            "latitude": "48.80178",
+            "id": 309
+        },
+        {
+            "interchanges": [],
+            "name": "Maisons Laffitte",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "3",
+                        "5"
+                    ]
+                }
+            ],
+            "longitude": "2.14419",
+            "latitude": "48.9461",
+            "id": 312
+        },
+        {
+            "interchanges": [],
+            "name": "Maisse",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.39337",
+            "latitude": "48.39369",
+            "id": 313
+        },
+        {
+            "interchanges": [],
+            "name": "Malesherbes (Loiret)",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.405833",
+            "latitude": "48.296111",
+            "id": 317
+        },
+        {
+            "interchanges": [],
+            "name": "Marne la Vallee Chessy",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.7822",
+            "latitude": "48.86819",
+            "id": 322
+        },
+        {
+            "interchanges": [],
+            "name": "Marrolles en Hurepoix",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "6"
+                    ]
+                }
+            ],
+            "longitude": "2.28968",
+            "latitude": "48.57476",
+            "id": 323
+        },
+        {
+            "interchanges": [],
+            "name": "Massy Palaiseau",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "4"
+                    ]
+                },
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "8",
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.25842",
+            "latitude": "48.72469",
+            "id": 325
+        },
+        {
+            "interchanges": [],
+            "name": "Massy Verrieres",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "4"
+                    ]
+                },
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.27326",
+            "latitude": "48.7347",
+            "id": 326
+        },
+        {
+            "interchanges": [],
+            "name": "Melun",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.65502",
+            "latitude": "48.52736",
+            "id": 330
+        },
+        {
+            "interchanges": [],
+            "name": "Mennecy",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.43323",
+            "latitude": "48.5711",
+            "id": 331
+        },
+        {
+            "interchanges": [],
+            "name": "Meudon Val Fleury",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "5",
+                        "7"
+                    ]
+                }
+            ],
+            "longitude": "2.24116",
+            "latitude": "48.80795",
+            "id": 333
+        },
+        {
+            "interchanges": [],
+            "name": "Mitry Claye",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "5"
+                    ]
+                }
+            ],
+            "longitude": "2.64217",
+            "latitude": "48.97574",
+            "id": 339
+        },
+        {
+            "interchanges": [],
+            "name": "Montgeron Crosne",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.46249",
+            "latitude": "48.70818",
+            "id": 342
+        },
+        {
+            "interchanges": [
+                "Suburban"
+            ],
+            "name": "Montigny Beauchamp",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.19801",
+            "latitude": "49.00731",
+            "id": 343
+        },
+        {
+            "interchanges": [],
+            "name": "Moulin Galant",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.47339",
+            "latitude": "48.58695",
+            "id": 346
+        },
+        {
+            "interchanges": [],
+            "name": "Musee d'Orsay",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.32567",
+            "latitude": "48.86079",
+            "id": 349
+        },
+        {
+            "interchanges": [],
+            "name": "Nanterre Prefecture",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "1",
+                        "3",
+                        "5"
+                    ]
+                }
+            ],
+            "longitude": "2.22246",
+            "latitude": "48.89477",
+            "id": 350
+        },
+        {
+            "interchanges": [],
+            "name": "Nanterre Univerisite",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.2152",
+            "latitude": "48.90152",
+            "id": 351
+        },
+        {
+            "interchanges": [],
+            "name": "Nanterre Ville",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.19594",
+            "latitude": "48.8952",
+            "id": 352
+        },
+        {
+            "interchanges": [
+                "metro"
+            ],
+            "name": "Nation",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.39581",
+            "latitude": "48.84877",
+            "id": 353
+        },
+        {
+            "interchanges": [],
+            "name": "Neuilly Plaisance",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.5139",
+            "latitude": "48.85327",
+            "id": 355
+        },
+        {
+            "interchanges": [
+                "Suburban"
+            ],
+            "name": "Neuilly Porte Maillot",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.2843",
+            "latitude": "48.87784",
+            "id": 356
+        },
+        {
+            "interchanges": [],
+            "name": "Neuville Universite",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "3"
+                    ]
+                }
+            ],
+            "longitude": "2.07843",
+            "latitude": "49.01432",
+            "id": 357
+        },
+        {
+            "interchanges": [],
+            "name": "Nogent Le Perreux",
+            "lines": [
+                {
+                    "line_id": "E",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.49437",
+            "latitude": "48.83861",
+            "id": 358
+        },
+        {
+            "interchanges": [],
+            "name": "Nogent sur Marne",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.47192",
+            "latitude": "48.83532",
+            "id": 359
+        },
+        {
+            "interchanges": [],
+            "name": "Noisiel",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.61662",
+            "latitude": "48.8435",
+            "id": 360
+        },
+        {
+            "interchanges": [],
+            "name": "Noisy Champs",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.57803",
+            "latitude": "48.84265",
+            "id": 361
+        },
+        {
+            "interchanges": [],
+            "name": "Noisy le Grand Mont d'Est",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.54818",
+            "latitude": "48.84077",
+            "id": 362
+        },
+        {
+            "interchanges": [
+                "tramway"
+            ],
+            "name": "Noisy le Sec",
+            "lines": [
+                {
+                    "line_id": "E",
+                    "branches": [
+                        "1",
+                        "2",
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.45992",
+            "latitude": "48.89668",
+            "id": 363
+        },
+        {
+            "interchanges": [],
+            "name": "Orangis Bois de l'Epine",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.40757",
+            "latitude": "48.63631",
+            "id": 370
+        },
+        {
+            "interchanges": [],
+            "name": "Orly Ville",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.40296",
+            "latitude": "48.74184",
+            "id": 371
+        },
+        {
+            "interchanges": [],
+            "name": "Orry la Ville",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.45939",
+            "latitude": "49.18715",
+            "id": 372
+        },
+        {
+            "interchanges": [],
+            "name": "Orsay la Ville",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.18221",
+            "latitude": "48.69772",
+            "id": 373
+        },
+        {
+            "interchanges": [],
+            "name": "Ozoir la Ferriere",
+            "lines": [
+                {
+                    "line_id": "E",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.69036",
+            "latitude": "48.77072",
+            "id": 375
+        },
+        {
+            "interchanges": [],
+            "name": "Palaiseau",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.24665",
+            "latitude": "48.71783",
+            "id": 377
+        },
+        {
+            "interchanges": [],
+            "name": "Palaiseau Villebon",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.2372",
+            "latitude": "48.70769",
+            "id": 378
+        },
+        {
+            "interchanges": [],
+            "name": "Pantin",
+            "lines": [
+                {
+                    "line_id": "E",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.39976",
+            "latitude": "48.8981",
+            "id": 379
+        },
+        {
+            "interchanges": [],
+            "name": "Parc de Sceaux",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.31022",
+            "latitude": "48.77062",
+            "id": 380
+        },
+        {
+            "interchanges": [],
+            "name": "Parc des Expositions",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "3"
+                    ]
+                }
+            ],
+            "longitude": "2.51459",
+            "latitude": "48.97376",
+            "id": 381
+        },
+        {
+            "interchanges": [
+                "Suburban"
+            ],
+            "name": "Pereire Levallois",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.29773",
+            "latitude": "48.88577",
+            "id": 389
+        },
+        {
+            "interchanges": [],
+            "name": "Petit Jouy Les Loges",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "8"
+                    ]
+                }
+            ],
+            "longitude": "2.14678",
+            "latitude": "48.7711",
+            "id": 390
+        },
+        {
+            "interchanges": [],
+            "name": "Petit Vaux",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "8"
+                    ]
+                }
+            ],
+            "longitude": "2.33341",
+            "latitude": "48.67625",
+            "id": 392
+        },
+        {
+            "interchanges": [],
+            "name": "Pierrefitte Stains",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.37236",
+            "latitude": "48.96388",
+            "id": 396
+        },
+        {
+            "interchanges": [
+                "Suburban"
+            ],
+            "name": "Pierrelaye",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.15421",
+            "latitude": "49.01928",
+            "id": 397
+        },
+        {
+            "interchanges": [],
+            "name": "Poissy",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "5"
+                    ]
+                }
+            ],
+            "longitude": "2.04032",
+            "latitude": "48.93307",
+            "id": 406
+        },
+        {
+            "interchanges": [],
+            "name": "Pont de l'Alma",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.30099",
+            "latitude": "48.86252",
+            "id": 409
+        },
+        {
+            "interchanges": [],
+            "name": "Pont de Rungis Aeroport d'Orly",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.37281",
+            "latitude": "48.74815",
+            "id": 412
+        },
+        {
+            "interchanges": [
+                "Suburban"
+            ],
+            "name": "Pontoise",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.09599",
+            "latitude": "49.04672",
+            "id": 416
+        },
+        {
+            "interchanges": [],
+            "name": "Porchefontaine",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "5"
+                    ]
+                }
+            ],
+            "longitude": "2.1539",
+            "latitude": "48.79664",
+            "id": 417
+        },
+        {
+            "interchanges": [
+                "metro"
+            ],
+            "name": "Porte de Clichy",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.31227",
+            "latitude": "48.89253",
+            "id": 424
+        },
+        {
+            "interchanges": [],
+            "name": "Port Royal",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.33693",
+            "latitude": "48.83988",
+            "id": 441
+        },
+        {
+            "interchanges": [],
+            "name": "Ris Orangis",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "6"
+                    ]
+                }
+            ],
+            "longitude": "2.41448",
+            "latitude": "48.65931",
+            "id": 461
+        },
+        {
+            "interchanges": [],
+            "name": "Robinson",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.28107",
+            "latitude": "48.78003",
+            "id": 463
+        },
+        {
+            "interchanges": [],
+            "name": "Roissy en Brie",
+            "lines": [
+                {
+                    "line_id": "E",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.64959",
+            "latitude": "48.7959",
+            "id": 464
+        },
+        {
+            "interchanges": [],
+            "name": "Rosny Bois Perrier",
+            "lines": [
+                {
+                    "line_id": "E",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.48098",
+            "latitude": "48.88255",
+            "id": 466
+        },
+        {
+            "interchanges": [],
+            "name": "Rosny sous Bois",
+            "lines": [
+                {
+                    "line_id": "E",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.48591",
+            "latitude": "48.8707",
+            "id": 467
+        },
+        {
+            "interchanges": [],
+            "name": "Rueil Malmaison",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.17092",
+            "latitude": "48.88704",
+            "id": 471
+        },
+        {
+            "interchanges": [],
+            "name": "Rungis la Fraternelle",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.35248",
+            "latitude": "48.74036",
+            "id": 473
+        },
+        {
+            "interchanges": [],
+            "name": "Saint Cyr",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "7"
+                    ]
+                }
+            ],
+            "longitude": "2.07233",
+            "latitude": "48.79869",
+            "id": 476
+        },
+        {
+            "interchanges": [],
+            "name": "Saint Gratien",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.28562",
+            "latitude": "48.96359",
+            "id": 482
+        },
+        {
+            "interchanges": [],
+            "name": "Saint Ouen",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.31992",
+            "latitude": "48.90977",
+            "id": 488
+        },
+        {
+            "interchanges": [],
+            "name": "Sartrouville",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "3",
+                        "5"
+                    ]
+                }
+            ],
+            "longitude": "2.15731",
+            "latitude": "48.93744",
+            "id": 491
+        },
+        {
+            "interchanges": [],
+            "name": "Savigny le Temple Nandy",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.58333",
+            "latitude": "48.59693",
+            "id": 492
+        },
+        {
+            "interchanges": [],
+            "name": "Savigny sur Orge",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "8",
+                        "4",
+                        "6"
+                    ]
+                }
+            ],
+            "longitude": "2.35235",
+            "latitude": "48.67642",
+            "id": 493
+        },
+        {
+            "interchanges": [],
+            "name": "Sceaux",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.29728",
+            "latitude": "48.78142",
+            "id": 494
+        },
+        {
+            "interchanges": [],
+            "name": "Sermaise",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.07415",
+            "latitude": "48.53826",
+            "id": 497
+        },
+        {
+            "interchanges": [],
+            "name": "Sevran Beaudottes",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "3"
+                    ]
+                }
+            ],
+            "longitude": "2.52437",
+            "latitude": "48.94743",
+            "id": 498
+        },
+        {
+            "interchanges": [],
+            "name": "Sevran Livry",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "5"
+                    ]
+                }
+            ],
+            "longitude": "2.53469",
+            "latitude": "48.93612",
+            "id": 499
+        },
+        {
+            "interchanges": [],
+            "name": "Stade de France St Denis",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.35107",
+            "latitude": "48.91793",
+            "id": 505
+        },
+        {
+            "interchanges": [],
+            "name": "St Cheron",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.12264",
+            "latitude": "48.55041",
+            "id": 508
+        },
+        {
+            "interchanges": [
+                "Suburban",
+                "tramway"
+            ],
+            "name": "St Denis",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.3454",
+            "latitude": "48.93443",
+            "id": 509
+        },
+        {
+            "interchanges": [],
+            "name": "St Genevieve des Bois",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "4",
+                        "6"
+                    ]
+                }
+            ],
+            "longitude": "2.31307",
+            "latitude": "48.653",
+            "id": 511
+        },
+        {
+            "interchanges": [],
+            "name": "St Germain en Laye",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.09508",
+            "latitude": "48.89827",
+            "id": 513
+        },
+        {
+            "interchanges": [],
+            "name": "St Martin d'Etampes",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "6"
+                    ]
+                }
+            ],
+            "longitude": "2.14519",
+            "latitude": "48.42769",
+            "id": 514
+        },
+        {
+            "interchanges": [],
+            "name": "St Maur Creteil",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.47206",
+            "latitude": "48.80644",
+            "id": 515
+        },
+        {
+            "interchanges": [
+                "Suburban"
+            ],
+            "name": "St Michel Notre Dame",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": []
+                },
+                {
+                    "line_id": "C",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.34591",
+            "latitude": "48.85345",
+            "id": 516
+        },
+        {
+            "interchanges": [],
+            "name": "St Michel sur Orge",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "4",
+                        "6"
+                    ]
+                }
+            ],
+            "longitude": "2.30656",
+            "latitude": "48.63582",
+            "id": 517
+        },
+        {
+            "interchanges": [
+                "Suburban"
+            ],
+            "name": "St Ouen l'Aumone",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.10546",
+            "latitude": "49.04527",
+            "id": 518
+        },
+        {
+            "interchanges": [
+                "Suburban"
+            ],
+            "name": "St Ouen l'Aumone Liesse",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.1274",
+            "latitude": "49.03475",
+            "id": 519
+        },
+        {
+            "interchanges": [],
+            "name": "St Quentin en Yvelines",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "7"
+                    ]
+                }
+            ],
+            "longitude": "2.04466",
+            "latitude": "48.78751",
+            "id": 521
+        },
+        {
+            "interchanges": [],
+            "name": "St Remy les chevreuse",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.07112",
+            "latitude": "48.70265",
+            "id": 523
+        },
+        {
+            "interchanges": [],
+            "name": "Sucy Bonneuil",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.50743",
+            "latitude": "48.77105",
+            "id": 525
+        },
+        {
+            "interchanges": [],
+            "name": "Survilliers Fosses",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.52586",
+            "latitude": "49.09951",
+            "id": 528
+        },
+        {
+            "interchanges": [],
+            "name": "Torcy",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.65485",
+            "latitude": "48.8396",
+            "id": 534
+        },
+        {
+            "interchanges": [],
+            "name": "Tournan",
+            "lines": [
+                {
+                    "line_id": "E",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.75997",
+            "latitude": "48.7391",
+            "id": 535
+        },
+        {
+            "interchanges": [],
+            "name": "Val de Fontenay",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "4"
+                    ]
+                },
+                {
+                    "line_id": "E",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.48913",
+            "latitude": "48.85431",
+            "id": 539
+        },
+        {
+            "interchanges": [],
+            "name": "Val d'Europe",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.7743",
+            "latitude": "48.85596",
+            "id": 540
+        },
+        {
+            "interchanges": [],
+            "name": "Vauboyen",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "8"
+                    ]
+                }
+            ],
+            "longitude": "2.19259",
+            "latitude": "48.75903",
+            "id": 543
+        },
+        {
+            "interchanges": [],
+            "name": "Versailles Chantiers",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "8",
+                        "7"
+                    ]
+                }
+            ],
+            "longitude": "2.13615",
+            "latitude": "48.79535",
+            "id": 546
+        },
+        {
+            "interchanges": [],
+            "name": "Versailles Rive Gauche",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "5"
+                    ]
+                }
+            ],
+            "longitude": "2.12908",
+            "latitude": "48.80021",
+            "id": 547
+        },
+        {
+            "interchanges": [],
+            "name": "Vert Galant",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "5"
+                    ]
+                }
+            ],
+            "longitude": "2.56676",
+            "latitude": "48.94424",
+            "id": 548
+        },
+        {
+            "interchanges": [],
+            "name": "Vigneux sur Seine",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.41441",
+            "latitude": "48.70847",
+            "id": 550
+        },
+        {
+            "interchanges": [],
+            "name": "Villeneuve le Roi",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "4",
+                        "6",
+                        "8"
+                    ]
+                }
+            ],
+            "longitude": "2.42635",
+            "latitude": "48.73986",
+            "id": 554
+        },
+        {
+            "interchanges": [],
+            "name": "Villeneuve Pairie",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.4345",
+            "latitude": "48.76636",
+            "id": 555
+        },
+        {
+            "interchanges": [],
+            "name": "Villeneuve St Georges",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "1",
+                        "2",
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.44626",
+            "latitude": "48.72888",
+            "id": 556
+        },
+        {
+            "interchanges": [],
+            "name": "Villeneuve Triage",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.4381",
+            "latitude": "48.74536",
+            "id": 557
+        },
+        {
+            "interchanges": [],
+            "name": "Villeparisis Mitry le Neuf",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "5"
+                    ]
+                }
+            ],
+            "longitude": "2.60218",
+            "latitude": "48.95296",
+            "id": 558
+        },
+        {
+            "interchanges": [],
+            "name": "Villepinte",
+            "lines": [
+                {
+                    "line_id": "B",
+                    "branches": [
+                        "3"
+                    ]
+                }
+            ],
+            "longitude": "2.51238",
+            "latitude": "48.96315",
+            "id": 559
+        },
+        {
+            "interchanges": [],
+            "name": "Villiers le Bel Gonesse Amouville",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "1"
+                    ]
+                }
+            ],
+            "longitude": "2.41664",
+            "latitude": "48.99397",
+            "id": 561
+        },
+        {
+            "interchanges": [],
+            "name": "Villiers sur Marne le Plessis Trevise",
+            "lines": [
+                {
+                    "line_id": "E",
+                    "branches": [
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.54174",
+            "latitude": "48.82297",
+            "id": 562
+        },
+        {
+            "interchanges": [],
+            "name": "Vincennes",
+            "lines": [
+                {
+                    "line_id": "A",
+                    "branches": [
+                        "2",
+                        "4"
+                    ]
+                }
+            ],
+            "longitude": "2.43354",
+            "latitude": "48.84732",
+            "id": 563
+        },
+        {
+            "interchanges": [],
+            "name": "Viroflay Rive Gauche",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": [
+                        "5",
+                        "7"
+                    ]
+                }
+            ],
+            "longitude": "2.17135",
+            "latitude": "48.80067",
+            "id": 564
+        },
+        {
+            "interchanges": [],
+            "name": "Viry Chatillon",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "4",
+                        "6"
+                    ]
+                }
+            ],
+            "longitude": "2.38664",
+            "latitude": "48.67626",
+            "id": 565
+        },
+        {
+            "interchanges": [],
+            "name": "Vitry sur Seine",
+            "lines": [
+                {
+                    "line_id": "C",
+                    "branches": []
+                }
+            ],
+            "longitude": "2.40266",
+            "latitude": "48.80085",
+            "id": 566
+        },
+        {
+            "interchanges": [],
+            "name": "Yerres",
+            "lines": [
+                {
+                    "line_id": "D",
+                    "branches": [
+                        "2"
+                    ]
+                }
+            ],
+            "longitude": "2.48366",
+            "latitude": "48.70654",
+            "id": 570
+        }
+    ]
+}
