@@ -22,6 +22,7 @@ class Importer(object):
         for line_data in data['lines']:
             line, __ = models.Route.objects.get_or_create(
                 name=line_data['name'],
+                short_name=line_data['short_name'],
                 source_id=line_data['id'],
                 color=line_data['colour'],
                 network=network,
@@ -36,8 +37,8 @@ class Importer(object):
 
             station.routes.clear()
 
-            for route_id in station_data['line_ids']:
-                route = models.Route.objects.get(network=network, source_id=route_id)
+            for line_data in station_data['lines']:
+                route = models.Route.objects.get(network=network, source_id=line_data['line_id'])
                 models.RouteStation.objects.create(
                     route=route,
                     station=station,

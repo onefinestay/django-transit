@@ -18,8 +18,9 @@ class Migration(SchemaMigration):
         # Adding model 'Route'
         db.create_table(u'transit_route', (
             (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
-            ('source_id', self.gf('django.db.models.fields.IntegerField')()),
+            ('source_id', self.gf('django.db.models.fields.IntegerField')(db_index=True)),
             ('name', self.gf('django.db.models.fields.CharField')(max_length=255)),
+            ('short_name', self.gf('django.db.models.fields.CharField')(max_length=255)),
             ('network', self.gf('django.db.models.fields.related.ForeignKey')(related_name='routes', to=orm['transit.Network'])),
             ('color', self.gf('django.db.models.fields.CharField')(max_length=7)),
         ))
@@ -36,7 +37,7 @@ class Migration(SchemaMigration):
         # Adding model 'Station'
         db.create_table(u'transit_station', (
             (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
-            ('source_id', self.gf('django.db.models.fields.IntegerField')()),
+            ('source_id', self.gf('django.db.models.fields.IntegerField')(db_index=True)),
             ('name', self.gf('django.db.models.fields.CharField')(max_length=255)),
             ('position', self.gf('django.contrib.gis.db.models.fields.PointField')()),
         ))
@@ -69,7 +70,8 @@ class Migration(SchemaMigration):
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'name': ('django.db.models.fields.CharField', [], {'max_length': '255'}),
             'network': ('django.db.models.fields.related.ForeignKey', [], {'related_name': "'routes'", 'to': u"orm['transit.Network']"}),
-            'source_id': ('django.db.models.fields.IntegerField', [], {})
+            'short_name': ('django.db.models.fields.CharField', [], {'max_length': '255'}),
+            'source_id': ('django.db.models.fields.IntegerField', [], {'db_index': 'True'})
         },
         u'transit.routestation': {
             'Meta': {'object_name': 'RouteStation'},
@@ -83,7 +85,7 @@ class Migration(SchemaMigration):
             'name': ('django.db.models.fields.CharField', [], {'max_length': '255'}),
             'position': ('django.contrib.gis.db.models.fields.PointField', [], {}),
             'routes': ('django.db.models.fields.related.ManyToManyField', [], {'related_name': "'stations'", 'to': u"orm['transit.Route']", 'through': u"orm['transit.RouteStation']", 'blank': 'True', 'symmetrical': 'False', 'null': 'True'}),
-            'source_id': ('django.db.models.fields.IntegerField', [], {})
+            'source_id': ('django.db.models.fields.IntegerField', [], {'db_index': 'True'})
         }
     }
 

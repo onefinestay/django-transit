@@ -10,8 +10,9 @@ class Network(models.Model):
 
 
 class Route(models.Model):
-    source_id = models.IntegerField()  # From the source CSV
+    source_id = models.IntegerField(db_index=True)  # From the source CSV
     name = models.CharField(max_length=255)
+    short_name = models.CharField(max_length=255)
     network = models.ForeignKey('transit.Network', related_name='routes')
     color = models.CharField(max_length=7)
 
@@ -25,7 +26,7 @@ class RouteStation(models.Model):
 
 
 class Station(models.Model):
-    source_id = models.IntegerField()  # From the source CSV
+    source_id = models.IntegerField(db_index=True)  # From the source CSV
     name = models.CharField(max_length=255)
     position = models.PointField()
     routes = models.ManyToManyField(
