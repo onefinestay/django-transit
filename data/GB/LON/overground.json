@@ -1,46 +1,47 @@
 {
     "network": {
         "name": "London Overground",
+        "short_name": "Overground",
         "key": "overground"
     },
     "lines": [
         {
-            "colour": "000000",
+            "colour": "#EE7D11",
             "branches": [],
             "id": "ELL",
             "short_name": "East London",
             "name": "East London Line"
         },
         {
-            "colour": "000000",
+            "colour": "#EE7D11",
             "branches": [],
             "id": "GOB",
             "short_name": "Gospel Oak to Barking",
             "name": "Gospel Oak to Barking Line"
         },
         {
-            "colour": "000000",
+            "colour": "#EE7D11",
             "branches": [],
             "id": "NLL",
             "short_name": "North London",
             "name": "North London Line"
         },
         {
-            "colour": "000000",
+            "colour": "#EE7D11",
             "branches": [],
             "id": "SLL",
             "short_name": "South London",
             "name": "South London Line"
         },
         {
-            "colour": "000000",
+            "colour": "#EE7D11",
             "branches": [],
             "id": "WDC",
             "short_name": "Watford DC",
             "name": "Watford DC Line"
         },
         {
-            "colour": "000000",
+            "colour": "#EE7D11",
             "branches": [],
             "id": "WLL",
             "short_name": "West London",
