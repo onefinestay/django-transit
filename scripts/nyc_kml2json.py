@@ -13,8 +13,9 @@ def get_network(doc):
 
     return {
         "network": {
-            "name": "NYC Subway",
-            "key": "nyc-subway"
+            "name": "New York City Subway",
+            "short_name": "Subway",
+            "key": "subway"
         },
         "lines": lines,
         "stations": stations
