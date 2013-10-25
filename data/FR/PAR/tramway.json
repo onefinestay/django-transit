@@ -1,6 +1,7 @@
 {
     "network": {
-        "name": "Paris Tramway",
+        "name": "Tramway",
+        "short_name": "Tramway",
         "key": "tramway"
     },
     "lines": [

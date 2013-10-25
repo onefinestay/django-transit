@@ -1,6 +1,7 @@
 {
     "network": {
-        "name": "Paris Metro",
+        "name": "Métro de Paris",
+        "short_name": "Métro",
         "key": "metro"
     },
     "lines": [
