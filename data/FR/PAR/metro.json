@@ -883,7 +883,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Chatelet",
             "lines": [
@@ -996,7 +996,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Cluny.La Sorbonne",
             "lines": [
@@ -1580,7 +1580,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Gare de l'Est",
             "lines": [
@@ -1623,7 +1623,7 @@
         {
             "interchanges": [
                 "rer",
-                "Suburban"
+                "suburban"
             ],
             "name": "Gare du Nord",
             "lines": [
@@ -1711,7 +1711,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Havre Caumartin",
             "lines": [
@@ -1908,7 +1908,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "La Chapelle",
             "lines": [
@@ -2000,7 +2000,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "La Muette",
             "lines": [
@@ -2106,7 +2106,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Les Halles",
             "lines": [
@@ -2742,7 +2742,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Opera",
             "lines": [
@@ -2838,7 +2838,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Pereire",
             "lines": [
@@ -3415,7 +3415,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Porte Maillot",
             "lines": [
@@ -3774,7 +3774,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Saint Augustin",
             "lines": [
@@ -3867,7 +3867,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Saint Lazare",
             "lines": [
@@ -3920,7 +3920,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Saint Michel",
             "lines": [

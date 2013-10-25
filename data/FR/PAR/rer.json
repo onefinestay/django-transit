@@ -208,7 +208,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Auber",
             "lines": [
@@ -391,7 +391,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Boulainvilliers",
             "lines": [
@@ -651,7 +651,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Cernay",
             "lines": [
@@ -730,7 +730,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Chatelet Les Halles",
             "lines": [
@@ -1044,7 +1044,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Ermont Eaubonne",
             "lines": [
@@ -1179,7 +1179,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Franconville Le Plessis Bouchard",
             "lines": [
@@ -1247,7 +1247,7 @@
         },
         {
             "interchanges": [
-                "Suburban",
+                "suburban",
                 "metro"
             ],
             "name": "Gare du Nord",
@@ -1402,7 +1402,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Haussmann St Lazare",
             "lines": [
@@ -2091,7 +2091,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Magenta",
             "lines": [
@@ -2318,7 +2318,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Montigny Beauchamp",
             "lines": [
@@ -2440,7 +2440,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Neuilly Porte Maillot",
             "lines": [
@@ -2716,7 +2716,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Pereire Levallois",
             "lines": [
@@ -2778,7 +2778,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Pierrelaye",
             "lines": [
@@ -2838,7 +2838,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Pontoise",
             "lines": [
@@ -3188,7 +3188,7 @@
         },
         {
             "interchanges": [
-                "Suburban",
+                "suburban",
                 "tramway"
             ],
             "name": "St Denis",
@@ -3267,7 +3267,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "St Michel Notre Dame",
             "lines": [
@@ -3302,7 +3302,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "St Ouen l'Aumone",
             "lines": [
@@ -3319,7 +3319,7 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "St Ouen l'Aumone Liesse",
             "lines": [
