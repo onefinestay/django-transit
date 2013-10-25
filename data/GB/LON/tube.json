@@ -1,132 +1,177 @@
 {
     "network": {
-        "key": "tube",
-        "name": "London Underground"
+        "name": "London Underground",
+        "key": "tube"
     },
     "lines": [
         {
-            "colour": "#ab6612",
-            "id": 1,
+            "colour": "ab6612",
+            "branches": [],
+            "id": "BKL",
+            "short_name": "Bakerloo",
             "name": "Bakerloo Line"
         },
         {
-            "colour": "#df002c",
-            "id": 2,
+            "colour": "df002c",
+            "branches": [],
+            "id": "CEN",
+            "short_name": "Central",
             "name": "Central Line"
         },
         {
-            "colour": "#f7dc00",
-            "id": 3,
+            "colour": "f7dc00",
+            "branches": [],
+            "id": "CIR",
+            "short_name": "Circle",
             "name": "Circle Line"
         },
         {
-            "colour": "#0d6928",
-            "id": 4,
+            "colour": "0d6928",
+            "branches": [],
+            "id": "DIS",
+            "short_name": "District",
             "name": "District Line"
         },
         {
-            "colour": "#f3ba22",
-            "id": 5,
+            "colour": "00A77E",
+            "branches": [],
+            "id": "DLR",
+            "short_name": "DLR",
+            "name": "Docklands Light Railway"
+        },
+        {
+            "colour": "f3ba22",
+            "branches": [],
+            "id": "ELL",
+            "short_name": "East London",
             "name": "East London Line"
         },
         {
-            "colour": "#f5a6b3",
-            "id": 6,
+            "colour": "f5a6b3",
+            "branches": [],
+            "id": "HCL",
+            "short_name": "Hammersmith & City",
             "name": "Hammersmith & City Line"
         },
         {
-            "colour": "#767b7f",
-            "id": 7,
+            "colour": "767b7f",
+            "branches": [],
+            "id": "JUB",
+            "short_name": "Jubilee",
             "name": "Jubilee Line"
         },
         {
-            "colour": "#8b004c",
-            "id": 8,
+            "colour": "8b004c",
+            "branches": [],
+            "id": "MET",
+            "short_name": "Metropolitan",
             "name": "Metropolitan Line"
         },
         {
-            "colour": "#000000",
-            "id": 9,
+            "colour": "000000",
+            "branches": [],
+            "id": "NOR",
+            "short_name": "Northern",
             "name": "Northern Line"
         },
         {
-            "colour": "#002d73",
-            "id": 10,
+            "colour": "002d73",
+            "branches": [],
+            "id": "PIC",
+            "short_name": "Picadilly",
             "name": "Piccadilly Line"
         },
         {
-            "colour": "#0076bd",
-            "id": 11,
+            "colour": "0076bd",
+            "branches": [],
+            "id": "VIC",
+            "short_name": "Victoria",
             "name": "Victoria Line"
         },
         {
-            "colour": "#89cbc1",
-            "id": 12,
+            "colour": "89cbc1",
+            "branches": [],
+            "id": "WCL",
+            "short_name": "Waterloo & City",
             "name": "Waterloo & City Line"
-        },
-        {
-            "colour": "#00A77E",
-            "id": 13,
-            "name": "Docklands Light Railway"
         }
     ],
     "stations": [
         {
             "interchanges": [],
             "name": "Acton Town",
-            "zone": "3",
-            "longitude": "-0.2801",
-            "latitude": "51.5028",
-            "line_ids": [
-                4,
-                10
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                },
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5028",
+            "latitude": "-0.2801",
             "id": 1
         },
         {
             "interchanges": [],
             "name": "Aldgate",
-            "zone": "1",
-            "longitude": "-0.0755",
-            "latitude": "51.5143",
-            "line_ids": [
-                3,
-                8
+            "lines": [
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "MET",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5143",
+            "latitude": "-0.0755",
             "id": 2
         },
         {
             "interchanges": [],
             "name": "Aldgate East",
-            "zone": "1",
-            "longitude": "-0.0726",
-            "latitude": "51.5154",
-            "line_ids": [
-                4,
-                6
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                },
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5154",
+            "latitude": "-0.0726",
             "id": 3
         },
         {
             "interchanges": [],
             "name": "All Saints",
-            "zone": "2",
-            "longitude": "-0.013",
-            "latitude": "51.5107",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5107",
+            "latitude": "-0.013",
             "id": 4
         },
         {
             "interchanges": [],
             "name": "Alperton",
-            "zone": "4",
-            "longitude": "-0.2997",
-            "latitude": "51.5407",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5407",
+            "latitude": "-0.2997",
             "id": 5
         },
         {
@@ -134,71 +179,99 @@
                 "national_rail"
             ],
             "name": "Amersham",
-            "zone": "10",
-            "longitude": "-0.607",
-            "latitude": "51.6736",
-            "line_ids": [
-                8
+            "lines": [
+                {
+                    "line_id": "MET",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6736",
+            "latitude": "-0.607",
             "id": 6
         },
         {
             "interchanges": [],
             "name": "Angel",
-            "zone": "1",
-            "longitude": "-0.1058",
-            "latitude": "51.5322",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5322",
+            "latitude": "-0.1058",
             "id": 7
         },
         {
             "interchanges": [],
             "name": "Archway",
-            "zone": "2.5",
-            "longitude": "-0.1353",
-            "latitude": "51.5653",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5653",
+            "latitude": "-0.1353",
             "id": 8
         },
         {
             "interchanges": [],
             "name": "Arnos Grove",
-            "zone": "4",
-            "longitude": "-0.1331",
-            "latitude": "51.6164",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6164",
+            "latitude": "-0.1331",
             "id": 9
         },
         {
             "interchanges": [],
             "name": "Arsenal",
-            "zone": "2",
-            "longitude": "-0.1059",
-            "latitude": "51.5586",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5586",
+            "latitude": "-0.1059",
             "id": 10
         },
         {
             "interchanges": [],
             "name": "Baker Street",
-            "zone": "1",
-            "longitude": "-0.1571",
-            "latitude": "51.5226",
-            "line_ids": [
-                1,
-                3,
-                6,
-                7,
-                8
+            "lines": [
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                },
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                },
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                },
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                },
+                {
+                    "line_id": "MET",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5226",
+            "latitude": "-0.1571",
             "id": 11
         },
         {
@@ -206,39 +279,60 @@
                 "national_rail"
             ],
             "name": "Balham",
-            "zone": "3",
-            "longitude": "-0.1525",
-            "latitude": "51.4431",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4431",
+            "latitude": "-0.1525",
             "id": 12
         },
         {
             "interchanges": [],
             "name": "Bank",
-            "zone": "1",
-            "longitude": "-0.0886",
-            "latitude": "51.5133",
-            "line_ids": [
-                2,
-                9,
-                12,
-                13
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                },
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                },
+                {
+                    "line_id": "WCL",
+                    "branches": []
+                },
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5133",
+            "latitude": "-0.0886",
             "id": 13
         },
         {
             "interchanges": [],
             "name": "Barbican",
-            "zone": "1",
-            "longitude": "-0.0979",
-            "latitude": "51.5204",
-            "line_ids": [
-                3,
-                6,
-                8
+            "lines": [
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                },
+                {
+                    "line_id": "MET",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5204",
+            "latitude": "-0.0979",
             "id": 14
         },
         {
@@ -246,126 +340,160 @@
                 "national_rail"
             ],
             "name": "Barking",
-            "zone": "4",
-            "longitude": "0.081",
-            "latitude": "51.5396",
-            "line_ids": [
-                4,
-                6
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                },
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5396",
+            "latitude": "0.081",
             "id": 15
         },
         {
             "interchanges": [],
             "name": "Barkingside",
-            "zone": "5",
-            "longitude": "0.0887",
-            "latitude": "51.5856",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5856",
+            "latitude": "0.0887",
             "id": 16
         },
         {
             "interchanges": [],
             "name": "Barons Court",
-            "zone": "2",
-            "longitude": "-0.2139",
-            "latitude": "51.4905",
-            "line_ids": [
-                4,
-                10
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                },
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4905",
+            "latitude": "-0.2139",
             "id": 17
         },
         {
             "interchanges": [],
             "name": "Bayswater",
-            "zone": "1",
-            "longitude": "-0.1879",
-            "latitude": "51.5121",
-            "line_ids": [
-                3,
-                4
+            "lines": [
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5121",
+            "latitude": "-0.1879",
             "id": 18
         },
         {
             "interchanges": [],
             "name": "Beckton",
-            "zone": "3",
-            "longitude": "0.0613",
-            "latitude": "51.5148",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5148",
+            "latitude": "0.0613",
             "id": 19
         },
         {
             "interchanges": [],
             "name": "Beckton Park",
-            "zone": "3",
-            "longitude": "0.055",
-            "latitude": "51.5087",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5087",
+            "latitude": "0.055",
             "id": 20
         },
         {
             "interchanges": [],
             "name": "Becontree",
-            "zone": "5",
-            "longitude": "0.127",
-            "latitude": "51.5403",
-            "line_ids": [
-                4
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5403",
+            "latitude": "0.127",
             "id": 21
         },
         {
             "interchanges": [],
             "name": "Belsize Park",
-            "zone": "2",
-            "longitude": "-0.1642",
-            "latitude": "51.5504",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5504",
+            "latitude": "-0.1642",
             "id": 22
         },
         {
             "interchanges": [],
             "name": "Bermondsey",
-            "zone": "2",
-            "longitude": "-0.0637",
-            "latitude": "51.4979",
-            "line_ids": [
-                7
+            "lines": [
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4979",
+            "latitude": "-0.0637",
             "id": 23
         },
         {
             "interchanges": [],
             "name": "Bethnal Green",
-            "zone": "2",
-            "longitude": "-0.0549",
-            "latitude": "51.527",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.527",
+            "latitude": "-0.0549",
             "id": 24
         },
         {
             "interchanges": [],
             "name": "Blackfriars",
-            "zone": "1",
-            "longitude": "-0.1031",
-            "latitude": "51.512",
-            "line_ids": [
-                3,
-                4
+            "lines": [
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.512",
+            "latitude": "-0.1031",
             "id": 25
         },
         {
@@ -373,102 +501,126 @@
                 "national_rail"
             ],
             "name": "Blackhorse Road",
-            "zone": "3",
-            "longitude": "-0.0417",
-            "latitude": "51.5867",
-            "line_ids": [
-                11
+            "lines": [
+                {
+                    "line_id": "VIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5867",
+            "latitude": "-0.0417",
             "id": 26
         },
         {
             "interchanges": [],
             "name": "Blackwall",
-            "zone": "2",
-            "longitude": "-0.0066",
-            "latitude": "51.5079",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5079",
+            "latitude": "-0.0066",
             "id": 27
         },
         {
             "interchanges": [],
             "name": "Bond Street",
-            "zone": "1",
-            "longitude": "-0.1494",
-            "latitude": "51.5142",
-            "line_ids": [
-                2,
-                7
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                },
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5142",
+            "latitude": "-0.1494",
             "id": 28
         },
         {
             "interchanges": [],
             "name": "Borough",
-            "zone": "1",
-            "longitude": "-0.0943",
-            "latitude": "51.5011",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5011",
+            "latitude": "-0.0943",
             "id": 29
         },
         {
             "interchanges": [],
             "name": "Boston Manor",
-            "zone": "4",
-            "longitude": "-0.325",
-            "latitude": "51.4956",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4956",
+            "latitude": "-0.325",
             "id": 30
         },
         {
             "interchanges": [],
             "name": "Bounds Green",
-            "zone": "3.5",
-            "longitude": "-0.1243",
-            "latitude": "51.6071",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6071",
+            "latitude": "-0.1243",
             "id": 31
         },
         {
             "interchanges": [],
             "name": "Bow Church",
-            "zone": "2",
-            "longitude": "-0.0208",
-            "latitude": "51.5273",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5273",
+            "latitude": "-0.0208",
             "id": 32
         },
         {
             "interchanges": [],
             "name": "Bow Road",
-            "zone": "2",
-            "longitude": "-0.0247",
-            "latitude": "51.5269",
-            "line_ids": [
-                4,
-                6
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                },
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5269",
+            "latitude": "-0.0247",
             "id": 33
         },
         {
             "interchanges": [],
             "name": "Brent Cross",
-            "zone": "3",
-            "longitude": "-0.2136",
-            "latitude": "51.5766",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5766",
+            "latitude": "-0.2136",
             "id": 34
         },
         {
@@ -476,92 +628,117 @@
                 "national_rail"
             ],
             "name": "Brixton",
-            "zone": "2",
-            "longitude": "-0.1145",
-            "latitude": "51.4627",
-            "line_ids": [
-                11
+            "lines": [
+                {
+                    "line_id": "VIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4627",
+            "latitude": "-0.1145",
             "id": 35
         },
         {
             "interchanges": [],
             "name": "Bromley-By-Bow",
-            "zone": "2.5",
-            "longitude": "-0.0119",
-            "latitude": "51.5248",
-            "line_ids": [
-                4,
-                6
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                },
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5248",
+            "latitude": "-0.0119",
             "id": 36
         },
         {
             "interchanges": [],
             "name": "Buckhurst Hill",
-            "zone": "5",
-            "longitude": "0.0471",
-            "latitude": "51.6266",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6266",
+            "latitude": "0.0471",
             "id": 37
         },
         {
             "interchanges": [],
             "name": "Burnt Oak",
-            "zone": "4",
-            "longitude": "-0.2641",
-            "latitude": "51.6028",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6028",
+            "latitude": "-0.2641",
             "id": 38
         },
         {
             "interchanges": [],
             "name": "Caledonian Road",
-            "zone": "2",
-            "longitude": "-0.1188",
-            "latitude": "51.5481",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5481",
+            "latitude": "-0.1188",
             "id": 39
         },
         {
             "interchanges": [],
             "name": "Camden Town",
-            "zone": "2",
-            "longitude": "-0.1426",
-            "latitude": "51.5392",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5392",
+            "latitude": "-0.1426",
             "id": 40
         },
         {
             "interchanges": [],
             "name": "Canada Water",
-            "zone": "2",
-            "longitude": "-0.0502",
-            "latitude": "51.4982",
-            "line_ids": [
-                5,
-                7
+            "lines": [
+                {
+                    "line_id": "ELL",
+                    "branches": []
+                },
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4982",
+            "latitude": "-0.0502",
             "id": 41
         },
         {
             "interchanges": [],
             "name": "Canary Wharf",
-            "zone": "2",
-            "longitude": "-0.0209",
-            "latitude": "51.5051",
-            "line_ids": [
-                7,
-                13
+            "lines": [
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                },
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5051",
+            "latitude": "-0.0209",
             "id": 42
         },
         {
@@ -569,36 +746,48 @@
                 "national_rail"
             ],
             "name": "Canning Town",
-            "zone": "3",
-            "longitude": "0.0082",
-            "latitude": "51.5147",
-            "line_ids": [
-                7,
-                13
+            "lines": [
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                },
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5147",
+            "latitude": "0.0082",
             "id": 43
         },
         {
             "interchanges": [],
             "name": "Cannon Street",
-            "zone": "1",
-            "longitude": "-0.0904",
-            "latitude": "51.5113",
-            "line_ids": [
-                3,
-                4
+            "lines": [
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5113",
+            "latitude": "-0.0904",
             "id": 44
         },
         {
             "interchanges": [],
             "name": "Canons Park",
-            "zone": "5",
-            "longitude": "-0.2947",
-            "latitude": "51.6078",
-            "line_ids": [
-                7
+            "lines": [
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6078",
+            "latitude": "-0.2947",
             "id": 45
         },
         {
@@ -606,34 +795,40 @@
                 "national_rail"
             ],
             "name": "Chalfont & Latimer",
-            "zone": "9",
-            "longitude": "-0.561",
-            "latitude": "51.6679",
-            "line_ids": [
-                8
+            "lines": [
+                {
+                    "line_id": "MET",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6679",
+            "latitude": "-0.561",
             "id": 46
         },
         {
             "interchanges": [],
             "name": "Chalk Farm",
-            "zone": "2",
-            "longitude": "-0.1538",
-            "latitude": "51.5441",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5441",
+            "latitude": "-0.1538",
             "id": 47
         },
         {
             "interchanges": [],
             "name": "Chancery Lane",
-            "zone": "1",
-            "longitude": "-0.1111",
-            "latitude": "51.5185",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5185",
+            "latitude": "-0.1111",
             "id": 48
         },
         {
@@ -641,255 +836,304 @@
                 "national_rail"
             ],
             "name": "Charing Cross",
-            "zone": "1",
-            "longitude": "-0.1247",
-            "latitude": "51.508",
-            "line_ids": [
-                1,
-                9
+            "lines": [
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                },
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.508",
+            "latitude": "-0.1247",
             "id": 49
         },
         {
             "interchanges": [],
             "name": "Chesham",
-            "zone": "10",
-            "longitude": "-0.611",
-            "latitude": "51.7052",
-            "line_ids": [
-                8
+            "lines": [
+                {
+                    "line_id": "MET",
+                    "branches": []
+                }
             ],
+            "longitude": "51.7052",
+            "latitude": "-0.611",
             "id": 50
         },
         {
             "interchanges": [],
             "name": "Chigwell",
-            "zone": "5",
-            "longitude": "0.0755",
-            "latitude": "51.6177",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6177",
+            "latitude": "0.0755",
             "id": 51
         },
         {
             "interchanges": [],
             "name": "Chiswick Park",
-            "zone": "3",
-            "longitude": "-0.2678",
-            "latitude": "51.4946",
-            "line_ids": [
-                4
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4946",
+            "latitude": "-0.2678",
             "id": 52
         },
         {
             "interchanges": [],
             "name": "Chorleywood",
-            "zone": "8",
-            "longitude": "-0.5183",
-            "latitude": "51.6543",
-            "line_ids": [
-                8
+            "lines": [
+                {
+                    "line_id": "MET",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6543",
+            "latitude": "-0.5183",
             "id": 53
         },
         {
             "interchanges": [],
             "name": "Clapham Common",
-            "zone": "2",
-            "longitude": "-0.1384",
-            "latitude": "51.4618",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4618",
+            "latitude": "-0.1384",
             "id": 54
         },
         {
             "interchanges": [],
             "name": "Clapham North",
-            "zone": "2",
-            "longitude": "-0.1299",
-            "latitude": "51.4649",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4649",
+            "latitude": "-0.1299",
             "id": 55
         },
         {
             "interchanges": [],
             "name": "Clapham South",
-            "zone": "2.5",
-            "longitude": "-0.148",
-            "latitude": "51.4527",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4527",
+            "latitude": "-0.148",
             "id": 56
         },
         {
             "interchanges": [],
             "name": "Cockfosters",
-            "zone": "5",
-            "longitude": "-0.1496",
-            "latitude": "51.6517",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6517",
+            "latitude": "-0.1496",
             "id": 57
         },
         {
             "interchanges": [],
             "name": "Colindale",
-            "zone": "4",
-            "longitude": "-0.2502",
-            "latitude": "51.5955",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5955",
+            "latitude": "-0.2502",
             "id": 58
         },
         {
             "interchanges": [],
             "name": "Colliers Wood",
-            "zone": "3",
-            "longitude": "-0.1778",
-            "latitude": "51.418",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.418",
+            "latitude": "-0.1778",
             "id": 59
         },
         {
             "interchanges": [],
             "name": "Covent Garden",
-            "zone": "1",
-            "longitude": "-0.1243",
-            "latitude": "51.5129",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5129",
+            "latitude": "-0.1243",
             "id": 60
         },
         {
             "interchanges": [],
             "name": "Crossharbour & London Arena",
-            "zone": "2",
-            "longitude": "-0.0144",
-            "latitude": "51.4957",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4957",
+            "latitude": "-0.0144",
             "id": 61
         },
         {
             "interchanges": [],
             "name": "Croxley",
-            "zone": "7",
-            "longitude": "-0.4412",
-            "latitude": "51.647",
-            "line_ids": [
-                8
+            "lines": [
+                {
+                    "line_id": "MET",
+                    "branches": []
+                }
             ],
+            "longitude": "51.647",
+            "latitude": "-0.4412",
             "id": 62
         },
         {
             "interchanges": [],
             "name": "Custom House",
-            "zone": "3",
-            "longitude": "0.0276",
-            "latitude": "51.5095",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5095",
+            "latitude": "0.0276",
             "id": 63
         },
         {
             "interchanges": [],
             "name": "Cutty Sark",
-            "zone": "2.5",
-            "longitude": "-0.0096",
-            "latitude": "51.4827",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4827",
+            "latitude": "-0.0096",
             "id": 64
         },
         {
             "interchanges": [],
             "name": "Cyprus",
-            "zone": "3",
-            "longitude": "0.064",
-            "latitude": "51.5085",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5085",
+            "latitude": "0.064",
             "id": 65
         },
         {
             "interchanges": [],
             "name": "Dagenham East",
-            "zone": "5",
-            "longitude": "0.1655",
-            "latitude": "51.5443",
-            "line_ids": [
-                4
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5443",
+            "latitude": "0.1655",
             "id": 66
         },
         {
             "interchanges": [],
             "name": "Dagenham Heathway",
-            "zone": "5",
-            "longitude": "0.1469",
-            "latitude": "51.5417",
-            "line_ids": [
-                4
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5417",
+            "latitude": "0.1469",
             "id": 67
         },
         {
             "interchanges": [],
             "name": "Debden",
-            "zone": "6",
-            "longitude": "0.0838",
-            "latitude": "51.6455",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6455",
+            "latitude": "0.0838",
             "id": 68
         },
         {
             "interchanges": [],
             "name": "Deptford Bridge",
-            "zone": "2.5",
-            "longitude": "-0.0216",
-            "latitude": "51.474",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.474",
+            "latitude": "-0.0216",
             "id": 69
         },
         {
             "interchanges": [],
             "name": "Devons Road",
-            "zone": "2",
-            "longitude": "-0.0173",
-            "latitude": "51.5223",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5223",
+            "latitude": "-0.0173",
             "id": 70
         },
         {
             "interchanges": [],
             "name": "Dollis Hill",
-            "zone": "3",
-            "longitude": "-0.2387",
-            "latitude": "51.552",
-            "line_ids": [
-                7
+            "lines": [
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                }
             ],
+            "longitude": "51.552",
+            "latitude": "-0.2387",
             "id": 71
         },
         {
@@ -897,140 +1141,185 @@
                 "national_rail"
             ],
             "name": "Ealing Broadway",
-            "zone": "3",
-            "longitude": "-0.3017",
-            "latitude": "51.5152",
-            "line_ids": [
-                2,
-                4
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                },
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5152",
+            "latitude": "-0.3017",
             "id": 72
         },
         {
             "interchanges": [],
             "name": "Ealing Common",
-            "zone": "3",
-            "longitude": "-0.2882",
-            "latitude": "51.5101",
-            "line_ids": [
-                4,
-                10
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                },
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5101",
+            "latitude": "-0.2882",
             "id": 73
         },
         {
             "interchanges": [],
             "name": "Earl's Court",
-            "zone": "1.5",
-            "longitude": "-0.1973",
-            "latitude": "51.492",
-            "line_ids": [
-                4,
-                10
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                },
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.492",
+            "latitude": "-0.1973",
             "id": 74
         },
         {
             "interchanges": [],
             "name": "Eastcote",
-            "zone": "5",
-            "longitude": "-0.397",
-            "latitude": "51.5765",
-            "line_ids": [
-                8,
-                10
+            "lines": [
+                {
+                    "line_id": "MET",
+                    "branches": []
+                },
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5765",
+            "latitude": "-0.397",
             "id": 75
         },
         {
             "interchanges": [],
             "name": "East Acton",
-            "zone": "2",
-            "longitude": "-0.2474",
-            "latitude": "51.5168",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5168",
+            "latitude": "-0.2474",
             "id": 76
         },
         {
             "interchanges": [],
             "name": "East Finchley",
-            "zone": "3",
-            "longitude": "-0.165",
-            "latitude": "51.5874",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5874",
+            "latitude": "-0.165",
             "id": 77
         },
         {
             "interchanges": [],
             "name": "East Ham",
-            "zone": "3.5",
-            "longitude": "0.0518",
-            "latitude": "51.5394",
-            "line_ids": [
-                4,
-                6
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                },
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5394",
+            "latitude": "0.0518",
             "id": 78
         },
         {
             "interchanges": [],
             "name": "East India",
-            "zone": "2.5",
-            "longitude": "-0.0021",
-            "latitude": "51.5093",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5093",
+            "latitude": "-0.0021",
             "id": 79
         },
         {
             "interchanges": [],
             "name": "East Putney",
-            "zone": "2.5",
-            "longitude": "-0.2112",
-            "latitude": "51.4586",
-            "line_ids": [
-                4
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4586",
+            "latitude": "-0.2112",
             "id": 80
         },
         {
             "interchanges": [],
             "name": "Edgware",
-            "zone": "5",
-            "longitude": "-0.275",
-            "latitude": "51.6137",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6137",
+            "latitude": "-0.275",
             "id": 81
         },
         {
             "interchanges": [],
             "name": "Edgware Road (B)",
-            "zone": "1",
-            "longitude": "-0.1679",
-            "latitude": "51.5199",
-            "line_ids": [
-                1
+            "lines": [
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5199",
+            "latitude": "-0.1679",
             "id": 82
         },
         {
             "interchanges": [],
             "name": "Edgware Road (C)",
-            "zone": "1",
-            "longitude": "-0.17",
-            "latitude": "51.5203",
-            "line_ids": [
-                3,
-                4,
-                6
+            "lines": [
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                },
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5203",
+            "latitude": "-0.17",
             "id": 83
         },
         {
@@ -1038,60 +1327,82 @@
                 "national_rail"
             ],
             "name": "Elephant & Castle",
-            "zone": "1.5",
-            "longitude": "-0.1001",
-            "latitude": "51.4943",
-            "line_ids": [
-                1,
-                9
+            "lines": [
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                },
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4943",
+            "latitude": "-0.1001",
             "id": 84
         },
         {
             "interchanges": [],
             "name": "Elm Park",
-            "zone": "6",
-            "longitude": "0.1977",
-            "latitude": "51.5496",
-            "line_ids": [
-                4
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5496",
+            "latitude": "0.1977",
             "id": 85
         },
         {
             "interchanges": [],
             "name": "Elverson Road",
-            "zone": "2.5",
-            "longitude": "-0.0174",
-            "latitude": "51.4693",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4693",
+            "latitude": "-0.0174",
             "id": 86
         },
         {
             "interchanges": [],
             "name": "Embankment",
-            "zone": "1",
-            "longitude": "-0.1223",
-            "latitude": "51.5074",
-            "line_ids": [
-                1,
-                3,
-                4,
-                9
+            "lines": [
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                },
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                },
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5074",
+            "latitude": "-0.1223",
             "id": 87
         },
         {
             "interchanges": [],
             "name": "Epping",
-            "zone": "6",
-            "longitude": "0.1139",
-            "latitude": "51.6937",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6937",
+            "latitude": "0.1139",
             "id": 88
         },
         {
@@ -1099,37 +1410,52 @@
                 "national_rail"
             ],
             "name": "Euston",
-            "zone": "1",
-            "longitude": "-0.1337",
-            "latitude": "51.5282",
-            "line_ids": [
-                9,
-                11
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                },
+                {
+                    "line_id": "VIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5282",
+            "latitude": "-0.1337",
             "id": 89
         },
         {
             "interchanges": [],
             "name": "Euston Square",
-            "zone": "1",
-            "longitude": "-0.1359",
-            "latitude": "51.526",
-            "line_ids": [
-                3,
-                6,
-                8
+            "lines": [
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                },
+                {
+                    "line_id": "MET",
+                    "branches": []
+                }
             ],
+            "longitude": "51.526",
+            "latitude": "-0.1359",
             "id": 90
         },
         {
             "interchanges": [],
             "name": "Fairlop",
-            "zone": "5",
-            "longitude": "0.0912",
-            "latitude": "51.596",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.596",
+            "latitude": "0.0912",
             "id": 91
         },
         {
@@ -1137,37 +1463,52 @@
                 "national_rail"
             ],
             "name": "Farringdon",
-            "zone": "1",
-            "longitude": "-0.1053",
-            "latitude": "51.5203",
-            "line_ids": [
-                3,
-                6,
-                8
+            "lines": [
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                },
+                {
+                    "line_id": "MET",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5203",
+            "latitude": "-0.1053",
             "id": 92
         },
         {
             "interchanges": [],
             "name": "Finchley Central",
-            "zone": "4",
-            "longitude": "-0.1932",
-            "latitude": "51.6012",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6012",
+            "latitude": "-0.1932",
             "id": 93
         },
         {
             "interchanges": [],
             "name": "Finchley Road",
-            "zone": "2",
-            "longitude": "-0.1803",
-            "latitude": "51.5472",
-            "line_ids": [
-                7,
-                8
+            "lines": [
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                },
+                {
+                    "line_id": "MET",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5472",
+            "latitude": "-0.1803",
             "id": 94
         },
         {
@@ -1175,116 +1516,151 @@
                 "national_rail"
             ],
             "name": "Finsbury Park",
-            "zone": "2",
-            "longitude": "-0.1065",
-            "latitude": "51.5642",
-            "line_ids": [
-                10,
-                11
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                },
+                {
+                    "line_id": "VIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5642",
+            "latitude": "-0.1065",
             "id": 95
         },
         {
             "interchanges": [],
             "name": "Fulham Broadway",
-            "zone": "2",
-            "longitude": "-0.195",
-            "latitude": "51.4804",
-            "line_ids": [
-                4
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4804",
+            "latitude": "-0.195",
             "id": 96
         },
         {
             "interchanges": [],
             "name": "Gallions Reach",
-            "zone": "3",
-            "longitude": "0.0716",
-            "latitude": "51.5096",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5096",
+            "latitude": "0.0716",
             "id": 97
         },
         {
             "interchanges": [],
             "name": "Gants Hill",
-            "zone": "4",
-            "longitude": "0.0663",
-            "latitude": "51.5765",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5765",
+            "latitude": "0.0663",
             "id": 98
         },
         {
             "interchanges": [],
             "name": "Gloucester Road",
-            "zone": "1",
-            "longitude": "-0.1829",
-            "latitude": "51.4945",
-            "line_ids": [
-                3,
-                4,
-                10
+            "lines": [
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                },
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4945",
+            "latitude": "-0.1829",
             "id": 99
         },
         {
             "interchanges": [],
             "name": "Golders Green",
-            "zone": "3",
-            "longitude": "-0.1941",
-            "latitude": "51.5724",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5724",
+            "latitude": "-0.1941",
             "id": 100
         },
         {
             "interchanges": [],
             "name": "Goldhawk Road",
-            "zone": "2",
-            "longitude": "-0.2267",
-            "latitude": "51.5018",
-            "line_ids": [
-                6
+            "lines": [
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5018",
+            "latitude": "-0.2267",
             "id": 101
         },
         {
             "interchanges": [],
             "name": "Goodge Street",
-            "zone": "1",
-            "longitude": "-0.1347",
-            "latitude": "51.5205",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5205",
+            "latitude": "-0.1347",
             "id": 102
         },
         {
             "interchanges": [],
             "name": "Grange Hill",
-            "zone": "5",
-            "longitude": "0.0923",
-            "latitude": "51.6132",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6132",
+            "latitude": "0.0923",
             "id": 103
         },
         {
             "interchanges": [],
             "name": "Great Portland Street",
-            "zone": "1",
-            "longitude": "-0.1439",
-            "latitude": "51.5238",
-            "line_ids": [
-                3,
-                6,
-                8
+            "lines": [
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                },
+                {
+                    "line_id": "MET",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5238",
+            "latitude": "-0.1439",
             "id": 104
         },
         {
@@ -1292,12 +1668,14 @@
                 "national_rail"
             ],
             "name": "Greenford",
-            "zone": "4",
-            "longitude": "-0.3456",
-            "latitude": "51.5423",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5423",
+            "latitude": "-0.3456",
             "id": 105
         },
         {
@@ -1305,93 +1683,121 @@
                 "national_rail"
             ],
             "name": "Greenwich",
-            "zone": "2.5",
-            "longitude": "-0.0149",
-            "latitude": "51.4781",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4781",
+            "latitude": "-0.0149",
             "id": 106
         },
         {
             "interchanges": [],
             "name": "Green Park",
-            "zone": "1",
-            "longitude": "-0.1428",
-            "latitude": "51.5067",
-            "line_ids": [
-                7,
-                10,
-                11
+            "lines": [
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                },
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                },
+                {
+                    "line_id": "VIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5067",
+            "latitude": "-0.1428",
             "id": 107
         },
         {
             "interchanges": [],
             "name": "Gunnersbury",
-            "zone": "3",
-            "longitude": "-0.2754",
-            "latitude": "51.4915",
-            "line_ids": [
-                4
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4915",
+            "latitude": "-0.2754",
             "id": 108
         },
         {
             "interchanges": [],
             "name": "Hainault",
-            "zone": "5",
-            "longitude": "0.0933",
-            "latitude": "51.603",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.603",
+            "latitude": "0.0933",
             "id": 109
         },
         {
             "interchanges": [],
             "name": "Hammersmith",
-            "zone": "2",
-            "longitude": "-0.2251",
-            "latitude": "51.4936",
-            "line_ids": [
-                4,
-                6,
-                10
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                },
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                },
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4936",
+            "latitude": "-0.2251",
             "id": 110
         },
         {
             "interchanges": [],
             "name": "Hampstead",
-            "zone": "2.5",
-            "longitude": "-0.178",
-            "latitude": "51.5568",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5568",
+            "latitude": "-0.178",
             "id": 111
         },
         {
             "interchanges": [],
             "name": "Hanger Lane",
-            "zone": "3",
-            "longitude": "-0.2933",
-            "latitude": "51.5302",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5302",
+            "latitude": "-0.2933",
             "id": 112
         },
         {
             "interchanges": [],
             "name": "Harlesden",
-            "zone": "3",
-            "longitude": "-0.2575",
-            "latitude": "51.5362",
-            "line_ids": [
-                1
+            "lines": [
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5362",
+            "latitude": "-0.2575",
             "id": 113
         },
         {
@@ -1399,12 +1805,14 @@
                 "national_rail"
             ],
             "name": "Harrow & Wealdston",
-            "zone": "5",
-            "longitude": "-0.3351",
-            "latitude": "51.5925",
-            "line_ids": [
-                1
+            "lines": [
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5925",
+            "latitude": "-0.3351",
             "id": 114
         },
         {
@@ -1412,90 +1820,109 @@
                 "national_rail"
             ],
             "name": "Harrow-on-the-Hill",
-            "zone": "5",
-            "longitude": "-0.3366",
-            "latitude": "51.5793",
-            "line_ids": [
-                8
+            "lines": [
+                {
+                    "line_id": "MET",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5793",
+            "latitude": "-0.3366",
             "id": 115
         },
         {
             "interchanges": [],
             "name": "Hatton Cross",
-            "zone": "5.5",
-            "longitude": "-0.4227",
-            "latitude": "51.4669",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4669",
+            "latitude": "-0.4227",
             "id": 116
         },
         {
             "interchanges": [],
             "name": "Heathrow Terminals 1, 2 & 3",
-            "zone": "6",
-            "longitude": "-0.4524",
-            "latitude": "51.4713",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4713",
+            "latitude": "-0.4524",
             "id": 117
         },
         {
             "interchanges": [],
             "name": "Heathrow Terminal 4",
-            "zone": "6",
-            "longitude": "-0.4476",
-            "latitude": "51.4598",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4598",
+            "latitude": "-0.4476",
             "id": 118
         },
         {
             "interchanges": [],
             "name": "Hendon Central",
-            "zone": "3.5",
-            "longitude": "-0.2259",
-            "latitude": "51.5829",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5829",
+            "latitude": "-0.2259",
             "id": 119
         },
         {
             "interchanges": [],
             "name": "Heron Quays",
-            "zone": "2",
-            "longitude": "-0.0215",
-            "latitude": "51.5033",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5033",
+            "latitude": "-0.0215",
             "id": 120
         },
         {
             "interchanges": [],
             "name": "High Barnet",
-            "zone": "5",
-            "longitude": "-0.1943",
-            "latitude": "51.6503",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6503",
+            "latitude": "-0.1943",
             "id": 121
         },
         {
             "interchanges": [],
             "name": "High Street Kensington",
-            "zone": "1",
-            "longitude": "-0.1925",
-            "latitude": "51.5009",
-            "line_ids": [
-                3,
-                4
+            "lines": [
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5009",
+            "latitude": "-0.1925",
             "id": 122
         },
         {
@@ -1503,169 +1930,208 @@
                 "national_rail"
             ],
             "name": "Highbury & Islington",
-            "zone": "2",
-            "longitude": "-0.104",
-            "latitude": "51.546",
-            "line_ids": [
-                11
+            "lines": [
+                {
+                    "line_id": "VIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.546",
+            "latitude": "-0.104",
             "id": 123
         },
         {
             "interchanges": [],
             "name": "Highgate",
-            "zone": "3",
-            "longitude": "-0.1458",
-            "latitude": "51.5777",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5777",
+            "latitude": "-0.1458",
             "id": 124
         },
         {
             "interchanges": [],
             "name": "Hillingdon",
-            "zone": "6",
-            "longitude": "-0.4499",
-            "latitude": "51.5538",
-            "line_ids": [
-                8,
-                10
+            "lines": [
+                {
+                    "line_id": "MET",
+                    "branches": []
+                },
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5538",
+            "latitude": "-0.4499",
             "id": 125
         },
         {
             "interchanges": [],
             "name": "Holborn",
-            "zone": "1",
-            "longitude": "-0.12",
-            "latitude": "51.5174",
-            "line_ids": [
-                2,
-                10
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                },
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5174",
+            "latitude": "-0.12",
             "id": 126
         },
         {
             "interchanges": [],
             "name": "Holland Park",
-            "zone": "2",
-            "longitude": "-0.206",
-            "latitude": "51.5075",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5075",
+            "latitude": "-0.206",
             "id": 127
         },
         {
             "interchanges": [],
             "name": "Holloway Road",
-            "zone": "2",
-            "longitude": "-0.1132",
-            "latitude": "51.5526",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5526",
+            "latitude": "-0.1132",
             "id": 128
         },
         {
             "interchanges": [],
             "name": "Hornchurch",
-            "zone": "6",
-            "longitude": "0.2184",
-            "latitude": "51.5539",
-            "line_ids": [
-                4
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5539",
+            "latitude": "0.2184",
             "id": 129
         },
         {
             "interchanges": [],
             "name": "Hounslow Central",
-            "zone": "4",
-            "longitude": "-0.3665",
-            "latitude": "51.4713",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4713",
+            "latitude": "-0.3665",
             "id": 130
         },
         {
             "interchanges": [],
             "name": "Hounslow East",
-            "zone": "4",
-            "longitude": "-0.3564",
-            "latitude": "51.4733",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4733",
+            "latitude": "-0.3564",
             "id": 131
         },
         {
             "interchanges": [],
             "name": "Hounslow West",
-            "zone": "5",
-            "longitude": "-0.3855",
-            "latitude": "51.4734",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4734",
+            "latitude": "-0.3855",
             "id": 132
         },
         {
             "interchanges": [],
             "name": "Hyde Park Corner",
-            "zone": "1",
-            "longitude": "-0.1527",
-            "latitude": "51.5027",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5027",
+            "latitude": "-0.1527",
             "id": 133
         },
         {
             "interchanges": [],
             "name": "Ickenham",
-            "zone": "6",
-            "longitude": "-0.4421",
-            "latitude": "51.5619",
-            "line_ids": [
-                8,
-                10
+            "lines": [
+                {
+                    "line_id": "MET",
+                    "branches": []
+                },
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5619",
+            "latitude": "-0.4421",
             "id": 134
         },
         {
             "interchanges": [],
             "name": "Island Gardens",
-            "zone": "2",
-            "longitude": "-0.0101",
-            "latitude": "51.4871",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4871",
+            "latitude": "-0.0101",
             "id": 135
         },
         {
             "interchanges": [],
             "name": "Kennington",
-            "zone": "2",
-            "longitude": "-0.1053",
-            "latitude": "51.4884",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4884",
+            "latitude": "-0.1053",
             "id": 136
         },
         {
             "interchanges": [],
             "name": "Kensal Green",
-            "zone": "2",
-            "longitude": "-0.225",
-            "latitude": "51.5304",
-            "line_ids": [
-                1
+            "lines": [
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5304",
+            "latitude": "-0.225",
             "id": 137
         },
         {
@@ -1673,12 +2139,14 @@
                 "national_rail"
             ],
             "name": "Kensington (Olympia)",
-            "zone": "2",
-            "longitude": "-0.2106",
-            "latitude": "51.4983",
-            "line_ids": [
-                4
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4983",
+            "latitude": "-0.2106",
             "id": 138
         },
         {
@@ -1686,67 +2154,79 @@
                 "national_rail"
             ],
             "name": "Kentish Town",
-            "zone": "2",
-            "longitude": "-0.1402",
-            "latitude": "51.5507",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5507",
+            "latitude": "-0.1402",
             "id": 139
         },
         {
             "interchanges": [],
             "name": "Kenton",
-            "zone": "4",
-            "longitude": "-0.3162",
-            "latitude": "51.5816",
-            "line_ids": [
-                1
+            "lines": [
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5816",
+            "latitude": "-0.3162",
             "id": 140
         },
         {
             "interchanges": [],
             "name": "Kew Gardens",
-            "zone": "3.5",
-            "longitude": "-0.285",
-            "latitude": "51.477",
-            "line_ids": [
-                4
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.477",
+            "latitude": "-0.285",
             "id": 141
         },
         {
             "interchanges": [],
             "name": "Kilburn",
-            "zone": "2",
-            "longitude": "-0.2047",
-            "latitude": "51.5471",
-            "line_ids": [
-                7
+            "lines": [
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5471",
+            "latitude": "-0.2047",
             "id": 142
         },
         {
             "interchanges": [],
             "name": "Kilburn Park",
-            "zone": "2",
-            "longitude": "-0.1939",
-            "latitude": "51.5351",
-            "line_ids": [
-                1
+            "lines": [
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5351",
+            "latitude": "-0.1939",
             "id": 143
         },
         {
             "interchanges": [],
             "name": "Kingsbury",
-            "zone": "4",
-            "longitude": "-0.2786",
-            "latitude": "51.5846",
-            "line_ids": [
-                7
+            "lines": [
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5846",
+            "latitude": "-0.2786",
             "id": 144
         },
         {
@@ -1754,84 +2234,116 @@
                 "national_rail"
             ],
             "name": "King's Cross St. Pancras",
-            "zone": "1",
-            "longitude": "-0.1238",
-            "latitude": "51.5308",
-            "line_ids": [
-                3,
-                6,
-                8,
-                9,
-                10,
-                11
+            "lines": [
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                },
+                {
+                    "line_id": "MET",
+                    "branches": []
+                },
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                },
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                },
+                {
+                    "line_id": "VIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5308",
+            "latitude": "-0.1238",
             "id": 145
         },
         {
             "interchanges": [],
             "name": "Knightsbridge",
-            "zone": "1",
-            "longitude": "-0.1607",
-            "latitude": "51.5015",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5015",
+            "latitude": "-0.1607",
             "id": 146
         },
         {
             "interchanges": [],
             "name": "Ladbroke Grove",
-            "zone": "2",
-            "longitude": "-0.2107",
-            "latitude": "51.5172",
-            "line_ids": [
-                6
+            "lines": [
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5172",
+            "latitude": "-0.2107",
             "id": 147
         },
         {
             "interchanges": [],
             "name": "Lambeth North",
-            "zone": "1",
-            "longitude": "-0.1115",
-            "latitude": "51.4991",
-            "line_ids": [
-                1
+            "lines": [
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4991",
+            "latitude": "-0.1115",
             "id": 148
         },
         {
             "interchanges": [],
             "name": "Lancaster Gate",
-            "zone": "1",
-            "longitude": "-0.1756",
-            "latitude": "51.5119",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5119",
+            "latitude": "-0.1756",
             "id": 149
         },
         {
             "interchanges": [],
             "name": "Latimer Road",
-            "zone": "2",
-            "longitude": "-0.2172",
-            "latitude": "51.5139",
-            "line_ids": [
-                6
+            "lines": [
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5139",
+            "latitude": "-0.2172",
             "id": 150
         },
         {
             "interchanges": [],
             "name": "Leicester Square",
-            "zone": "1",
-            "longitude": "-0.1281",
-            "latitude": "51.5113",
-            "line_ids": [
-                9,
-                10
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                },
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5113",
+            "latitude": "-0.1281",
             "id": 151
         },
         {
@@ -1839,34 +2351,40 @@
                 "national_rail"
             ],
             "name": "Lewisham",
-            "zone": "2.5",
-            "longitude": "-0.0142",
-            "latitude": "51.4657",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4657",
+            "latitude": "-0.0142",
             "id": 152
         },
         {
             "interchanges": [],
             "name": "Leyton",
-            "zone": "3",
-            "longitude": "-0.0053",
-            "latitude": "51.5566",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5566",
+            "latitude": "-0.0053",
             "id": 153
         },
         {
             "interchanges": [],
             "name": "Leytonstone",
-            "zone": "3.5",
-            "longitude": "0.0083",
-            "latitude": "51.5683",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5683",
+            "latitude": "0.0083",
             "id": 154
         },
         {
@@ -1874,12 +2392,14 @@
                 "national_rail"
             ],
             "name": "Limehouse",
-            "zone": "2",
-            "longitude": "-0.0396",
-            "latitude": "51.5123",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5123",
+            "latitude": "-0.0396",
             "id": 155
         },
         {
@@ -1887,15 +2407,26 @@
                 "national_rail"
             ],
             "name": "Liverpool Street",
-            "zone": "1",
-            "longitude": "-0.0823",
-            "latitude": "51.5178",
-            "line_ids": [
-                2,
-                3,
-                6,
-                8
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                },
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                },
+                {
+                    "line_id": "MET",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5178",
+            "latitude": "-0.0823",
             "id": 156
         },
         {
@@ -1903,69 +2434,87 @@
                 "national_rail"
             ],
             "name": "London Bridge",
-            "zone": "1",
-            "longitude": "-0.0864",
-            "latitude": "51.5052",
-            "line_ids": [
-                7,
-                9
+            "lines": [
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                },
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5052",
+            "latitude": "-0.0864",
             "id": 157
         },
         {
             "interchanges": [],
             "name": "Loughton",
-            "zone": "6",
-            "longitude": "0.0558",
-            "latitude": "51.6412",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6412",
+            "latitude": "0.0558",
             "id": 158
         },
         {
             "interchanges": [],
             "name": "Maida Vale",
-            "zone": "2",
-            "longitude": "-0.1854",
-            "latitude": "51.53",
-            "line_ids": [
-                1
+            "lines": [
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.53",
+            "latitude": "-0.1854",
             "id": 159
         },
         {
             "interchanges": [],
             "name": "Manor House",
-            "zone": "2.5",
-            "longitude": "-0.0958",
-            "latitude": "51.5712",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5712",
+            "latitude": "-0.0958",
             "id": 160
         },
         {
             "interchanges": [],
             "name": "Mansion House",
-            "zone": "1",
-            "longitude": "-0.094",
-            "latitude": "51.5122",
-            "line_ids": [
-                3,
-                4
+            "lines": [
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5122",
+            "latitude": "-0.094",
             "id": 161
         },
         {
             "interchanges": [],
             "name": "Marble Arch",
-            "zone": "1",
-            "longitude": "-0.1586",
-            "latitude": "51.5136",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5136",
+            "latitude": "-0.1586",
             "id": 162
         },
         {
@@ -1973,48 +2522,65 @@
                 "national_rail"
             ],
             "name": "Marylebone",
-            "zone": "1",
-            "longitude": "-0.1631",
-            "latitude": "51.5225",
-            "line_ids": [
-                1
+            "lines": [
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5225",
+            "latitude": "-0.1631",
             "id": 163
         },
         {
             "interchanges": [],
             "name": "Mile End",
-            "zone": "2",
-            "longitude": "-0.0332",
-            "latitude": "51.5249",
-            "line_ids": [
-                2,
-                4,
-                6
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                },
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                },
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5249",
+            "latitude": "-0.0332",
             "id": 164
         },
         {
             "interchanges": [],
             "name": "Mill Hill East",
-            "zone": "4",
-            "longitude": "-0.2103",
-            "latitude": "51.6082",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6082",
+            "latitude": "-0.2103",
             "id": 165
         },
         {
             "interchanges": [],
             "name": "Monument",
-            "zone": "1",
-            "longitude": "-0.0863",
-            "latitude": "51.5108",
-            "line_ids": [
-                3,
-                4
+            "lines": [
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5108",
+            "latitude": "-0.0863",
             "id": 166
         },
         {
@@ -2022,81 +2588,104 @@
                 "national_rail"
             ],
             "name": "Moorgate",
-            "zone": "1",
-            "longitude": "-0.0886",
-            "latitude": "51.5186",
-            "line_ids": [
-                3,
-                6,
-                8,
-                9
+            "lines": [
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                },
+                {
+                    "line_id": "MET",
+                    "branches": []
+                },
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5186",
+            "latitude": "-0.0886",
             "id": 167
         },
         {
             "interchanges": [],
             "name": "Moor Park",
-            "zone": "6.5",
-            "longitude": "-0.432",
-            "latitude": "51.6294",
-            "line_ids": [
-                8
+            "lines": [
+                {
+                    "line_id": "MET",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6294",
+            "latitude": "-0.432",
             "id": 168
         },
         {
             "interchanges": [],
             "name": "Morden",
-            "zone": "4",
-            "longitude": "-0.1948",
-            "latitude": "51.4022",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4022",
+            "latitude": "-0.1948",
             "id": 169
         },
         {
             "interchanges": [],
             "name": "Mornington Crescent",
-            "zone": "2",
-            "longitude": "-0.1387",
-            "latitude": "51.5342",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5342",
+            "latitude": "-0.1387",
             "id": 170
         },
         {
             "interchanges": [],
             "name": "Mudchute",
-            "zone": "2",
-            "longitude": "-0.0145",
-            "latitude": "51.4902",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4902",
+            "latitude": "-0.0145",
             "id": 171
         },
         {
             "interchanges": [],
             "name": "Neasden",
-            "zone": "3",
-            "longitude": "-0.2503",
-            "latitude": "51.5542",
-            "line_ids": [
-                7
+            "lines": [
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5542",
+            "latitude": "-0.2503",
             "id": 172
         },
         {
             "interchanges": [],
             "name": "Newbury Park",
-            "zone": "4",
-            "longitude": "0.0899",
-            "latitude": "51.5756",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5756",
+            "latitude": "0.0899",
             "id": 173
         },
         {
@@ -2104,12 +2693,14 @@
                 "national_rail"
             ],
             "name": "New Cross",
-            "zone": "2",
-            "longitude": "-0.0327",
-            "latitude": "51.4767",
-            "line_ids": [
-                5
+            "lines": [
+                {
+                    "line_id": "ELL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4767",
+            "latitude": "-0.0327",
             "id": 174
         },
         {
@@ -2117,146 +2708,178 @@
                 "national_rail"
             ],
             "name": "New Cross Gate",
-            "zone": "2",
-            "longitude": "-0.0402",
-            "latitude": "51.4757",
-            "line_ids": [
-                5
+            "lines": [
+                {
+                    "line_id": "ELL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4757",
+            "latitude": "-0.0402",
             "id": 175
         },
         {
             "interchanges": [],
             "name": "Northfields",
-            "zone": "3",
-            "longitude": "-0.3142",
-            "latitude": "51.4995",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4995",
+            "latitude": "-0.3142",
             "id": 176
         },
         {
             "interchanges": [],
             "name": "Northolt",
-            "zone": "5",
-            "longitude": "-0.3687",
-            "latitude": "51.5483",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5483",
+            "latitude": "-0.3687",
             "id": 177
         },
         {
             "interchanges": [],
             "name": "Northwick Park",
-            "zone": "4",
-            "longitude": "-0.3184",
-            "latitude": "51.5784",
-            "line_ids": [
-                8
+            "lines": [
+                {
+                    "line_id": "MET",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5784",
+            "latitude": "-0.3184",
             "id": 178
         },
         {
             "interchanges": [],
             "name": "Northwood",
-            "zone": "6",
-            "longitude": "-0.424",
-            "latitude": "51.6111",
-            "line_ids": [
-                8
+            "lines": [
+                {
+                    "line_id": "MET",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6111",
+            "latitude": "-0.424",
             "id": 179
         },
         {
             "interchanges": [],
             "name": "Northwood Hills",
-            "zone": "6",
-            "longitude": "-0.4092",
-            "latitude": "51.6004",
-            "line_ids": [
-                8
+            "lines": [
+                {
+                    "line_id": "MET",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6004",
+            "latitude": "-0.4092",
             "id": 180
         },
         {
             "interchanges": [],
             "name": "North Acton",
-            "zone": "2.5",
-            "longitude": "-0.2597",
-            "latitude": "51.5237",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5237",
+            "latitude": "-0.2597",
             "id": 181
         },
         {
             "interchanges": [],
             "name": "North Ealing",
-            "zone": "3",
-            "longitude": "-0.2887",
-            "latitude": "51.5175",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5175",
+            "latitude": "-0.2887",
             "id": 182
         },
         {
             "interchanges": [],
             "name": "North Greenwich",
-            "zone": "2.5",
-            "longitude": "0.0039",
-            "latitude": "51.5005",
-            "line_ids": [
-                7
+            "lines": [
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5005",
+            "latitude": "0.0039",
             "id": 183
         },
         {
             "interchanges": [],
             "name": "North Harrow",
-            "zone": "5",
-            "longitude": "-0.3626",
-            "latitude": "51.5846",
-            "line_ids": [
-                8
+            "lines": [
+                {
+                    "line_id": "MET",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5846",
+            "latitude": "-0.3626",
             "id": 184
         },
         {
             "interchanges": [],
             "name": "North Wembley",
-            "zone": "4",
-            "longitude": "-0.3034",
-            "latitude": "51.5621",
-            "line_ids": [
-                1
+            "lines": [
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5621",
+            "latitude": "-0.3034",
             "id": 185
         },
         {
             "interchanges": [],
             "name": "Notting Hill Gate",
-            "zone": "1.5",
-            "longitude": "-0.1967",
-            "latitude": "51.5094",
-            "line_ids": [
-                2,
-                3,
-                4
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                },
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5094",
+            "latitude": "-0.1967",
             "id": 186
         },
         {
             "interchanges": [],
             "name": "Oakwood",
-            "zone": "5",
-            "longitude": "-0.1318",
-            "latitude": "51.6476",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6476",
+            "latitude": "-0.1318",
             "id": 187
         },
         {
@@ -2264,47 +2887,61 @@
                 "national_rail"
             ],
             "name": "Old Street",
-            "zone": "1",
-            "longitude": "-0.0873",
-            "latitude": "51.5263",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5263",
+            "latitude": "-0.0873",
             "id": 188
         },
         {
             "interchanges": [],
             "name": "Osterley",
-            "zone": "4",
-            "longitude": "-0.3522",
-            "latitude": "51.4813",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4813",
+            "latitude": "-0.3522",
             "id": 190
         },
         {
             "interchanges": [],
             "name": "Oval",
-            "zone": "2",
-            "longitude": "-0.113",
-            "latitude": "51.4819",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4819",
+            "latitude": "-0.113",
             "id": 191
         },
         {
             "interchanges": [],
             "name": "Oxford Circus",
-            "zone": "1",
-            "longitude": "-0.1415",
-            "latitude": "51.515",
-            "line_ids": [
-                1,
-                2,
-                11
+            "lines": [
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                },
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                },
+                {
+                    "line_id": "VIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.515",
+            "latitude": "-0.1415",
             "id": 192
         },
         {
@@ -2312,149 +2949,190 @@
                 "national_rail"
             ],
             "name": "Paddington",
-            "zone": "1",
-            "longitude": "-0.1755",
-            "latitude": "51.5154",
-            "line_ids": [
-                1,
-                3,
-                4,
-                6
+            "lines": [
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                },
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                },
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5154",
+            "latitude": "-0.1755",
             "id": 193
         },
         {
             "interchanges": [],
             "name": "Park Royal",
-            "zone": "3",
-            "longitude": "-0.2841",
-            "latitude": "51.527",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.527",
+            "latitude": "-0.2841",
             "id": 194
         },
         {
             "interchanges": [],
             "name": "Parsons Green",
-            "zone": "2",
-            "longitude": "-0.2011",
-            "latitude": "51.4753",
-            "line_ids": [
-                4
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4753",
+            "latitude": "-0.2011",
             "id": 195
         },
         {
             "interchanges": [],
             "name": "Perivale",
-            "zone": "4",
-            "longitude": "-0.3232",
-            "latitude": "51.5366",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5366",
+            "latitude": "-0.3232",
             "id": 196
         },
         {
             "interchanges": [],
             "name": "Picadilly Circus",
-            "zone": "1",
-            "longitude": "-0.1342",
-            "latitude": "51.5098",
-            "line_ids": [
-                1,
-                10
+            "lines": [
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                },
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5098",
+            "latitude": "-0.1342",
             "id": 197
         },
         {
             "interchanges": [],
             "name": "Pimlico",
-            "zone": "1",
-            "longitude": "-0.1334",
-            "latitude": "51.4893",
-            "line_ids": [
-                11
+            "lines": [
+                {
+                    "line_id": "VIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4893",
+            "latitude": "-0.1334",
             "id": 198
         },
         {
             "interchanges": [],
             "name": "Pinner",
-            "zone": "5",
-            "longitude": "-0.3805",
-            "latitude": "51.5926",
-            "line_ids": [
-                8
+            "lines": [
+                {
+                    "line_id": "MET",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5926",
+            "latitude": "-0.3805",
             "id": 199
         },
         {
             "interchanges": [],
             "name": "Plaistow",
-            "zone": "3",
-            "longitude": "0.0172",
-            "latitude": "51.5313",
-            "line_ids": [
-                4,
-                6
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                },
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5313",
+            "latitude": "0.0172",
             "id": 200
         },
         {
             "interchanges": [],
             "name": "Poplar",
-            "zone": "2",
-            "longitude": "-0.0173",
-            "latitude": "51.5077",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5077",
+            "latitude": "-0.0173",
             "id": 201
         },
         {
             "interchanges": [],
             "name": "Preston Road",
-            "zone": "4",
-            "longitude": "-0.2954",
-            "latitude": "51.572",
-            "line_ids": [
-                8
+            "lines": [
+                {
+                    "line_id": "MET",
+                    "branches": []
+                }
             ],
+            "longitude": "51.572",
+            "latitude": "-0.2954",
             "id": 202
         },
         {
             "interchanges": [],
             "name": "Prince Regent",
-            "zone": "3",
-            "longitude": "0.0336",
-            "latitude": "51.5093",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5093",
+            "latitude": "0.0336",
             "id": 203
         },
         {
             "interchanges": [],
             "name": "Pudding Mill Lane",
-            "zone": "2.5",
-            "longitude": "-0.0139",
-            "latitude": "51.5343",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5343",
+            "latitude": "-0.0139",
             "id": 204
         },
         {
             "interchanges": [],
             "name": "Putney Bridge",
-            "zone": "2",
-            "longitude": "-0.2089",
-            "latitude": "51.4682",
-            "line_ids": [
-                4
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4682",
+            "latitude": "-0.2089",
             "id": 205
         },
         {
@@ -2462,79 +3140,96 @@
                 "national_rail"
             ],
             "name": "Queen's Park",
-            "zone": "2",
-            "longitude": "-0.2047",
-            "latitude": "51.5341",
-            "line_ids": [
-                1
+            "lines": [
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5341",
+            "latitude": "-0.2047",
             "id": 206
         },
         {
             "interchanges": [],
             "name": "Queensbury",
-            "zone": "4",
-            "longitude": "-0.2861",
-            "latitude": "51.5942",
-            "line_ids": [
-                7
+            "lines": [
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5942",
+            "latitude": "-0.2861",
             "id": 207
         },
         {
             "interchanges": [],
             "name": "Queensway",
-            "zone": "1",
-            "longitude": "-0.1877",
-            "latitude": "51.5107",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5107",
+            "latitude": "-0.1877",
             "id": 208
         },
         {
             "interchanges": [],
             "name": "Ravenscourt Park",
-            "zone": "2",
-            "longitude": "-0.2359",
-            "latitude": "51.4942",
-            "line_ids": [
-                4
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4942",
+            "latitude": "-0.2359",
             "id": 209
         },
         {
             "interchanges": [],
             "name": "Rayners Lane",
-            "zone": "5",
-            "longitude": "-0.3714",
-            "latitude": "51.5753",
-            "line_ids": [
-                8,
-                10
+            "lines": [
+                {
+                    "line_id": "MET",
+                    "branches": []
+                },
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5753",
+            "latitude": "-0.3714",
             "id": 210
         },
         {
             "interchanges": [],
             "name": "Redbridge",
-            "zone": "4",
-            "longitude": "0.0454",
-            "latitude": "51.5763",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5763",
+            "latitude": "0.0454",
             "id": 211
         },
         {
             "interchanges": [],
             "name": "Regent's Park",
-            "zone": "1",
-            "longitude": "-0.1466",
-            "latitude": "51.5234",
-            "line_ids": [
-                1
+            "lines": [
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5234",
+            "latitude": "-0.1466",
             "id": 212
         },
         {
@@ -2542,124 +3237,152 @@
                 "national_rail"
             ],
             "name": "Richmond",
-            "zone": "4",
-            "longitude": "-0.3013",
-            "latitude": "51.4633",
-            "line_ids": [
-                4
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4633",
+            "latitude": "-0.3013",
             "id": 213
         },
         {
             "interchanges": [],
             "name": "Rickmansworth",
-            "zone": "7",
-            "longitude": "-0.4733",
-            "latitude": "51.6404",
-            "line_ids": [
-                8
+            "lines": [
+                {
+                    "line_id": "MET",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6404",
+            "latitude": "-0.4733",
             "id": 214
         },
         {
             "interchanges": [],
             "name": "Roding Valley",
-            "zone": "5",
-            "longitude": "0.0439",
-            "latitude": "51.6171",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6171",
+            "latitude": "0.0439",
             "id": 215
         },
         {
             "interchanges": [],
             "name": "Rotherhithe",
-            "zone": "2",
-            "longitude": "-0.0525",
-            "latitude": "51.501",
-            "line_ids": [
-                5
+            "lines": [
+                {
+                    "line_id": "ELL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.501",
+            "latitude": "-0.0525",
             "id": 216
         },
         {
             "interchanges": [],
             "name": "Royal Albert",
-            "zone": "3",
-            "longitude": "0.0465",
-            "latitude": "51.5084",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5084",
+            "latitude": "0.0465",
             "id": 217
         },
         {
             "interchanges": [],
             "name": "Royal Oak",
-            "zone": "2",
-            "longitude": "-0.188",
-            "latitude": "51.519",
-            "line_ids": [
-                6
+            "lines": [
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.519",
+            "latitude": "-0.188",
             "id": 218
         },
         {
             "interchanges": [],
             "name": "Royal Victoria",
-            "zone": "3",
-            "longitude": "0.0181",
-            "latitude": "51.5091",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5091",
+            "latitude": "0.0181",
             "id": 219
         },
         {
             "interchanges": [],
             "name": "Ruislip",
-            "zone": "6",
-            "longitude": "-0.4213",
-            "latitude": "51.5715",
-            "line_ids": [
-                8,
-                10
+            "lines": [
+                {
+                    "line_id": "MET",
+                    "branches": []
+                },
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5715",
+            "latitude": "-0.4213",
             "id": 220
         },
         {
             "interchanges": [],
             "name": "Ruislip Gardens",
-            "zone": "5",
-            "longitude": "-0.4103",
-            "latitude": "51.5606",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5606",
+            "latitude": "-0.4103",
             "id": 221
         },
         {
             "interchanges": [],
             "name": "Ruislip Manor",
-            "zone": "6",
-            "longitude": "-0.4125",
-            "latitude": "51.5732",
-            "line_ids": [
-                8,
-                10
+            "lines": [
+                {
+                    "line_id": "MET",
+                    "branches": []
+                },
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5732",
+            "latitude": "-0.4125",
             "id": 222
         },
         {
             "interchanges": [],
             "name": "Russell Square",
-            "zone": "1",
-            "longitude": "-0.1244",
-            "latitude": "51.523",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.523",
+            "latitude": "-0.1244",
             "id": 223
         },
         {
@@ -2667,170 +3390,212 @@
                 "national_rail"
             ],
             "name": "Seven Sisters",
-            "zone": "3",
-            "longitude": "-0.0749",
-            "latitude": "51.5822",
-            "line_ids": [
-                11
+            "lines": [
+                {
+                    "line_id": "VIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5822",
+            "latitude": "-0.0749",
             "id": 224
         },
         {
             "interchanges": [],
             "name": "Shadwell",
-            "zone": "2",
-            "longitude": "-0.056",
-            "latitude": "51.5117",
-            "line_ids": [
-                5,
-                13
+            "lines": [
+                {
+                    "line_id": "ELL",
+                    "branches": []
+                },
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5117",
+            "latitude": "-0.056",
             "id": 225
         },
         {
             "interchanges": [],
             "name": "Shepherd's Bush (C)",
-            "zone": "2",
-            "longitude": "-0.2187",
-            "latitude": "51.5046",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5046",
+            "latitude": "-0.2187",
             "id": 226
         },
         {
             "interchanges": [],
             "name": "Shepherd's Bush (H)",
-            "zone": "2",
-            "longitude": "-0.2265",
-            "latitude": "51.5058",
-            "line_ids": [
-                6
+            "lines": [
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5058",
+            "latitude": "-0.2265",
             "id": 227
         },
         {
             "interchanges": [],
             "name": "Shoreditch",
-            "zone": "2",
-            "longitude": "-0.0708",
-            "latitude": "51.5227",
-            "line_ids": [
-                5
+            "lines": [
+                {
+                    "line_id": "ELL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5227",
+            "latitude": "-0.0708",
             "id": 228
         },
         {
             "interchanges": [],
             "name": "Sloane Square",
-            "zone": "1",
-            "longitude": "-0.1565",
-            "latitude": "51.4924",
-            "line_ids": [
-                3,
-                4
+            "lines": [
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4924",
+            "latitude": "-0.1565",
             "id": 229
         },
         {
             "interchanges": [],
             "name": "Snaresbrook",
-            "zone": "4",
-            "longitude": "0.0216",
-            "latitude": "51.5808",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5808",
+            "latitude": "0.0216",
             "id": 230
         },
         {
             "interchanges": [],
             "name": "Southfields",
-            "zone": "3",
-            "longitude": "-0.2066",
-            "latitude": "51.4454",
-            "line_ids": [
-                4
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4454",
+            "latitude": "-0.2066",
             "id": 231
         },
         {
             "interchanges": [],
             "name": "Southgate",
-            "zone": "4",
-            "longitude": "-0.128",
-            "latitude": "51.6322",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6322",
+            "latitude": "-0.128",
             "id": 232
         },
         {
             "interchanges": [],
             "name": "Southwark",
-            "zone": "1",
-            "longitude": "-0.1052",
-            "latitude": "51.504",
-            "line_ids": [
-                7
+            "lines": [
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                }
             ],
+            "longitude": "51.504",
+            "latitude": "-0.1052",
             "id": 233
         },
         {
             "interchanges": [],
             "name": "South Ealing",
-            "zone": "3",
-            "longitude": "-0.3072",
-            "latitude": "51.5011",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5011",
+            "latitude": "-0.3072",
             "id": 234
         },
         {
             "interchanges": [],
             "name": "South Harrow",
-            "zone": "5",
-            "longitude": "-0.3521",
-            "latitude": "51.5646",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5646",
+            "latitude": "-0.3521",
             "id": 235
         },
         {
             "interchanges": [],
             "name": "South Kensington",
-            "zone": "1",
-            "longitude": "-0.1738",
-            "latitude": "51.4941",
-            "line_ids": [
-                3,
-                4,
-                10
+            "lines": [
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                },
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4941",
+            "latitude": "-0.1738",
             "id": 236
         },
         {
             "interchanges": [],
             "name": "South Kenton",
-            "zone": "4",
-            "longitude": "-0.3081",
-            "latitude": "51.5701",
-            "line_ids": [
-                1
+            "lines": [
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5701",
+            "latitude": "-0.3081",
             "id": 237
         },
         {
             "interchanges": [],
             "name": "South Quay",
-            "zone": "2",
-            "longitude": "-0.0191",
-            "latitude": "51.5007",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5007",
+            "latitude": "-0.0191",
             "id": 238
         },
         {
@@ -2838,91 +3603,113 @@
                 "national_rail"
             ],
             "name": "South Ruislip",
-            "zone": "5",
-            "longitude": "-0.3988",
-            "latitude": "51.5569",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5569",
+            "latitude": "-0.3988",
             "id": 239
         },
         {
             "interchanges": [],
             "name": "South Wimbledon",
-            "zone": "3.5",
-            "longitude": "-0.1919",
-            "latitude": "51.4154",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4154",
+            "latitude": "-0.1919",
             "id": 240
         },
         {
             "interchanges": [],
             "name": "South Woodford",
-            "zone": "4",
-            "longitude": "0.0275",
-            "latitude": "51.5917",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5917",
+            "latitude": "0.0275",
             "id": 241
         },
         {
             "interchanges": [],
             "name": "Stamford Brook",
-            "zone": "2",
-            "longitude": "-0.2459",
-            "latitude": "51.495",
-            "line_ids": [
-                4
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.495",
+            "latitude": "-0.2459",
             "id": 242
         },
         {
             "interchanges": [],
             "name": "Stanmore",
-            "zone": "5",
-            "longitude": "-0.3028",
-            "latitude": "51.6194",
-            "line_ids": [
-                7
+            "lines": [
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6194",
+            "latitude": "-0.3028",
             "id": 243
         },
         {
             "interchanges": [],
             "name": "Stepney Green",
-            "zone": "2",
-            "longitude": "-0.047",
-            "latitude": "51.5221",
-            "line_ids": [
-                4,
-                6
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                },
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5221",
+            "latitude": "-0.047",
             "id": 244
         },
         {
             "interchanges": [],
             "name": "Stockwell",
-            "zone": "2",
-            "longitude": "-0.123",
-            "latitude": "51.4723",
-            "line_ids": [
-                9,
-                11
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                },
+                {
+                    "line_id": "VIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4723",
+            "latitude": "-0.123",
             "id": 245
         },
         {
             "interchanges": [],
             "name": "Stonebridge Park",
-            "zone": "3",
-            "longitude": "-0.2759",
-            "latitude": "51.5439",
-            "line_ids": [
-                1
+            "lines": [
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5439",
+            "latitude": "-0.2759",
             "id": 246
         },
         {
@@ -2930,149 +3717,190 @@
                 "national_rail"
             ],
             "name": "Stratford",
-            "zone": "3",
-            "longitude": "-0.0042",
-            "latitude": "51.5416",
-            "line_ids": [
-                2,
-                7,
-                13
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                },
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                },
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5416",
+            "latitude": "-0.0042",
             "id": 247
         },
         {
             "interchanges": [],
             "name": "St. James's Park",
-            "zone": "1",
-            "longitude": "-0.1335",
-            "latitude": "51.4994",
-            "line_ids": [
-                3,
-                4
+            "lines": [
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4994",
+            "latitude": "-0.1335",
             "id": 248
         },
         {
             "interchanges": [],
             "name": "St. John's Wood",
-            "zone": "2",
-            "longitude": "-0.174",
-            "latitude": "51.5347",
-            "line_ids": [
-                7
+            "lines": [
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5347",
+            "latitude": "-0.174",
             "id": 249
         },
         {
             "interchanges": [],
             "name": "St. Paul's",
-            "zone": "1",
-            "longitude": "-0.0973",
-            "latitude": "51.5146",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5146",
+            "latitude": "-0.0973",
             "id": 250
         },
         {
             "interchanges": [],
             "name": "Sudbury Hill",
-            "zone": "4",
-            "longitude": "-0.3366",
-            "latitude": "51.5569",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5569",
+            "latitude": "-0.3366",
             "id": 251
         },
         {
             "interchanges": [],
             "name": "Sudbury Town",
-            "zone": "4",
-            "longitude": "-0.3156",
-            "latitude": "51.5507",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5507",
+            "latitude": "-0.3156",
             "id": 252
         },
         {
             "interchanges": [],
             "name": "Surrey Quays",
-            "zone": "2",
-            "longitude": "-0.0478",
-            "latitude": "51.4933",
-            "line_ids": [
-                5
+            "lines": [
+                {
+                    "line_id": "ELL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4933",
+            "latitude": "-0.0478",
             "id": 253
         },
         {
             "interchanges": [],
             "name": "Swiss Cottage",
-            "zone": "2",
-            "longitude": "-0.1738",
-            "latitude": "51.5432",
-            "line_ids": [
-                7
+            "lines": [
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5432",
+            "latitude": "-0.1738",
             "id": 254
         },
         {
             "interchanges": [],
             "name": "Temple",
-            "zone": "1",
-            "longitude": "-0.1141",
-            "latitude": "51.5111",
-            "line_ids": [
-                3,
-                4
+            "lines": [
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5111",
+            "latitude": "-0.1141",
             "id": 255
         },
         {
             "interchanges": [],
             "name": "Theydon Bois",
-            "zone": "6",
-            "longitude": "0.1033",
-            "latitude": "51.6717",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6717",
+            "latitude": "0.1033",
             "id": 256
         },
         {
             "interchanges": [],
             "name": "Tooting Bec",
-            "zone": "3",
-            "longitude": "-0.1598",
-            "latitude": "51.4361",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4361",
+            "latitude": "-0.1598",
             "id": 257
         },
         {
             "interchanges": [],
             "name": "Tooting Broadway",
-            "zone": "3",
-            "longitude": "-0.168",
-            "latitude": "51.4275",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4275",
+            "latitude": "-0.168",
             "id": 258
         },
         {
             "interchanges": [],
             "name": "Tottenham Court Road",
-            "zone": "1",
-            "longitude": "-0.131",
-            "latitude": "51.5165",
-            "line_ids": [
-                2,
-                9
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                },
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5165",
+            "latitude": "-0.131",
             "id": 259
         },
         {
@@ -3080,80 +3908,100 @@
                 "national_rail"
             ],
             "name": "Tottenham Hale",
-            "zone": "3",
-            "longitude": "-0.0594",
-            "latitude": "51.5882",
-            "line_ids": [
-                11
+            "lines": [
+                {
+                    "line_id": "VIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5882",
+            "latitude": "-0.0594",
             "id": 260
         },
         {
             "interchanges": [],
             "name": "Totteridge & Whetstone",
-            "zone": "4",
-            "longitude": "-0.1791",
-            "latitude": "51.6302",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6302",
+            "latitude": "-0.1791",
             "id": 261
         },
         {
             "interchanges": [],
             "name": "Tower Gateway",
-            "zone": "1",
-            "longitude": "-0.0743",
-            "latitude": "51.5106",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5106",
+            "latitude": "-0.0743",
             "id": 262
         },
         {
             "interchanges": [],
             "name": "Tower Hill",
-            "zone": "1",
-            "longitude": "-0.0766",
-            "latitude": "51.5098",
-            "line_ids": [
-                3,
-                4
+            "lines": [
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5098",
+            "latitude": "-0.0766",
             "id": 263
         },
         {
             "interchanges": [],
             "name": "Tufnell Park",
-            "zone": "2",
-            "longitude": "-0.1374",
-            "latitude": "51.5567",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5567",
+            "latitude": "-0.1374",
             "id": 264
         },
         {
             "interchanges": [],
             "name": "Turnham Green",
-            "zone": "2.5",
-            "longitude": "-0.2547",
-            "latitude": "51.4951",
-            "line_ids": [
-                4,
-                10
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                },
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4951",
+            "latitude": "-0.2547",
             "id": 265
         },
         {
             "interchanges": [],
             "name": "Turnpike Lane",
-            "zone": "3",
-            "longitude": "-0.1028",
-            "latitude": "51.5904",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5904",
+            "latitude": "-0.1028",
             "id": 266
         },
         {
@@ -3161,58 +4009,74 @@
                 "national_rail"
             ],
             "name": "Upminster",
-            "zone": "6",
-            "longitude": "0.251",
-            "latitude": "51.559",
-            "line_ids": [
-                4
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.559",
+            "latitude": "0.251",
             "id": 267
         },
         {
             "interchanges": [],
             "name": "Upminster Bridge",
-            "zone": "6",
-            "longitude": "0.2343",
-            "latitude": "51.5582",
-            "line_ids": [
-                4
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5582",
+            "latitude": "0.2343",
             "id": 268
         },
         {
             "interchanges": [],
             "name": "Upney",
-            "zone": "4",
-            "longitude": "0.1014",
-            "latitude": "51.5385",
-            "line_ids": [
-                4
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5385",
+            "latitude": "0.1014",
             "id": 269
         },
         {
             "interchanges": [],
             "name": "Upton Park",
-            "zone": "3",
-            "longitude": "0.0343",
-            "latitude": "51.5352",
-            "line_ids": [
-                4,
-                6
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                },
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5352",
+            "latitude": "0.0343",
             "id": 270
         },
         {
             "interchanges": [],
             "name": "Uxbridge",
-            "zone": "6",
-            "longitude": "-0.4786",
-            "latitude": "51.5463",
-            "line_ids": [
-                8,
-                10
+            "lines": [
+                {
+                    "line_id": "MET",
+                    "branches": []
+                },
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5463",
+            "latitude": "-0.4786",
             "id": 271
         },
         {
@@ -3220,12 +4084,14 @@
                 "national_rail"
             ],
             "name": "Vauxhall",
-            "zone": "1.5",
-            "longitude": "-0.1253",
-            "latitude": "51.4861",
-            "line_ids": [
-                11
+            "lines": [
+                {
+                    "line_id": "VIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4861",
+            "latitude": "-0.1253",
             "id": 272
         },
         {
@@ -3233,14 +4099,22 @@
                 "national_rail"
             ],
             "name": "Victoria",
-            "zone": "1",
-            "longitude": "-0.1447",
-            "latitude": "51.4965",
-            "line_ids": [
-                3,
-                4,
-                11
+            "lines": [
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                },
+                {
+                    "line_id": "VIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4965",
+            "latitude": "-0.1447",
             "id": 273
         },
         {
@@ -3248,57 +4122,70 @@
                 "national_rail"
             ],
             "name": "Walthamstow Central",
-            "zone": "3",
-            "longitude": "-0.0195",
-            "latitude": "51.583",
-            "line_ids": [
-                11
+            "lines": [
+                {
+                    "line_id": "VIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.583",
+            "latitude": "-0.0195",
             "id": 274
         },
         {
             "interchanges": [],
             "name": "Wanstead",
-            "zone": "4",
-            "longitude": "0.0288",
-            "latitude": "51.5775",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5775",
+            "latitude": "0.0288",
             "id": 275
         },
         {
             "interchanges": [],
             "name": "Wapping",
-            "zone": "2",
-            "longitude": "-0.0558",
-            "latitude": "51.5043",
-            "line_ids": [
-                5
+            "lines": [
+                {
+                    "line_id": "ELL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5043",
+            "latitude": "-0.0558",
             "id": 276
         },
         {
             "interchanges": [],
             "name": "Warren Street",
-            "zone": "1",
-            "longitude": "-0.1384",
-            "latitude": "51.5247",
-            "line_ids": [
-                9,
-                11
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                },
+                {
+                    "line_id": "VIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5247",
+            "latitude": "-0.1384",
             "id": 277
         },
         {
             "interchanges": [],
             "name": "Warwick Avenue",
-            "zone": "2",
-            "longitude": "-0.1835",
-            "latitude": "51.5235",
-            "line_ids": [
-                1
+            "lines": [
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5235",
+            "latitude": "-0.1835",
             "id": 278
         },
         {
@@ -3306,26 +4193,39 @@
                 "national_rail"
             ],
             "name": "Waterloo",
-            "zone": "1",
-            "longitude": "-0.1143",
-            "latitude": "51.5036",
-            "line_ids": [
-                1,
-                7,
-                9,
-                12
+            "lines": [
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                },
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                },
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                },
+                {
+                    "line_id": "WCL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5036",
+            "latitude": "-0.1143",
             "id": 279
         },
         {
             "interchanges": [],
             "name": "Watford",
-            "zone": "8",
-            "longitude": "-0.4177",
-            "latitude": "51.6573",
-            "line_ids": [
-                8
+            "lines": [
+                {
+                    "line_id": "MET",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6573",
+            "latitude": "-0.4177",
             "id": 280
         },
         {
@@ -3333,70 +4233,91 @@
                 "national_rail"
             ],
             "name": "Wembley Central",
-            "zone": "4",
-            "longitude": "-0.2963",
-            "latitude": "51.5519",
-            "line_ids": [
-                1
+            "lines": [
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5519",
+            "latitude": "-0.2963",
             "id": 281
         },
         {
             "interchanges": [],
             "name": "Wembley Park",
-            "zone": "4",
-            "longitude": "-0.2795",
-            "latitude": "51.5635",
-            "line_ids": [
-                7,
-                8
+            "lines": [
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                },
+                {
+                    "line_id": "MET",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5635",
+            "latitude": "-0.2795",
             "id": 282
         },
         {
             "interchanges": [],
             "name": "Westbourne Park",
-            "zone": "2",
-            "longitude": "-0.2011",
-            "latitude": "51.521",
-            "line_ids": [
-                6
+            "lines": [
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.521",
+            "latitude": "-0.2011",
             "id": 283
         },
         {
             "interchanges": [],
             "name": "Westferry",
-            "zone": "2",
-            "longitude": "-0.0265",
-            "latitude": "51.5097",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5097",
+            "latitude": "-0.0265",
             "id": 284
         },
         {
             "interchanges": [],
             "name": "Westminster",
-            "zone": "1",
-            "longitude": "-0.1254",
-            "latitude": "51.501",
-            "line_ids": [
-                3,
-                4,
-                7
+            "lines": [
+                {
+                    "line_id": "CIR",
+                    "branches": []
+                },
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                },
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                }
             ],
+            "longitude": "51.501",
+            "latitude": "-0.1254",
             "id": 285
         },
         {
             "interchanges": [],
             "name": "West Acton",
-            "zone": "3",
-            "longitude": "-0.2809",
-            "latitude": "51.518",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.518",
+            "latitude": "-0.2809",
             "id": 286
         },
         {
@@ -3404,23 +4325,27 @@
                 "national_rail"
             ],
             "name": "West Brompton",
-            "zone": "2",
-            "longitude": "-0.1953",
-            "latitude": "51.4872",
-            "line_ids": [
-                4
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4872",
+            "latitude": "-0.1953",
             "id": 287
         },
         {
             "interchanges": [],
             "name": "West Finchley",
-            "zone": "4",
-            "longitude": "-0.1883",
-            "latitude": "51.6095",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6095",
+            "latitude": "-0.1883",
             "id": 288
         },
         {
@@ -3428,14 +4353,22 @@
                 "national_rail"
             ],
             "name": "West Ham",
-            "zone": "3",
-            "longitude": "0.0056",
-            "latitude": "51.5287",
-            "line_ids": [
-                4,
-                6,
-                7
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                },
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                },
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5287",
+            "latitude": "0.0056",
             "id": 289
         },
         {
@@ -3443,45 +4376,53 @@
                 "national_rail"
             ],
             "name": "West Hampstead",
-            "zone": "2",
-            "longitude": "-0.1906",
-            "latitude": "51.5469",
-            "line_ids": [
-                7
+            "lines": [
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5469",
+            "latitude": "-0.1906",
             "id": 290
         },
         {
             "interchanges": [],
             "name": "West Harrow",
-            "zone": "5",
-            "longitude": "-0.3533",
-            "latitude": "51.5795",
-            "line_ids": [
-                8
+            "lines": [
+                {
+                    "line_id": "MET",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5795",
+            "latitude": "-0.3533",
             "id": 291
         },
         {
             "interchanges": [],
             "name": "West India Quay",
-            "zone": "2",
-            "longitude": "-0.0203",
-            "latitude": "51.507",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.507",
+            "latitude": "-0.0203",
             "id": 292
         },
         {
             "interchanges": [],
             "name": "West Kensington",
-            "zone": "2",
-            "longitude": "-0.2065",
-            "latitude": "51.4907",
-            "line_ids": [
-                4
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4907",
+            "latitude": "-0.2065",
             "id": 293
         },
         {
@@ -3489,47 +4430,61 @@
                 "national_rail"
             ],
             "name": "West Ruislip",
-            "zone": "6",
-            "longitude": "-0.4376",
-            "latitude": "51.5696",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5696",
+            "latitude": "-0.4376",
             "id": 294
         },
         {
             "interchanges": [],
             "name": "Whitechapel",
-            "zone": "2",
-            "longitude": "-0.0612",
-            "latitude": "51.5194",
-            "line_ids": [
-                4,
-                5,
-                6
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                },
+                {
+                    "line_id": "ELL",
+                    "branches": []
+                },
+                {
+                    "line_id": "HCL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5194",
+            "latitude": "-0.0612",
             "id": 295
         },
         {
             "interchanges": [],
             "name": "White City",
-            "zone": "2",
-            "longitude": "-0.2239",
-            "latitude": "51.512",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.512",
+            "latitude": "-0.2239",
             "id": 296
         },
         {
             "interchanges": [],
             "name": "Willesden Green",
-            "zone": "2.5",
-            "longitude": "-0.2215",
-            "latitude": "51.5492",
-            "line_ids": [
-                7
+            "lines": [
+                {
+                    "line_id": "JUB",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5492",
+            "latitude": "-0.2215",
             "id": 297
         },
         {
@@ -3537,12 +4492,14 @@
                 "national_rail"
             ],
             "name": "Willesden Junction",
-            "zone": "3",
-            "longitude": "-0.2478",
-            "latitude": "51.5326",
-            "line_ids": [
-                1
+            "lines": [
+                {
+                    "line_id": "BKL",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5326",
+            "latitude": "-0.2478",
             "id": 298
         },
         {
@@ -3550,100 +4507,118 @@
                 "national_rail"
             ],
             "name": "Wimbledon",
-            "zone": "3",
-            "longitude": "-0.2064",
-            "latitude": "51.4214",
-            "line_ids": [
-                4
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4214",
+            "latitude": "-0.2064",
             "id": 299
         },
         {
             "interchanges": [],
             "name": "Wimbledon Park",
-            "zone": "3",
-            "longitude": "-0.1992",
-            "latitude": "51.4343",
-            "line_ids": [
-                4
+            "lines": [
+                {
+                    "line_id": "DIS",
+                    "branches": []
+                }
             ],
+            "longitude": "51.4343",
+            "latitude": "-0.1992",
             "id": 300
         },
         {
             "interchanges": [],
             "name": "Woodford",
-            "zone": "4",
-            "longitude": "0.0341",
-            "latitude": "51.607",
-            "line_ids": [
-                2
+            "lines": [
+                {
+                    "line_id": "CEN",
+                    "branches": []
+                }
             ],
+            "longitude": "51.607",
+            "latitude": "0.0341",
             "id": 301
         },
         {
             "interchanges": [],
             "name": "Woodside Park",
-            "zone": "4",
-            "longitude": "-0.1856",
-            "latitude": "51.6179",
-            "line_ids": [
-                9
+            "lines": [
+                {
+                    "line_id": "NOR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.6179",
+            "latitude": "-0.1856",
             "id": 302
         },
         {
             "interchanges": [],
             "name": "Wood Green",
-            "zone": "3",
-            "longitude": "-0.1097",
-            "latitude": "51.5975",
-            "line_ids": [
-                10
+            "lines": [
+                {
+                    "line_id": "PIC",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5975",
+            "latitude": "-0.1097",
             "id": 303
         },
         {
             "interchanges": [],
             "name": "West Silvertown",
-            "zone": "3",
-            "longitude": "0.0226",
-            "latitude": "51.5027",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5027",
+            "latitude": "0.0226",
             "id": 304
         },
         {
             "interchanges": [],
             "name": "Pontoon Dock",
-            "zone": "3",
-            "longitude": "0.0319",
-            "latitude": "51.5021",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5021",
+            "latitude": "0.0319",
             "id": 305
         },
         {
             "interchanges": [],
             "name": "London City Airport",
-            "zone": "3",
-            "longitude": "0.0488",
-            "latitude": "51.5037",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.5037",
+            "latitude": "0.0488",
             "id": 306
         },
         {
             "interchanges": [],
             "name": "King George V",
-            "zone": "3",
-            "longitude": "0.0627",
-            "latitude": "51.502",
-            "line_ids": [
-                13
+            "lines": [
+                {
+                    "line_id": "DLR",
+                    "branches": []
+                }
             ],
+            "longitude": "51.502",
+            "latitude": "0.0627",
             "id": 307
         }
     ]
