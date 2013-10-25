@@ -8,112 +8,112 @@
         {
             "colour": "#ffcd01",
             "branches": [],
-            "id": 33,
+            "id": "M1",
             "short_name": "1",
             "name": "M1"
         },
         {
             "colour": "#e0b03b",
             "branches": [],
-            "id": 34,
+            "id": "M10",
             "short_name": "10",
             "name": "M10"
         },
         {
             "colour": "#906030",
             "branches": [],
-            "id": 35,
+            "id": "M11",
             "short_name": "11",
             "name": "M11"
         },
         {
             "colour": "#008b5a",
             "branches": [],
-            "id": 36,
+            "id": "M12",
             "short_name": "12",
             "name": "M12"
         },
         {
             "colour": "#87d3df",
             "branches": [],
-            "id": 37,
+            "id": "M13",
             "short_name": "13",
             "name": "M13"
         },
         {
             "colour": "#652c90",
             "branches": [],
-            "id": 38,
+            "id": "M14",
             "short_name": "14",
             "name": "M14"
         },
         {
             "colour": "#006cb8",
             "branches": [],
-            "id": 39,
+            "id": "M2",
             "short_name": "2",
             "name": "M2"
         },
         {
             "colour": "#9b993b",
             "branches": [],
-            "id": 40,
+            "id": "M3",
             "short_name": "3",
             "name": "M3"
         },
         {
             "colour": "#87d3df",
             "branches": [],
-            "id": 41,
+            "id": "M3 bis",
             "short_name": "3 bis",
             "name": "M3 bis"
         },
         {
             "colour": "#bb4b9c",
             "branches": [],
-            "id": 42,
+            "id": "M4",
             "short_name": "4",
             "name": "M4"
         },
         {
             "colour": "#f68f4b",
             "branches": [],
-            "id": 43,
+            "id": "M5",
             "short_name": "5",
             "name": "M5"
         },
         {
             "colour": "#77c696",
             "branches": [],
-            "id": 44,
+            "id": "M6",
             "short_name": "6",
             "name": "M6"
         },
         {
             "colour": "#f59fb3",
             "branches": [],
-            "id": 45,
+            "id": "M7",
             "short_name": "7",
             "name": "M7"
         },
         {
             "colour": "#77c696",
             "branches": [],
-            "id": 46,
+            "id": "M7 bis",
             "short_name": "7 bis",
             "name": "M7 bis"
         },
         {
             "colour": "#c5a3cd",
             "branches": [],
-            "id": 47,
+            "id": "M8",
             "short_name": "8",
             "name": "M8"
         },
         {
             "colour": "#cec92b",
             "branches": [],
-            "id": 48,
+            "id": "M9",
             "short_name": "9",
             "name": "M9"
         }
@@ -124,7 +124,7 @@
             "name": "Abbesses",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 }
             ],
@@ -137,7 +137,7 @@
             "name": "Alesia",
             "lines": [
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 }
             ],
@@ -150,7 +150,7 @@
             "name": "Alexandre Dumas",
             "lines": [
                 {
-                    "line_id": 39,
+                    "line_id": "M2",
                     "branches": []
                 }
             ],
@@ -163,7 +163,7 @@
             "name": "Alma Marceau",
             "lines": [
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -176,7 +176,7 @@
             "name": "Anatole France",
             "lines": [
                 {
-                    "line_id": 40,
+                    "line_id": "M3",
                     "branches": []
                 }
             ],
@@ -189,7 +189,7 @@
             "name": "Anvers",
             "lines": [
                 {
-                    "line_id": 39,
+                    "line_id": "M2",
                     "branches": []
                 }
             ],
@@ -202,7 +202,7 @@
             "name": "Argentine",
             "lines": [
                 {
-                    "line_id": 33,
+                    "line_id": "M1",
                     "branches": []
                 }
             ],
@@ -215,11 +215,11 @@
             "name": "Arts et Metiers",
             "lines": [
                 {
-                    "line_id": 35,
+                    "line_id": "M11",
                     "branches": []
                 },
                 {
-                    "line_id": 40,
+                    "line_id": "M3",
                     "branches": []
                 }
             ],
@@ -232,7 +232,7 @@
             "name": "Asnieres Gennevilliers Les Courtilles",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -245,7 +245,7 @@
             "name": "Assemblee Nationale",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 }
             ],
@@ -258,7 +258,7 @@
             "name": "Aubervilliers Pantin Quatre chemins",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -271,7 +271,7 @@
             "name": "Avenue Emile Zola",
             "lines": [
                 {
-                    "line_id": 34,
+                    "line_id": "M10",
                     "branches": []
                 }
             ],
@@ -284,7 +284,7 @@
             "name": "Avron",
             "lines": [
                 {
-                    "line_id": 39,
+                    "line_id": "M2",
                     "branches": []
                 }
             ],
@@ -299,7 +299,7 @@
             "name": "Balard",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -312,11 +312,11 @@
             "name": "Barbes Rochechouart",
             "lines": [
                 {
-                    "line_id": 39,
+                    "line_id": "M2",
                     "branches": []
                 },
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 }
             ],
@@ -331,7 +331,7 @@
             "name": "Basilique St Denis",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -344,15 +344,15 @@
             "name": "Bastille",
             "lines": [
                 {
-                    "line_id": 33,
+                    "line_id": "M1",
                     "branches": []
                 },
                 {
-                    "line_id": 43,
+                    "line_id": "M5",
                     "branches": []
                 },
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -365,7 +365,7 @@
             "name": "Bel Air",
             "lines": [
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 }
             ],
@@ -378,11 +378,11 @@
             "name": "Belleville",
             "lines": [
                 {
-                    "line_id": 35,
+                    "line_id": "M11",
                     "branches": []
                 },
                 {
-                    "line_id": 39,
+                    "line_id": "M2",
                     "branches": []
                 }
             ],
@@ -395,7 +395,7 @@
             "name": "Berault",
             "lines": [
                 {
-                    "line_id": 33,
+                    "line_id": "M1",
                     "branches": []
                 }
             ],
@@ -408,11 +408,11 @@
             "name": "Bercy",
             "lines": [
                 {
-                    "line_id": 38,
+                    "line_id": "M14",
                     "branches": []
                 },
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 }
             ],
@@ -422,12 +422,12 @@
         },
         {
             "interchanges": [
-                "rar"
+                "rer"
             ],
             "name": "Bibliotheque Francois Mitterrand",
             "lines": [
                 {
-                    "line_id": 38,
+                    "line_id": "M14",
                     "branches": []
                 }
             ],
@@ -440,7 +440,7 @@
             "name": "Billancourt",
             "lines": [
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -453,7 +453,7 @@
             "name": "Bir Hakeim",
             "lines": [
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 }
             ],
@@ -466,7 +466,7 @@
             "name": "Blanche",
             "lines": [
                 {
-                    "line_id": 39,
+                    "line_id": "M2",
                     "branches": []
                 }
             ],
@@ -481,7 +481,7 @@
             "name": "Bobigny Pablo Picasso",
             "lines": [
                 {
-                    "line_id": 43,
+                    "line_id": "M5",
                     "branches": []
                 }
             ],
@@ -494,7 +494,7 @@
             "name": "Bobigny Pantin Raymond Queneau",
             "lines": [
                 {
-                    "line_id": 43,
+                    "line_id": "M5",
                     "branches": []
                 }
             ],
@@ -507,7 +507,7 @@
             "name": "Boissiere",
             "lines": [
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 }
             ],
@@ -520,7 +520,7 @@
             "name": "Bolivar",
             "lines": [
                 {
-                    "line_id": 46,
+                    "line_id": "M7 bis",
                     "branches": []
                 }
             ],
@@ -533,11 +533,11 @@
             "name": "Bonne Nouvelle",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 },
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -550,7 +550,7 @@
             "name": "Botzaris",
             "lines": [
                 {
-                    "line_id": 46,
+                    "line_id": "M7 bis",
                     "branches": []
                 }
             ],
@@ -563,7 +563,7 @@
             "name": "Boulogne Jean Jaures",
             "lines": [
                 {
-                    "line_id": 34,
+                    "line_id": "M10",
                     "branches": []
                 }
             ],
@@ -576,7 +576,7 @@
             "name": "Boulogne Pont de St Cloud",
             "lines": [
                 {
-                    "line_id": 34,
+                    "line_id": "M10",
                     "branches": []
                 }
             ],
@@ -589,7 +589,7 @@
             "name": "Bourcicaut",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -602,7 +602,7 @@
             "name": "Bourse",
             "lines": [
                 {
-                    "line_id": 40,
+                    "line_id": "M3",
                     "branches": []
                 }
             ],
@@ -615,7 +615,7 @@
             "name": "Breguet Sabin",
             "lines": [
                 {
-                    "line_id": 43,
+                    "line_id": "M5",
                     "branches": []
                 }
             ],
@@ -628,7 +628,7 @@
             "name": "Brochant",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -641,7 +641,7 @@
             "name": "Buttes Chaumont",
             "lines": [
                 {
-                    "line_id": 46,
+                    "line_id": "M7 bis",
                     "branches": []
                 }
             ],
@@ -654,7 +654,7 @@
             "name": "Buzenval",
             "lines": [
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -667,7 +667,7 @@
             "name": "Cadet",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -680,7 +680,7 @@
             "name": "Cambrone",
             "lines": [
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 }
             ],
@@ -693,7 +693,7 @@
             "name": "Campo Formio",
             "lines": [
                 {
-                    "line_id": 43,
+                    "line_id": "M5",
                     "branches": []
                 }
             ],
@@ -706,7 +706,7 @@
             "name": "Cardinal Lemoine",
             "lines": [
                 {
-                    "line_id": 34,
+                    "line_id": "M10",
                     "branches": []
                 }
             ],
@@ -719,7 +719,7 @@
             "name": "Carrefour Pleyel",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -732,7 +732,7 @@
             "name": "Censier Daubenton",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -745,11 +745,11 @@
             "name": "Champs Elysees Clemenceau",
             "lines": [
                 {
-                    "line_id": 33,
+                    "line_id": "M1",
                     "branches": []
                 },
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -762,7 +762,7 @@
             "name": "Chardon Lagache",
             "lines": [
                 {
-                    "line_id": 34,
+                    "line_id": "M10",
                     "branches": []
                 }
             ],
@@ -775,7 +775,7 @@
             "name": "Charenton Ecoles",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -788,15 +788,15 @@
             "name": "Charles de Gaulle Etoile",
             "lines": [
                 {
-                    "line_id": 33,
+                    "line_id": "M1",
                     "branches": []
                 },
                 {
-                    "line_id": 39,
+                    "line_id": "M2",
                     "branches": []
                 },
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 }
             ],
@@ -809,7 +809,7 @@
             "name": "Charles michels",
             "lines": [
                 {
-                    "line_id": 34,
+                    "line_id": "M10",
                     "branches": []
                 }
             ],
@@ -822,7 +822,7 @@
             "name": "Charonne",
             "lines": [
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -835,7 +835,7 @@
             "name": "Chateau d'Eau",
             "lines": [
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 }
             ],
@@ -848,7 +848,7 @@
             "name": "Chateau de Vincennes",
             "lines": [
                 {
-                    "line_id": 33,
+                    "line_id": "M1",
                     "branches": []
                 }
             ],
@@ -861,7 +861,7 @@
             "name": "Chateau Landon",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -874,7 +874,7 @@
             "name": "Chateau Rouge",
             "lines": [
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 }
             ],
@@ -884,28 +884,28 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Chatelet",
             "lines": [
                 {
-                    "line_id": 33,
+                    "line_id": "M1",
                     "branches": []
                 },
                 {
-                    "line_id": 35,
+                    "line_id": "M11",
                     "branches": []
                 },
                 {
-                    "line_id": 38,
+                    "line_id": "M14",
                     "branches": []
                 },
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 },
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -918,7 +918,7 @@
             "name": "Chatillon Montrouge",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -931,11 +931,11 @@
             "name": "Chaussee d'Antin La Fayette",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 },
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -948,7 +948,7 @@
             "name": "Chemin vert",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -961,7 +961,7 @@
             "name": "Chevaleret",
             "lines": [
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 }
             ],
@@ -974,7 +974,7 @@
             "name": "Cite",
             "lines": [
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 }
             ],
@@ -987,7 +987,7 @@
             "name": "Classiere",
             "lines": [
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 }
             ],
@@ -997,12 +997,12 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Cluny.La Sorbonne",
             "lines": [
                 {
-                    "line_id": 34,
+                    "line_id": "M10",
                     "branches": []
                 }
             ],
@@ -1015,7 +1015,7 @@
             "name": "Colonnel Fabien",
             "lines": [
                 {
-                    "line_id": 39,
+                    "line_id": "M2",
                     "branches": []
                 }
             ],
@@ -1028,7 +1028,7 @@
             "name": "Commerce",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -1041,15 +1041,15 @@
             "name": "Concorde",
             "lines": [
                 {
-                    "line_id": 33,
+                    "line_id": "M1",
                     "branches": []
                 },
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 },
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -1062,7 +1062,7 @@
             "name": "Convention",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 }
             ],
@@ -1075,7 +1075,7 @@
             "name": "Corentin Cariou",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -1088,7 +1088,7 @@
             "name": "Corentin Celton",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 }
             ],
@@ -1101,7 +1101,7 @@
             "name": "Corvisart",
             "lines": [
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 }
             ],
@@ -1114,7 +1114,7 @@
             "name": "Coucouronnes",
             "lines": [
                 {
-                    "line_id": 39,
+                    "line_id": "M2",
                     "branches": []
                 }
             ],
@@ -1127,7 +1127,7 @@
             "name": "Courcelles",
             "lines": [
                 {
-                    "line_id": 39,
+                    "line_id": "M2",
                     "branches": []
                 }
             ],
@@ -1140,7 +1140,7 @@
             "name": "Cour Saint Emillion",
             "lines": [
                 {
-                    "line_id": 38,
+                    "line_id": "M14",
                     "branches": []
                 }
             ],
@@ -1153,7 +1153,7 @@
             "name": "Creteil l'Echat",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -1166,7 +1166,7 @@
             "name": "Creteil Prefecture",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -1179,7 +1179,7 @@
             "name": "Creteil Universite",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -1192,7 +1192,7 @@
             "name": "Crimee",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -1205,7 +1205,7 @@
             "name": "Croix de Chavaux",
             "lines": [
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -1218,7 +1218,7 @@
             "name": "Danube",
             "lines": [
                 {
-                    "line_id": 46,
+                    "line_id": "M7 bis",
                     "branches": []
                 }
             ],
@@ -1231,11 +1231,11 @@
             "name": "Daumesnil",
             "lines": [
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 },
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -1245,16 +1245,16 @@
         },
         {
             "interchanges": [
-                "rar"
+                "rer"
             ],
             "name": "Denfert Rochereau",
             "lines": [
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 },
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 }
             ],
@@ -1267,7 +1267,7 @@
             "name": "Dugommier",
             "lines": [
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 }
             ],
@@ -1280,7 +1280,7 @@
             "name": "Dupleix",
             "lines": [
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 }
             ],
@@ -1293,11 +1293,11 @@
             "name": "Duroc",
             "lines": [
                 {
-                    "line_id": 34,
+                    "line_id": "M10",
                     "branches": []
                 },
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -1310,7 +1310,7 @@
             "name": "Ecole Militaire",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -1323,7 +1323,7 @@
             "name": "Ecole Veterinaire Maisons Alfort",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -1336,7 +1336,7 @@
             "name": "Edgar Quinet",
             "lines": [
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 }
             ],
@@ -1349,7 +1349,7 @@
             "name": "Eglise d'Auteuil",
             "lines": [
                 {
-                    "line_id": 34,
+                    "line_id": "M10",
                     "branches": []
                 }
             ],
@@ -1362,7 +1362,7 @@
             "name": "Eglise de Pantin",
             "lines": [
                 {
-                    "line_id": 43,
+                    "line_id": "M5",
                     "branches": []
                 }
             ],
@@ -1375,7 +1375,7 @@
             "name": "Esplanade de La Defense",
             "lines": [
                 {
-                    "line_id": 33,
+                    "line_id": "M1",
                     "branches": []
                 }
             ],
@@ -1388,7 +1388,7 @@
             "name": "Etienne Marcel",
             "lines": [
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 }
             ],
@@ -1401,7 +1401,7 @@
             "name": "Europe",
             "lines": [
                 {
-                    "line_id": 40,
+                    "line_id": "M3",
                     "branches": []
                 }
             ],
@@ -1414,7 +1414,7 @@
             "name": "Exelmans",
             "lines": [
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -1427,7 +1427,7 @@
             "name": "Faidherbe Chaligny",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -1440,7 +1440,7 @@
             "name": "Falguiere",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 }
             ],
@@ -1453,7 +1453,7 @@
             "name": "Felix Faure",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -1466,7 +1466,7 @@
             "name": "Filles du Calvaire",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -1479,7 +1479,7 @@
             "name": "Fort d'Aubervilliers",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -1492,11 +1492,11 @@
             "name": "Franklin Roosevelt",
             "lines": [
                 {
-                    "line_id": 33,
+                    "line_id": "M1",
                     "branches": []
                 },
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -1509,7 +1509,7 @@
             "name": "Gabriel Peri",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -1522,7 +1522,7 @@
             "name": "Gaite",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -1535,7 +1535,7 @@
             "name": "Gallieni",
             "lines": [
                 {
-                    "line_id": 40,
+                    "line_id": "M3",
                     "branches": []
                 }
             ],
@@ -1548,11 +1548,11 @@
             "name": "Gambetta",
             "lines": [
                 {
-                    "line_id": 41,
+                    "line_id": "M3 bis",
                     "branches": []
                 },
                 {
-                    "line_id": 40,
+                    "line_id": "M3",
                     "branches": []
                 }
             ],
@@ -1562,16 +1562,16 @@
         },
         {
             "interchanges": [
-                "rar"
+                "rer"
             ],
             "name": "Gare d'Austerlitz",
             "lines": [
                 {
-                    "line_id": 34,
+                    "line_id": "M10",
                     "branches": []
                 },
                 {
-                    "line_id": 43,
+                    "line_id": "M5",
                     "branches": []
                 }
             ],
@@ -1581,20 +1581,20 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Gare de l'Est",
             "lines": [
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 },
                 {
-                    "line_id": 43,
+                    "line_id": "M5",
                     "branches": []
                 },
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -1604,16 +1604,16 @@
         },
         {
             "interchanges": [
-                "rar"
+                "rer"
             ],
             "name": "Gare de Lyon",
             "lines": [
                 {
-                    "line_id": 33,
+                    "line_id": "M1",
                     "branches": []
                 },
                 {
-                    "line_id": 38,
+                    "line_id": "M14",
                     "branches": []
                 }
             ],
@@ -1623,17 +1623,17 @@
         },
         {
             "interchanges": [
-                "rar",
-                "Suburban"
+                "rer",
+                "suburban"
             ],
             "name": "Gare du Nord",
             "lines": [
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 },
                 {
-                    "line_id": 43,
+                    "line_id": "M5",
                     "branches": []
                 }
             ],
@@ -1646,7 +1646,7 @@
             "name": "Garibaldi",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -1659,7 +1659,7 @@
             "name": "George V",
             "lines": [
                 {
-                    "line_id": 33,
+                    "line_id": "M1",
                     "branches": []
                 }
             ],
@@ -1672,7 +1672,7 @@
             "name": "Goncourt",
             "lines": [
                 {
-                    "line_id": 35,
+                    "line_id": "M11",
                     "branches": []
                 }
             ],
@@ -1685,11 +1685,11 @@
             "name": "Grands Boulevards",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 },
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -1702,7 +1702,7 @@
             "name": "Guy Moquet",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -1712,16 +1712,16 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Havre Caumartin",
             "lines": [
                 {
-                    "line_id": 40,
+                    "line_id": "M3",
                     "branches": []
                 },
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -1734,7 +1734,7 @@
             "name": "Hoche",
             "lines": [
                 {
-                    "line_id": 43,
+                    "line_id": "M5",
                     "branches": []
                 }
             ],
@@ -1747,11 +1747,11 @@
             "name": "Hotel de Ville",
             "lines": [
                 {
-                    "line_id": 33,
+                    "line_id": "M1",
                     "branches": []
                 },
                 {
-                    "line_id": 35,
+                    "line_id": "M11",
                     "branches": []
                 }
             ],
@@ -1764,7 +1764,7 @@
             "name": "Iena",
             "lines": [
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -1774,16 +1774,16 @@
         },
         {
             "interchanges": [
-                "rar"
+                "rer"
             ],
             "name": "Invalides",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 },
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -1796,7 +1796,7 @@
             "name": "Jacques Bonsergent",
             "lines": [
                 {
-                    "line_id": 43,
+                    "line_id": "M5",
                     "branches": []
                 }
             ],
@@ -1809,7 +1809,7 @@
             "name": "Jasmin",
             "lines": [
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -1822,15 +1822,15 @@
             "name": "Jaures",
             "lines": [
                 {
-                    "line_id": 39,
+                    "line_id": "M2",
                     "branches": []
                 },
                 {
-                    "line_id": 43,
+                    "line_id": "M5",
                     "branches": []
                 },
                 {
-                    "line_id": 46,
+                    "line_id": "M7 bis",
                     "branches": []
                 }
             ],
@@ -1843,7 +1843,7 @@
             "name": "Javel Andre Citroen",
             "lines": [
                 {
-                    "line_id": 34,
+                    "line_id": "M10",
                     "branches": []
                 }
             ],
@@ -1856,7 +1856,7 @@
             "name": "Jourdain",
             "lines": [
                 {
-                    "line_id": 35,
+                    "line_id": "M11",
                     "branches": []
                 }
             ],
@@ -1869,7 +1869,7 @@
             "name": "Jules Joffrin",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 }
             ],
@@ -1882,11 +1882,11 @@
             "name": "Jussieu",
             "lines": [
                 {
-                    "line_id": 34,
+                    "line_id": "M10",
                     "branches": []
                 },
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -1899,7 +1899,7 @@
             "name": "Kleber",
             "lines": [
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 }
             ],
@@ -1909,12 +1909,12 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "La Chapelle",
             "lines": [
                 {
-                    "line_id": 39,
+                    "line_id": "M2",
                     "branches": []
                 }
             ],
@@ -1929,7 +1929,7 @@
             "name": "La Courneuve 8 Mai 1945",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -1939,12 +1939,12 @@
         },
         {
             "interchanges": [
-                "rar"
+                "rer"
             ],
             "name": "La Defense",
             "lines": [
                 {
-                    "line_id": 33,
+                    "line_id": "M1",
                     "branches": []
                 }
             ],
@@ -1957,7 +1957,7 @@
             "name": "La Fourche",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -1970,7 +1970,7 @@
             "name": "Lamarck Caulaincourt",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 }
             ],
@@ -1983,15 +1983,15 @@
             "name": "La Motte Picquet Grenelle",
             "lines": [
                 {
-                    "line_id": 34,
+                    "line_id": "M10",
                     "branches": []
                 },
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 },
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -2001,12 +2001,12 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "La Muette",
             "lines": [
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -2019,7 +2019,7 @@
             "name": "La Tour Maubourg",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -2032,7 +2032,7 @@
             "name": "Laumiere",
             "lines": [
                 {
-                    "line_id": 43,
+                    "line_id": "M5",
                     "branches": []
                 }
             ],
@@ -2045,7 +2045,7 @@
             "name": "Ledru Rollin",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -2058,7 +2058,7 @@
             "name": "Le Kremlin Bicetre",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -2071,7 +2071,7 @@
             "name": "Le Peletier",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -2084,7 +2084,7 @@
             "name": "Les Agnettes",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -2097,7 +2097,7 @@
             "name": "Les Gobelins",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -2107,12 +2107,12 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Les Halles",
             "lines": [
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 }
             ],
@@ -2125,7 +2125,7 @@
             "name": "Les Sablons",
             "lines": [
                 {
-                    "line_id": 33,
+                    "line_id": "M1",
                     "branches": []
                 }
             ],
@@ -2138,7 +2138,7 @@
             "name": "Liberte",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -2151,7 +2151,7 @@
             "name": "Liege",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -2164,11 +2164,11 @@
             "name": "Louis Blanc",
             "lines": [
                 {
-                    "line_id": 46,
+                    "line_id": "M7 bis",
                     "branches": []
                 },
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -2181,7 +2181,7 @@
             "name": "Louise Michel",
             "lines": [
                 {
-                    "line_id": 40,
+                    "line_id": "M3",
                     "branches": []
                 }
             ],
@@ -2194,7 +2194,7 @@
             "name": "Lourmel",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -2207,7 +2207,7 @@
             "name": "Louvre Rivoli",
             "lines": [
                 {
-                    "line_id": 33,
+                    "line_id": "M1",
                     "branches": []
                 }
             ],
@@ -2220,7 +2220,7 @@
             "name": "Mabillon",
             "lines": [
                 {
-                    "line_id": 34,
+                    "line_id": "M10",
                     "branches": []
                 }
             ],
@@ -2233,15 +2233,15 @@
             "name": "Madeleine",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 },
                 {
-                    "line_id": 38,
+                    "line_id": "M14",
                     "branches": []
                 },
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -2254,7 +2254,7 @@
             "name": "Mairie de Clichy",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -2267,7 +2267,7 @@
             "name": "Mairie de Montreuil",
             "lines": [
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -2280,7 +2280,7 @@
             "name": "Mairie des Lilas",
             "lines": [
                 {
-                    "line_id": 35,
+                    "line_id": "M11",
                     "branches": []
                 }
             ],
@@ -2293,7 +2293,7 @@
             "name": "Mairie de St Ouen",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -2306,7 +2306,7 @@
             "name": "Mairie d'Issy",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 }
             ],
@@ -2319,7 +2319,7 @@
             "name": "Mairie d'Ivry",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -2332,7 +2332,7 @@
             "name": "Maison Blanche",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -2345,7 +2345,7 @@
             "name": "Maisons Alfort Les Juilliottes",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -2358,7 +2358,7 @@
             "name": "Maisons Alfort Stade",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -2371,7 +2371,7 @@
             "name": "Malakoff Plateau de Vanves",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -2384,7 +2384,7 @@
             "name": "Malakoff Rue Etienne Dolet",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -2397,7 +2397,7 @@
             "name": "Malesherbes",
             "lines": [
                 {
-                    "line_id": 40,
+                    "line_id": "M3",
                     "branches": []
                 }
             ],
@@ -2410,7 +2410,7 @@
             "name": "Maraichers",
             "lines": [
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -2423,11 +2423,11 @@
             "name": "Marcadet Poissonniers",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 },
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 }
             ],
@@ -2440,7 +2440,7 @@
             "name": "Marcel Sembat",
             "lines": [
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -2453,7 +2453,7 @@
             "name": "Marx Dormoy",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 }
             ],
@@ -2466,7 +2466,7 @@
             "name": "Maubert Mutualite",
             "lines": [
                 {
-                    "line_id": 34,
+                    "line_id": "M10",
                     "branches": []
                 }
             ],
@@ -2479,7 +2479,7 @@
             "name": "Melilmontant",
             "lines": [
                 {
-                    "line_id": 39,
+                    "line_id": "M2",
                     "branches": []
                 }
             ],
@@ -2492,11 +2492,11 @@
             "name": "Michel Ange Auteuil",
             "lines": [
                 {
-                    "line_id": 34,
+                    "line_id": "M10",
                     "branches": []
                 },
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -2509,11 +2509,11 @@
             "name": "Michel Ange Molitor",
             "lines": [
                 {
-                    "line_id": 34,
+                    "line_id": "M10",
                     "branches": []
                 },
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -2526,7 +2526,7 @@
             "name": "Michel Bizot",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -2539,7 +2539,7 @@
             "name": "Mirabeau",
             "lines": [
                 {
-                    "line_id": 34,
+                    "line_id": "M10",
                     "branches": []
                 }
             ],
@@ -2552,11 +2552,11 @@
             "name": "Miromesnil",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 },
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -2569,7 +2569,7 @@
             "name": "Monceau",
             "lines": [
                 {
-                    "line_id": 39,
+                    "line_id": "M2",
                     "branches": []
                 }
             ],
@@ -2582,7 +2582,7 @@
             "name": "Montgallet",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -2595,19 +2595,19 @@
             "name": "Montparnasse Bienvenue",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 },
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 },
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 },
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 }
             ],
@@ -2620,7 +2620,7 @@
             "name": "Mouton Duvernet",
             "lines": [
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 }
             ],
@@ -2630,24 +2630,24 @@
         },
         {
             "interchanges": [
-                "rar"
+                "rer"
             ],
             "name": "Nation",
             "lines": [
                 {
-                    "line_id": 33,
+                    "line_id": "M1",
                     "branches": []
                 },
                 {
-                    "line_id": 39,
+                    "line_id": "M2",
                     "branches": []
                 },
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 },
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -2660,7 +2660,7 @@
             "name": "Nationale",
             "lines": [
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 }
             ],
@@ -2673,7 +2673,7 @@
             "name": "Notre Dame de Lorette",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 }
             ],
@@ -2686,7 +2686,7 @@
             "name": "Notre Dame des Champs",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 }
             ],
@@ -2699,11 +2699,11 @@
             "name": "Oberkampf",
             "lines": [
                 {
-                    "line_id": 43,
+                    "line_id": "M5",
                     "branches": []
                 },
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -2716,11 +2716,11 @@
             "name": "Odeon",
             "lines": [
                 {
-                    "line_id": 34,
+                    "line_id": "M10",
                     "branches": []
                 },
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 }
             ],
@@ -2733,7 +2733,7 @@
             "name": "Olympiades",
             "lines": [
                 {
-                    "line_id": 38,
+                    "line_id": "M14",
                     "branches": []
                 }
             ],
@@ -2743,20 +2743,20 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Opera",
             "lines": [
                 {
-                    "line_id": 40,
+                    "line_id": "M3",
                     "branches": []
                 },
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 },
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -2769,7 +2769,7 @@
             "name": "Ourcq",
             "lines": [
                 {
-                    "line_id": 43,
+                    "line_id": "M5",
                     "branches": []
                 }
             ],
@@ -2782,11 +2782,11 @@
             "name": "Palais Royal Musee du Louvre",
             "lines": [
                 {
-                    "line_id": 33,
+                    "line_id": "M1",
                     "branches": []
                 },
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -2799,7 +2799,7 @@
             "name": "Passy",
             "lines": [
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 }
             ],
@@ -2812,11 +2812,11 @@
             "name": "Pasteur",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 },
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 }
             ],
@@ -2829,7 +2829,7 @@
             "name": "Pelleport",
             "lines": [
                 {
-                    "line_id": 41,
+                    "line_id": "M3 bis",
                     "branches": []
                 }
             ],
@@ -2839,12 +2839,12 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Pereire",
             "lines": [
                 {
-                    "line_id": 40,
+                    "line_id": "M3",
                     "branches": []
                 }
             ],
@@ -2857,11 +2857,11 @@
             "name": "Pere Lachaise",
             "lines": [
                 {
-                    "line_id": 39,
+                    "line_id": "M2",
                     "branches": []
                 },
                 {
-                    "line_id": 40,
+                    "line_id": "M3",
                     "branches": []
                 }
             ],
@@ -2874,7 +2874,7 @@
             "name": "Permety",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -2887,7 +2887,7 @@
             "name": "Philippe Auguste",
             "lines": [
                 {
-                    "line_id": 39,
+                    "line_id": "M2",
                     "branches": []
                 }
             ],
@@ -2900,7 +2900,7 @@
             "name": "Picpus",
             "lines": [
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 }
             ],
@@ -2913,7 +2913,7 @@
             "name": "Pierre Curie",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -2926,11 +2926,11 @@
             "name": "Pigalle",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 },
                 {
-                    "line_id": 39,
+                    "line_id": "M2",
                     "branches": []
                 }
             ],
@@ -2943,11 +2943,11 @@
             "name": "Place de Clichy",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 },
                 {
-                    "line_id": 39,
+                    "line_id": "M2",
                     "branches": []
                 }
             ],
@@ -2960,11 +2960,11 @@
             "name": "Place des Fetes",
             "lines": [
                 {
-                    "line_id": 35,
+                    "line_id": "M11",
                     "branches": []
                 },
                 {
-                    "line_id": 46,
+                    "line_id": "M7 bis",
                     "branches": []
                 }
             ],
@@ -2977,15 +2977,15 @@
             "name": "Place d'Italie",
             "lines": [
                 {
-                    "line_id": 43,
+                    "line_id": "M5",
                     "branches": []
                 },
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 },
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -2998,7 +2998,7 @@
             "name": "Place Monge",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -3011,7 +3011,7 @@
             "name": "Plaisance",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -3024,7 +3024,7 @@
             "name": "Pointe du Lac",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -3037,7 +3037,7 @@
             "name": "Poissonniere",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -3050,7 +3050,7 @@
             "name": "Pont de Levallois Becon",
             "lines": [
                 {
-                    "line_id": 40,
+                    "line_id": "M3",
                     "branches": []
                 }
             ],
@@ -3063,7 +3063,7 @@
             "name": "Pont de Neuilly",
             "lines": [
                 {
-                    "line_id": 33,
+                    "line_id": "M1",
                     "branches": []
                 }
             ],
@@ -3076,7 +3076,7 @@
             "name": "Pont de Sevres",
             "lines": [
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -3089,7 +3089,7 @@
             "name": "Pont Marie",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -3102,7 +3102,7 @@
             "name": "Pont Neuf",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -3115,7 +3115,7 @@
             "name": "Porte Dauphine",
             "lines": [
                 {
-                    "line_id": 39,
+                    "line_id": "M2",
                     "branches": []
                 }
             ],
@@ -3128,7 +3128,7 @@
             "name": "porte d'Auteuil",
             "lines": [
                 {
-                    "line_id": 34,
+                    "line_id": "M10",
                     "branches": []
                 }
             ],
@@ -3141,7 +3141,7 @@
             "name": "Porte de Bagnolet",
             "lines": [
                 {
-                    "line_id": 40,
+                    "line_id": "M3",
                     "branches": []
                 }
             ],
@@ -3154,7 +3154,7 @@
             "name": "Porte de Champerret",
             "lines": [
                 {
-                    "line_id": 40,
+                    "line_id": "M3",
                     "branches": []
                 }
             ],
@@ -3167,7 +3167,7 @@
             "name": "Porte de Charenton",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -3182,7 +3182,7 @@
             "name": "Porte de Choisy",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -3192,12 +3192,12 @@
         },
         {
             "interchanges": [
-                "rar"
+                "rer"
             ],
             "name": "Porte de Clichy",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -3210,7 +3210,7 @@
             "name": "Porte de Clignancourt",
             "lines": [
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 }
             ],
@@ -3223,7 +3223,7 @@
             "name": "Porte de la Chapelle",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 }
             ],
@@ -3236,7 +3236,7 @@
             "name": "Porte de la Vilette",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -3249,7 +3249,7 @@
             "name": "Porte de Montreuil",
             "lines": [
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -3262,7 +3262,7 @@
             "name": "Porte de Pantin",
             "lines": [
                 {
-                    "line_id": 43,
+                    "line_id": "M5",
                     "branches": []
                 }
             ],
@@ -3275,11 +3275,11 @@
             "name": "Porte des Lilas",
             "lines": [
                 {
-                    "line_id": 35,
+                    "line_id": "M11",
                     "branches": []
                 },
                 {
-                    "line_id": 41,
+                    "line_id": "M3 bis",
                     "branches": []
                 }
             ],
@@ -3292,7 +3292,7 @@
             "name": "Porte de St Cloud",
             "lines": [
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -3305,7 +3305,7 @@
             "name": "Porte de St Ouen",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -3320,7 +3320,7 @@
             "name": "Porte de Vanves",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -3335,7 +3335,7 @@
             "name": "Porte de Versailles",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 }
             ],
@@ -3348,7 +3348,7 @@
             "name": "Porte de Vincennes",
             "lines": [
                 {
-                    "line_id": 33,
+                    "line_id": "M1",
                     "branches": []
                 }
             ],
@@ -3363,7 +3363,7 @@
             "name": "Porte d'Italie",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -3378,7 +3378,7 @@
             "name": "Porte d'Ivry",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -3391,7 +3391,7 @@
             "name": "Porte Doree",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -3406,7 +3406,7 @@
             "name": "Porte d'Orleans",
             "lines": [
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 }
             ],
@@ -3416,12 +3416,12 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Porte Maillot",
             "lines": [
                 {
-                    "line_id": 33,
+                    "line_id": "M1",
                     "branches": []
                 }
             ],
@@ -3434,7 +3434,7 @@
             "name": "Pre St Gervais",
             "lines": [
                 {
-                    "line_id": 46,
+                    "line_id": "M7 bis",
                     "branches": []
                 }
             ],
@@ -3447,11 +3447,11 @@
             "name": "Pyramides",
             "lines": [
                 {
-                    "line_id": 38,
+                    "line_id": "M14",
                     "branches": []
                 },
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -3464,7 +3464,7 @@
             "name": "Pyrenees",
             "lines": [
                 {
-                    "line_id": 35,
+                    "line_id": "M11",
                     "branches": []
                 }
             ],
@@ -3477,7 +3477,7 @@
             "name": "Quai de la Gare",
             "lines": [
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 }
             ],
@@ -3490,7 +3490,7 @@
             "name": "Quai de la Rapee",
             "lines": [
                 {
-                    "line_id": 43,
+                    "line_id": "M5",
                     "branches": []
                 }
             ],
@@ -3503,7 +3503,7 @@
             "name": "Quatre Septembre",
             "lines": [
                 {
-                    "line_id": 40,
+                    "line_id": "M3",
                     "branches": []
                 }
             ],
@@ -3516,7 +3516,7 @@
             "name": "Rambuteau",
             "lines": [
                 {
-                    "line_id": 35,
+                    "line_id": "M11",
                     "branches": []
                 }
             ],
@@ -3529,7 +3529,7 @@
             "name": "Ranelagh",
             "lines": [
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -3542,11 +3542,11 @@
             "name": "Raspail",
             "lines": [
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 },
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 }
             ],
@@ -3559,11 +3559,11 @@
             "name": "Reaumur Sebastopol",
             "lines": [
                 {
-                    "line_id": 40,
+                    "line_id": "M3",
                     "branches": []
                 },
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 }
             ],
@@ -3576,7 +3576,7 @@
             "name": "Rennes",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 }
             ],
@@ -3589,23 +3589,23 @@
             "name": "Republique",
             "lines": [
                 {
-                    "line_id": 35,
+                    "line_id": "M11",
                     "branches": []
                 },
                 {
-                    "line_id": 40,
+                    "line_id": "M3",
                     "branches": []
                 },
                 {
-                    "line_id": 43,
+                    "line_id": "M5",
                     "branches": []
                 },
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 },
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -3618,7 +3618,7 @@
             "name": "Reuilly Diderot",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -3631,7 +3631,7 @@
             "name": "Reullly Diderot",
             "lines": [
                 {
-                    "line_id": 33,
+                    "line_id": "M1",
                     "branches": []
                 }
             ],
@@ -3644,7 +3644,7 @@
             "name": "Richard Lenoir",
             "lines": [
                 {
-                    "line_id": 43,
+                    "line_id": "M5",
                     "branches": []
                 }
             ],
@@ -3657,11 +3657,11 @@
             "name": "Richelieu Drouot",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 },
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -3674,7 +3674,7 @@
             "name": "Riquet",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -3687,7 +3687,7 @@
             "name": "Robespierre",
             "lines": [
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -3700,7 +3700,7 @@
             "name": "Rome",
             "lines": [
                 {
-                    "line_id": 39,
+                    "line_id": "M2",
                     "branches": []
                 }
             ],
@@ -3713,7 +3713,7 @@
             "name": "Rue de la Pompe",
             "lines": [
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -3726,7 +3726,7 @@
             "name": "Rue des Boulets",
             "lines": [
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -3739,7 +3739,7 @@
             "name": "Rue du Bac",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 }
             ],
@@ -3752,7 +3752,7 @@
             "name": "Rue Saint Maur",
             "lines": [
                 {
-                    "line_id": 40,
+                    "line_id": "M3",
                     "branches": []
                 }
             ],
@@ -3765,7 +3765,7 @@
             "name": "Saint Amboise",
             "lines": [
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -3775,12 +3775,12 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Saint Augustin",
             "lines": [
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -3793,7 +3793,7 @@
             "name": "Saint Denis Porte de Paris",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -3806,7 +3806,7 @@
             "name": "Saint Denis Universite",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -3819,7 +3819,7 @@
             "name": "Sainte Placide",
             "lines": [
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 }
             ],
@@ -3832,7 +3832,7 @@
             "name": "Saint Fargeau",
             "lines": [
                 {
-                    "line_id": 41,
+                    "line_id": "M3 bis",
                     "branches": []
                 }
             ],
@@ -3845,7 +3845,7 @@
             "name": "Saint Georges",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 }
             ],
@@ -3858,7 +3858,7 @@
             "name": "Saint Jacques",
             "lines": [
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 }
             ],
@@ -3868,24 +3868,24 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Saint Lazare",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 },
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 },
                 {
-                    "line_id": 38,
+                    "line_id": "M14",
                     "branches": []
                 },
                 {
-                    "line_id": 40,
+                    "line_id": "M3",
                     "branches": []
                 }
             ],
@@ -3898,7 +3898,7 @@
             "name": "Saint Mande",
             "lines": [
                 {
-                    "line_id": 33,
+                    "line_id": "M1",
                     "branches": []
                 }
             ],
@@ -3911,7 +3911,7 @@
             "name": "Saint Marcel",
             "lines": [
                 {
-                    "line_id": 43,
+                    "line_id": "M5",
                     "branches": []
                 }
             ],
@@ -3921,12 +3921,12 @@
         },
         {
             "interchanges": [
-                "Suburban"
+                "suburban"
             ],
             "name": "Saint Michel",
             "lines": [
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 }
             ],
@@ -3939,7 +3939,7 @@
             "name": "Saint Philippe du Roule",
             "lines": [
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -3952,7 +3952,7 @@
             "name": "Saint Sebastien Froissart",
             "lines": [
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 }
             ],
@@ -3965,7 +3965,7 @@
             "name": "Segur",
             "lines": [
                 {
-                    "line_id": 34,
+                    "line_id": "M10",
                     "branches": []
                 }
             ],
@@ -3978,7 +3978,7 @@
             "name": "Sentier",
             "lines": [
                 {
-                    "line_id": 40,
+                    "line_id": "M3",
                     "branches": []
                 }
             ],
@@ -3991,11 +3991,11 @@
             "name": "Sevres Babylone",
             "lines": [
                 {
-                    "line_id": 34,
+                    "line_id": "M10",
                     "branches": []
                 },
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 }
             ],
@@ -4008,7 +4008,7 @@
             "name": "Sevres Lecourbe",
             "lines": [
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 }
             ],
@@ -4021,7 +4021,7 @@
             "name": "Simplon",
             "lines": [
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 }
             ],
@@ -4034,7 +4034,7 @@
             "name": "Solferino",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 }
             ],
@@ -4047,15 +4047,15 @@
             "name": "Stalingrad",
             "lines": [
                 {
-                    "line_id": 39,
+                    "line_id": "M2",
                     "branches": []
                 },
                 {
-                    "line_id": 43,
+                    "line_id": "M5",
                     "branches": []
                 },
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -4068,7 +4068,7 @@
             "name": "St Francois Xavier",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -4081,7 +4081,7 @@
             "name": "St Germain des Pres",
             "lines": [
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 }
             ],
@@ -4094,7 +4094,7 @@
             "name": "St Paul",
             "lines": [
                 {
-                    "line_id": 33,
+                    "line_id": "M1",
                     "branches": []
                 }
             ],
@@ -4107,15 +4107,15 @@
             "name": "Strasbourg St Denis",
             "lines": [
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 },
                 {
-                    "line_id": 47,
+                    "line_id": "M8",
                     "branches": []
                 },
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -4128,7 +4128,7 @@
             "name": "St Sulpice",
             "lines": [
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 }
             ],
@@ -4141,7 +4141,7 @@
             "name": "Sully Morland",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -4154,7 +4154,7 @@
             "name": "Telegraphe",
             "lines": [
                 {
-                    "line_id": 35,
+                    "line_id": "M11",
                     "branches": []
                 }
             ],
@@ -4167,7 +4167,7 @@
             "name": "Temple",
             "lines": [
                 {
-                    "line_id": 40,
+                    "line_id": "M3",
                     "branches": []
                 }
             ],
@@ -4180,7 +4180,7 @@
             "name": "Termes",
             "lines": [
                 {
-                    "line_id": 39,
+                    "line_id": "M2",
                     "branches": []
                 }
             ],
@@ -4193,7 +4193,7 @@
             "name": "Tolbiac",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -4206,7 +4206,7 @@
             "name": "Trinite d4estienne d'Orves",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 }
             ],
@@ -4219,11 +4219,11 @@
             "name": "Trocadero",
             "lines": [
                 {
-                    "line_id": 44,
+                    "line_id": "M6",
                     "branches": []
                 },
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -4236,7 +4236,7 @@
             "name": "Tuileries",
             "lines": [
                 {
-                    "line_id": 33,
+                    "line_id": "M1",
                     "branches": []
                 }
             ],
@@ -4249,7 +4249,7 @@
             "name": "Vaneau",
             "lines": [
                 {
-                    "line_id": 34,
+                    "line_id": "M10",
                     "branches": []
                 }
             ],
@@ -4262,7 +4262,7 @@
             "name": "Varenne",
             "lines": [
                 {
-                    "line_id": 37,
+                    "line_id": "M13",
                     "branches": []
                 }
             ],
@@ -4275,7 +4275,7 @@
             "name": "Vaugirard",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 }
             ],
@@ -4288,7 +4288,7 @@
             "name": "Vavin",
             "lines": [
                 {
-                    "line_id": 42,
+                    "line_id": "M4",
                     "branches": []
                 }
             ],
@@ -4301,7 +4301,7 @@
             "name": "Victor Hugo",
             "lines": [
                 {
-                    "line_id": 39,
+                    "line_id": "M2",
                     "branches": []
                 }
             ],
@@ -4314,7 +4314,7 @@
             "name": "Villejuif Leo Lagrange",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -4327,7 +4327,7 @@
             "name": "Villejuif Louis Aragon",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -4340,7 +4340,7 @@
             "name": "Villejuif Paul Vaillant Couturier",
             "lines": [
                 {
-                    "line_id": 45,
+                    "line_id": "M7",
                     "branches": []
                 }
             ],
@@ -4353,11 +4353,11 @@
             "name": "Villiers",
             "lines": [
                 {
-                    "line_id": 39,
+                    "line_id": "M2",
                     "branches": []
                 },
                 {
-                    "line_id": 40,
+                    "line_id": "M3",
                     "branches": []
                 }
             ],
@@ -4370,7 +4370,7 @@
             "name": "Volontaires",
             "lines": [
                 {
-                    "line_id": 36,
+                    "line_id": "M12",
                     "branches": []
                 }
             ],
@@ -4383,7 +4383,7 @@
             "name": "Voltaire",
             "lines": [
                 {
-                    "line_id": 48,
+                    "line_id": "M9",
                     "branches": []
                 }
             ],
@@ -4396,7 +4396,7 @@
             "name": "Wagram",
             "lines": [
                 {
-                    "line_id": 40,
+                    "line_id": "M3",
                     "branches": []
                 }
             ],

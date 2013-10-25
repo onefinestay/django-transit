@@ -8,28 +8,28 @@
         {
             "colour": "#006cb8",
             "branches": [],
-            "id": 49,
+            "id": "T1",
             "short_name": "1",
             "name": "T1"
         },
         {
             "colour": "#bb4b9c",
             "branches": [],
-            "id": 50,
+            "id": "T2",
             "short_name": "2",
             "name": "T2"
         },
         {
             "colour": "#f68c59",
             "branches": [],
-            "id": 51,
+            "id": "T3",
             "short_name": "3",
             "name": "T3"
         },
         {
             "colour": "#ffbf00",
             "branches": [],
-            "id": 63,
+            "id": "T4",
             "short_name": "4",
             "name": "T4"
         }
@@ -40,7 +40,7 @@
             "name": "Auguste Delaune",
             "lines": [
                 {
-                    "line_id": 49,
+                    "line_id": "T1",
                     "branches": []
                 }
             ],
@@ -50,12 +50,12 @@
         },
         {
             "interchanges": [
-                "rar"
+                "rer"
             ],
             "name": "Aulnay sous Bois",
             "lines": [
                 {
-                    "line_id": 63,
+                    "line_id": "T4",
                     "branches": []
                 }
             ],
@@ -70,7 +70,7 @@
             "name": "Balard",
             "lines": [
                 {
-                    "line_id": 51,
+                    "line_id": "T3",
                     "branches": []
                 }
             ],
@@ -85,7 +85,7 @@
             "name": "Basilique St Denis",
             "lines": [
                 {
-                    "line_id": 49,
+                    "line_id": "T1",
                     "branches": []
                 }
             ],
@@ -98,7 +98,7 @@
             "name": "Belvedere",
             "lines": [
                 {
-                    "line_id": 50,
+                    "line_id": "T2",
                     "branches": []
                 }
             ],
@@ -113,7 +113,7 @@
             "name": "Bobigny Pablo Picasso",
             "lines": [
                 {
-                    "line_id": 49,
+                    "line_id": "T1",
                     "branches": []
                 }
             ],
@@ -123,12 +123,12 @@
         },
         {
             "interchanges": [
-                "rar"
+                "rer"
             ],
             "name": "Bondy",
             "lines": [
                 {
-                    "line_id": 63,
+                    "line_id": "T4",
                     "branches": []
                 }
             ],
@@ -141,7 +141,7 @@
             "name": "Brancion",
             "lines": [
                 {
-                    "line_id": 51,
+                    "line_id": "T3",
                     "branches": []
                 }
             ],
@@ -154,7 +154,7 @@
             "name": "Brimborion",
             "lines": [
                 {
-                    "line_id": 50,
+                    "line_id": "T2",
                     "branches": []
                 }
             ],
@@ -167,7 +167,7 @@
             "name": "Cimetiere St Denis",
             "lines": [
                 {
-                    "line_id": 49,
+                    "line_id": "T1",
                     "branches": []
                 }
             ],
@@ -177,12 +177,12 @@
         },
         {
             "interchanges": [
-                "rar"
+                "rer"
             ],
             "name": "Cite Universitaire",
             "lines": [
                 {
-                    "line_id": 51,
+                    "line_id": "T3",
                     "branches": []
                 }
             ],
@@ -195,7 +195,7 @@
             "name": "Cosmonautes",
             "lines": [
                 {
-                    "line_id": 49,
+                    "line_id": "T1",
                     "branches": []
                 }
             ],
@@ -208,7 +208,7 @@
             "name": "Danton",
             "lines": [
                 {
-                    "line_id": 49,
+                    "line_id": "T1",
                     "branches": []
                 }
             ],
@@ -221,7 +221,7 @@
             "name": "Defense",
             "lines": [
                 {
-                    "line_id": 50,
+                    "line_id": "T2",
                     "branches": []
                 }
             ],
@@ -234,7 +234,7 @@
             "name": "Desnouettes",
             "lines": [
                 {
-                    "line_id": 51,
+                    "line_id": "T3",
                     "branches": []
                 }
             ],
@@ -247,7 +247,7 @@
             "name": "Didot",
             "lines": [
                 {
-                    "line_id": 51,
+                    "line_id": "T3",
                     "branches": []
                 }
             ],
@@ -260,7 +260,7 @@
             "name": "Drancy Avenir",
             "lines": [
                 {
-                    "line_id": 49,
+                    "line_id": "T1",
                     "branches": []
                 }
             ],
@@ -273,7 +273,7 @@
             "name": "Escadrille Normandie Niemen",
             "lines": [
                 {
-                    "line_id": 49,
+                    "line_id": "T1",
                     "branches": []
                 }
             ],
@@ -286,7 +286,7 @@
             "name": "Gaston Roulaud",
             "lines": [
                 {
-                    "line_id": 49,
+                    "line_id": "T1",
                     "branches": []
                 }
             ],
@@ -299,7 +299,7 @@
             "name": "Georges Brassens",
             "lines": [
                 {
-                    "line_id": 51,
+                    "line_id": "T3",
                     "branches": []
                 }
             ],
@@ -312,7 +312,7 @@
             "name": "Hopital avicenne",
             "lines": [
                 {
-                    "line_id": 49,
+                    "line_id": "T1",
                     "branches": []
                 }
             ],
@@ -325,7 +325,7 @@
             "name": "Hopital Delafontaine",
             "lines": [
                 {
-                    "line_id": 49,
+                    "line_id": "T1",
                     "branches": []
                 }
             ],
@@ -338,7 +338,7 @@
             "name": "Hotel de ville de Bobigny",
             "lines": [
                 {
-                    "line_id": 49,
+                    "line_id": "T1",
                     "branches": []
                 }
             ],
@@ -351,7 +351,7 @@
             "name": "Hotel de ville de La Courneuve",
             "lines": [
                 {
-                    "line_id": 49,
+                    "line_id": "T1",
                     "branches": []
                 }
             ],
@@ -361,12 +361,12 @@
         },
         {
             "interchanges": [
-                "rar"
+                "rer"
             ],
             "name": "Issy Val de Seine",
             "lines": [
                 {
-                    "line_id": 50,
+                    "line_id": "T2",
                     "branches": []
                 }
             ],
@@ -379,7 +379,7 @@
             "name": "Jacques Henri Lartigue",
             "lines": [
                 {
-                    "line_id": 50,
+                    "line_id": "T2",
                     "branches": []
                 }
             ],
@@ -392,7 +392,7 @@
             "name": "Jean Moulin",
             "lines": [
                 {
-                    "line_id": 51,
+                    "line_id": "T3",
                     "branches": []
                 }
             ],
@@ -405,7 +405,7 @@
             "name": "La Courneuve 6 Routes",
             "lines": [
                 {
-                    "line_id": 49,
+                    "line_id": "T1",
                     "branches": []
                 }
             ],
@@ -420,7 +420,7 @@
             "name": "La Courneuve 8 Mai 1945",
             "lines": [
                 {
-                    "line_id": 49,
+                    "line_id": "T1",
                     "branches": []
                 }
             ],
@@ -433,7 +433,7 @@
             "name": "La Ferme",
             "lines": [
                 {
-                    "line_id": 49,
+                    "line_id": "T1",
                     "branches": []
                 }
             ],
@@ -446,7 +446,7 @@
             "name": "Les Coteaux",
             "lines": [
                 {
-                    "line_id": 50,
+                    "line_id": "T2",
                     "branches": []
                 }
             ],
@@ -459,7 +459,7 @@
             "name": "Les Milons",
             "lines": [
                 {
-                    "line_id": 50,
+                    "line_id": "T2",
                     "branches": []
                 }
             ],
@@ -472,7 +472,7 @@
             "name": "Les Moulineaux",
             "lines": [
                 {
-                    "line_id": 50,
+                    "line_id": "T2",
                     "branches": []
                 }
             ],
@@ -485,7 +485,7 @@
             "name": "Liberation",
             "lines": [
                 {
-                    "line_id": 49,
+                    "line_id": "T1",
                     "branches": []
                 }
             ],
@@ -498,7 +498,7 @@
             "name": "Marche St Denis",
             "lines": [
                 {
-                    "line_id": 49,
+                    "line_id": "T1",
                     "branches": []
                 }
             ],
@@ -511,7 +511,7 @@
             "name": "Maurice Lachatre",
             "lines": [
                 {
-                    "line_id": 49,
+                    "line_id": "T1",
                     "branches": []
                 }
             ],
@@ -524,7 +524,7 @@
             "name": "Meudon sur Seine",
             "lines": [
                 {
-                    "line_id": 50,
+                    "line_id": "T2",
                     "branches": []
                 }
             ],
@@ -537,7 +537,7 @@
             "name": "Montsouris",
             "lines": [
                 {
-                    "line_id": 51,
+                    "line_id": "T3",
                     "branches": []
                 }
             ],
@@ -550,7 +550,7 @@
             "name": "Musee de Sevres",
             "lines": [
                 {
-                    "line_id": 50,
+                    "line_id": "T2",
                     "branches": []
                 }
             ],
@@ -560,12 +560,12 @@
         },
         {
             "interchanges": [
-                "rar"
+                "rer"
             ],
             "name": "Noisy le Sec",
             "lines": [
                 {
-                    "line_id": 49,
+                    "line_id": "T1",
                     "branches": []
                 }
             ],
@@ -578,7 +578,7 @@
             "name": "Parc de St Cloud",
             "lines": [
                 {
-                    "line_id": 50,
+                    "line_id": "T2",
                     "branches": []
                 }
             ],
@@ -591,7 +591,7 @@
             "name": "Petit Noisy",
             "lines": [
                 {
-                    "line_id": 49,
+                    "line_id": "T1",
                     "branches": []
                 }
             ],
@@ -604,7 +604,7 @@
             "name": "Pont de Bondy",
             "lines": [
                 {
-                    "line_id": 49,
+                    "line_id": "T1",
                     "branches": []
                 }
             ],
@@ -617,7 +617,7 @@
             "name": "Pont de Garigliano",
             "lines": [
                 {
-                    "line_id": 51,
+                    "line_id": "T3",
                     "branches": []
                 }
             ],
@@ -632,7 +632,7 @@
             "name": "Porte de Choisy",
             "lines": [
                 {
-                    "line_id": 51,
+                    "line_id": "T3",
                     "branches": []
                 }
             ],
@@ -647,7 +647,7 @@
             "name": "Porte de Vanves",
             "lines": [
                 {
-                    "line_id": 51,
+                    "line_id": "T3",
                     "branches": []
                 }
             ],
@@ -662,7 +662,7 @@
             "name": "Porte de Versailles",
             "lines": [
                 {
-                    "line_id": 51,
+                    "line_id": "T3",
                     "branches": []
                 }
             ],
@@ -677,7 +677,7 @@
             "name": "Porte d'Italie",
             "lines": [
                 {
-                    "line_id": 51,
+                    "line_id": "T3",
                     "branches": []
                 }
             ],
@@ -692,7 +692,7 @@
             "name": "Porte d'Ivry",
             "lines": [
                 {
-                    "line_id": 51,
+                    "line_id": "T3",
                     "branches": []
                 }
             ],
@@ -707,7 +707,7 @@
             "name": "Porte d'Orleans",
             "lines": [
                 {
-                    "line_id": 51,
+                    "line_id": "T3",
                     "branches": []
                 }
             ],
@@ -720,7 +720,7 @@
             "name": "Poterne des Peupliers",
             "lines": [
                 {
-                    "line_id": 51,
+                    "line_id": "T3",
                     "branches": []
                 }
             ],
@@ -733,7 +733,7 @@
             "name": "Puteaux",
             "lines": [
                 {
-                    "line_id": 50,
+                    "line_id": "T2",
                     "branches": []
                 }
             ],
@@ -746,7 +746,7 @@
             "name": "Stade Charlety",
             "lines": [
                 {
-                    "line_id": 51,
+                    "line_id": "T3",
                     "branches": []
                 }
             ],
@@ -759,7 +759,7 @@
             "name": "Stade Geo Andre",
             "lines": [
                 {
-                    "line_id": 49,
+                    "line_id": "T1",
                     "branches": []
                 }
             ],
@@ -769,13 +769,13 @@
         },
         {
             "interchanges": [
-                "rar",
-                "Suburban"
+                "rer",
+                "suburban"
             ],
             "name": "St Denis",
             "lines": [
                 {
-                    "line_id": 49,
+                    "line_id": "T1",
                     "branches": []
                 }
             ],
@@ -788,7 +788,7 @@
             "name": "Suresnes Lonchamp",
             "lines": [
                 {
-                    "line_id": 50,
+                    "line_id": "T2",
                     "branches": []
                 }
             ],
@@ -801,7 +801,7 @@
             "name": "Theatre Gerard philippe",
             "lines": [
                 {
-                    "line_id": 49,
+                    "line_id": "T1",
                     "branches": []
                 }
             ],
@@ -814,7 +814,7 @@
             "name": "Rougemont - Chanteloup",
             "lines": [
                 {
-                    "line_id": 63,
+                    "line_id": "T4",
                     "branches": []
                 }
             ],
@@ -827,7 +827,7 @@
             "name": "Freinville - Sevran",
             "lines": [
                 {
-                    "line_id": 63,
+                    "line_id": "T4",
                     "branches": []
                 }
             ],
@@ -840,7 +840,7 @@
             "name": "L'Abbaye",
             "lines": [
                 {
-                    "line_id": 63,
+                    "line_id": "T4",
                     "branches": []
                 }
             ],
@@ -853,7 +853,7 @@
             "name": "Lycee Henri Sellier",
             "lines": [
                 {
-                    "line_id": 63,
+                    "line_id": "T4",
                     "branches": []
                 }
             ],
@@ -866,7 +866,7 @@
             "name": "Gargan",
             "lines": [
                 {
-                    "line_id": 63,
+                    "line_id": "T4",
                     "branches": []
                 }
             ],
@@ -879,7 +879,7 @@
             "name": "Les Pavillons-sous-Bois",
             "lines": [
                 {
-                    "line_id": 63,
+                    "line_id": "T4",
                     "branches": []
                 }
             ],
@@ -892,7 +892,7 @@
             "name": "Allee de la Tour - Rendez-Vous",
             "lines": [
                 {
-                    "line_id": 63,
+                    "line_id": "T4",
                     "branches": []
                 }
             ],
@@ -905,7 +905,7 @@
             "name": "Les Coquetiers",
             "lines": [
                 {
-                    "line_id": 63,
+                    "line_id": "T4",
                     "branches": []
                 }
             ],
@@ -918,7 +918,7 @@
             "name": "Remise a Jorelle",
             "lines": [
                 {
-                    "line_id": 63,
+                    "line_id": "T4",
                     "branches": []
                 }
             ],
