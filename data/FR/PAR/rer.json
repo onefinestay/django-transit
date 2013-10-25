@@ -1,6 +1,7 @@
 {
     "network": {
-        "name": "Paris RER",
+        "name": "Réseau Express Régional",
+        "short_name": "RER",
         "key": "rer"
     },
     "lines": [

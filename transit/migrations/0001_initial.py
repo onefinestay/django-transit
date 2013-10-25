@@ -12,14 +12,16 @@ class Migration(SchemaMigration):
         db.create_table(u'transit_network', (
             (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
             ('name', self.gf('django.db.models.fields.CharField')(max_length=255)),
+            ('short_name', self.gf('django.db.models.fields.CharField')(max_length=255)),
         ))
         db.send_create_signal(u'transit', ['Network'])
 
         # Adding model 'Route'
         db.create_table(u'transit_route', (
             (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
-            ('source_id', self.gf('django.db.models.fields.IntegerField')()),
+            ('source_id', self.gf('django.db.models.fields.CharField')(max_length=255, db_index=True)),
             ('name', self.gf('django.db.models.fields.CharField')(max_length=255)),
+            ('short_name', self.gf('django.db.models.fields.CharField')(max_length=255)),
             ('network', self.gf('django.db.models.fields.related.ForeignKey')(related_name='routes', to=orm['transit.Network'])),
             ('color', self.gf('django.db.models.fields.CharField')(max_length=7)),
         ))
@@ -36,9 +38,10 @@ class Migration(SchemaMigration):
         # Adding model 'Station'
         db.create_table(u'transit_station', (
             (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
-            ('source_id', self.gf('django.db.models.fields.IntegerField')()),
+            ('source_id', self.gf('django.db.models.fields.IntegerField')(max_length=255, db_index=True)),
             ('name', self.gf('django.db.models.fields.CharField')(max_length=255)),
             ('position', self.gf('django.contrib.gis.db.models.fields.PointField')()),
+            ('network', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['transit.Network'])),
         ))
         db.send_create_signal(u'transit', ['Station'])
 
@@ -61,7 +64,8 @@ class Migration(SchemaMigration):
         u'transit.network': {
             'Meta': {'object_name': 'Network'},
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
-            'name': ('django.db.models.fields.CharField', [], {'max_length': '255'})
+            'name': ('django.db.models.fields.CharField', [], {'max_length': '255'}),
+            'short_name': ('django.db.models.fields.CharField', [], {'max_length': '255'})
         },
         u'transit.route': {
             'Meta': {'object_name': 'Route'},
@@ -69,7 +73,8 @@ class Migration(SchemaMigration):
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'name': ('django.db.models.fields.CharField', [], {'max_length': '255'}),
             'network': ('django.db.models.fields.related.ForeignKey', [], {'related_name': "'routes'", 'to': u"orm['transit.Network']"}),
-            'source_id': ('django.db.models.fields.IntegerField', [], {})
+            'short_name': ('django.db.models.fields.CharField', [], {'max_length': '255'}),
+            'source_id': ('django.db.models.fields.CharField', [], {'max_length': '255', 'db_index': 'True'})
         },
         u'transit.routestation': {
             'Meta': {'object_name': 'RouteStation'},
@@ -81,9 +86,10 @@ class Migration(SchemaMigration):
             'Meta': {'object_name': 'Station'},
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'name': ('django.db.models.fields.CharField', [], {'max_length': '255'}),
+            'network': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['transit.Network']"}),
             'position': ('django.contrib.gis.db.models.fields.PointField', [], {}),
             'routes': ('django.db.models.fields.related.ManyToManyField', [], {'related_name': "'stations'", 'to': u"orm['transit.Route']", 'through': u"orm['transit.RouteStation']", 'blank': 'True', 'symmetrical': 'False', 'null': 'True'}),
-            'source_id': ('django.db.models.fields.IntegerField', [], {})
+            'source_id': ('django.db.models.fields.IntegerField', [], {'max_length': '255', 'db_index': 'True'})
         }
     }
 

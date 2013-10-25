@@ -16,12 +16,15 @@ class Importer(object):
         self.process(data)
 
     def process(self, data):
-        network_name = data['network']['name']
-        network, __ = models.Network.objects.get_or_create(name=network_name)
+        network, __ = models.Network.objects.get_or_create(
+            name=data['network']['name'],
+            short_name=data['network']['short_name']
+        )
 
         for line_data in data['lines']:
             line, __ = models.Route.objects.get_or_create(
                 name=line_data['name'],
+                short_name=line_data['short_name'],
                 source_id=line_data['id'],
                 color=line_data['colour'],
                 network=network,
@@ -30,14 +33,15 @@ class Importer(object):
         for station_data in data['stations']:
             station, __ = models.Station.objects.get_or_create(
                 name=station_data['name'],
+                network=network,
                 source_id=station_data['id'],
                 position=Point(float(station_data['longitude']), float(station_data['latitude']))
             )
 
             station.routes.clear()
 
-            for route_id in station_data['line_ids']:
-                route = models.Route.objects.get(network=network, source_id=route_id)
+            for line_data in station_data['lines']:
+                route = models.Route.objects.get(network=network, source_id=line_data['line_id'])
                 models.RouteStation.objects.create(
                     route=route,
                     station=station,

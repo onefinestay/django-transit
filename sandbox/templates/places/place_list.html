@@ -72,7 +72,7 @@
 
     <ul class="stations">
         {% for station in object.nearest_stations %}
-        <li>{{ station }} {% for route in station.routes.all %}<span class="route" style="background-color: {{ route.color }};">{{ route }}</span>{% endfor %}({{ station.distance.km|floatformat:"-1" }}km)</li>
+        <li>{{ station.network.short_name }}: {{ station }} {% for route in station.routes.all %}<span class="route" style="background-color: {{ route.color }};">{{ route.short_name }}</span>{% endfor %}({{ station.distance.km|floatformat:"-1" }}km)</li>
         {% endfor %}
     </ul>
 
