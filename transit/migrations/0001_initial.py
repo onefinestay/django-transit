@@ -20,7 +20,7 @@ class Migration(SchemaMigration):
             (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
             ('source_id', self.gf('django.db.models.fields.IntegerField')()),
             ('name', self.gf('django.db.models.fields.CharField')(max_length=255)),
-            ('network', self.gf('django.db.models.fields.related.ForeignKey')(related_name='routes', to=orm['transit.Route'])),
+            ('network', self.gf('django.db.models.fields.related.ForeignKey')(related_name='routes', to=orm['transit.Network'])),
             ('color', self.gf('django.db.models.fields.CharField')(max_length=7)),
         ))
         db.send_create_signal(u'transit', ['Route'])
@@ -68,7 +68,7 @@ class Migration(SchemaMigration):
             'color': ('django.db.models.fields.CharField', [], {'max_length': '7'}),
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'name': ('django.db.models.fields.CharField', [], {'max_length': '255'}),
-            'network': ('django.db.models.fields.related.ForeignKey', [], {'related_name': "'routes'", 'to': u"orm['transit.Route']"}),
+            'network': ('django.db.models.fields.related.ForeignKey', [], {'related_name': "'routes'", 'to': u"orm['transit.Network']"}),
             'source_id': ('django.db.models.fields.IntegerField', [], {})
         },
         u'transit.routestation': {
@@ -82,7 +82,7 @@ class Migration(SchemaMigration):
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'name': ('django.db.models.fields.CharField', [], {'max_length': '255'}),
             'position': ('django.contrib.gis.db.models.fields.PointField', [], {}),
-            'route': ('django.db.models.fields.related.ManyToManyField', [], {'related_name': "'stations'", 'to': u"orm['transit.Route']", 'through': u"orm['transit.RouteStation']", 'blank': 'True', 'symmetrical': 'False', 'null': 'True'}),
+            'routes': ('django.db.models.fields.related.ManyToManyField', [], {'related_name': "'stations'", 'to': u"orm['transit.Route']", 'through': u"orm['transit.RouteStation']", 'blank': 'True', 'symmetrical': 'False', 'null': 'True'}),
             'source_id': ('django.db.models.fields.IntegerField', [], {})
         }
     }
