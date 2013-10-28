@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='django-transits',
+    name='django-transit',
     version='0.0.1',
     install_requires=[
         'Django >=1.5',
